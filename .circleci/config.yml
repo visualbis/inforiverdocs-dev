@@ -5,7 +5,7 @@ aliases:
   - &filter-only-master
     branches:
       only:
-        - master
+        - Docs
 
 version: 2
 jobs:
