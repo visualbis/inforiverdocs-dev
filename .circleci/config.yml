@@ -27,7 +27,7 @@ jobs:
             git config --global user.email "nsdevaraj@gmail.com"
             git config --global user.name "nsdevaraj"
             echo "machine github.com login nsdevaraj password $GITHUB_API_TOKEN" > ~/.netrc
-            GIT_USER=divyabhushan yarn deploy            
+            GIT_USER=nsdevaraj yarn deploy            
 
 workflows:
   version: 2
