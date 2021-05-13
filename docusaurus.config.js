@@ -20,7 +20,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'references/formula-list',
+          docId: 'formula-list',
           position: 'left',
           label: 'Functions',
         },
