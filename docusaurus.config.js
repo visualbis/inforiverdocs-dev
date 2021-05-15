@@ -31,6 +31,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} VisualBI, Inc.`,
     },
   },
+  plugins: [require.resolve('docusaurus-lunr-search')],
   presets: [
     [
       '@docusaurus/preset-classic',
