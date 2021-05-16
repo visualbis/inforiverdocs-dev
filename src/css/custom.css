@@ -46,3 +46,11 @@ html[data-theme="dark"] blockquote {
   color: rgb(255, 255, 255);
   border-color: rgb(29, 191, 231);
 }
+
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}

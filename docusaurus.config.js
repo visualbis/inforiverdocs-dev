@@ -20,7 +20,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'references/formula-list',
+          docId: 'formula-list',
           position: 'left',
           label: 'Functions',
         },
@@ -31,6 +31,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} VisualBI, Inc.`,
     },
   },
+  plugins: [require.resolve('docusaurus-lunr-search')],
   presets: [
     [
       '@docusaurus/preset-classic',
