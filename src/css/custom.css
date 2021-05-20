@@ -54,3 +54,22 @@ code {
   padding: 2px;
   font-size: 105%;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: center;
+  padding: 0px 40px;
+  width: 100%;
+}
+
+.center img {
+  width: 750px;
+}
+
+.center p{
+  text-align: center;
+  color: rgb(60, 79, 97);
+}

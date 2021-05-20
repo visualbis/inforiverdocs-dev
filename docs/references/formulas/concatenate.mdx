@@ -15,7 +15,13 @@ CONCATENATE(text1, [text2], ...)
 
 ## Arguments
 
-**text1**: The first item to join. The item can be a text value, number, or cell reference.
-**text2**: Additional text items to join. You can have up to 255 items, up to a total of 8,192 characters.
+* **text1**: The first item to join. The item can be a text value, number, or cell reference.
+* **text2**: Additional text items to join. You can have up to 255 items, up to a total of 8,192 characters.
 
 ## Example
+
+To append the string 'Department is' to every column('DEPT_NAME') use the formula as:
+
+```javascript
+CONCATENATE("Department is:", DEPT_NAME)
+```

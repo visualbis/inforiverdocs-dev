@@ -15,7 +15,13 @@ IFNA(value, value_if_na)
 
 ## Arguments
 
-value: The argument that is checked for the #N/A error value.
-value_if_na: The value to return if the formula evaluates to the #N/A error value.
+* value: The argument that is checked for the #N/A error value.
+* value_if_na: The value to return if the formula evaluates to the #N/A error value.
 
 ## Example
+
+If the calculation results in an error value then a to set '0', use the formula as:
+
+```javascript
+IFNA((AC-PY)/PY, 0)
+```
