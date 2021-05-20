@@ -1,0 +1,588 @@
+---
+id: export-theme
+title: Export Custom Report Themes
+sidebar_label: Export Theme
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from "@docusaurus/Link";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
+In Inforiver visual you can export the custom report themes as a `JSON` file format.
+A `JSON` file provides granular level customizations that can be easily shared and imported in a new report.
+Using the export custom theme option, you can standardize the reports and charts formats across all the reports.
+
+## Export Custom Theme
+
+* Select the **Advanced** tab on the ribbon and select **Export Theme**.
+
+<div class="center">
+    <Zoom>
+        <img
+        alt="Select Export Theme"
+        src={useBaseUrl('img/export/select-export-theme.png')}
+        />
+    </Zoom>
+</div>
+
+* **Enter theme name** and select **Download**.
+
+<div style={{ textAlign: "center" }}>
+    <Zoom>
+        <img
+        width="450"
+        alt="Enter Report Theme"
+        src={useBaseUrl('img/export/theme-name.png')}
+        />
+    </Zoom>
+</div>
+
+* Right Click on the the theme name and select **Save Link As** option.
+
+<div style={{ textAlign: "center" }}>
+    <Zoom>
+    <img
+    width="450"
+    alt="Download theme file"
+    src={useBaseUrl('img/export/save-theme.png')}
+    />
+    </Zoom>
+</div>
+
+* Select **Save** and your export theme file is downloaded.
+
+## JSON Theme File Format
+
+The most basic `JSON` file has following fields:
+
+| Field/Section Name | Description                                                      |
+|--------------------|------------------------------------------------------------------|
+| `name`             | Custom theme file name. This is the only required field.         |
+| `visualStyles`     | Extended-format JSON file with nested formatting specifications. |
+| `chartTitle`       | Title field settings                                             |
+| `annotation`       | Annotation configurations                                        |
+| `headerOption`     | Table Header settings                                            |
+| `inforiverProps`   | Inforiver global visual formatting configurations                |
+| `subTotals`        | Row and Column level sub totals setting to true or false.        |
+| `export`           | Export settings                                                  |
+| `dataColors`       | Hexadecimal color codes to use of data in Inforiver visuals.     |
+
+Below is a templated example of the visualStyles section:
+
+```json "visualStyles template"
+"visualStyles": {
+    "<visualName>": {
+        "<styleName>": {
+            "<cardName>": [
+                {
+                    "<propertyName>": <propertyValue>
+                }
+            ]
+        }
+    }
+}
+```
+
+Click [here](./assets/custom-theme.json.zip) to download a sample `JSON` formatted theme file.
+
+<details>
+<summary>
+Select the arrow to copy the detailed `JSON` file code.
+</summary>
+
+```json
+{
+    "name": "custom-theme",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "chartSettings": [
+                    {
+                        "layout": "responsive"
+                    },
+                    {
+                        "labelWidth": 150
+                    },
+                    {
+                        "tableWidth": 75
+                    },
+                    {
+                        "chartWidth": 150
+                    },
+                    {
+                        "invertVarianceColor": false
+                    },
+                    {
+                        "showSubTotalsAsTable": true
+                    },
+                    {
+                        "enableSingleDrillDown": false
+                    },
+                    {
+                        "showVarSubTotalsAsTable": false
+                    },
+                    {
+                        "showTotalAsTable": true
+                    },
+                    {
+                        "showVarTotalAsTable": false
+                    },
+                    {
+                        "showTotalFixed": false
+                    },
+                    {
+                        "freezeCategory": true
+                    },
+                    {
+                        "rowTotals": true
+                    },
+                    {
+                        "raggedHierarchy": true
+                    },
+                    {
+                        "hideBlanks": "category"
+                    },
+                    {
+                        "unbalancedHierarchy": "off"
+                    },
+                    {
+                        "showTable": false
+                    },
+                    {
+                        "varianceChartType": "varianceBar"
+                    },
+                    {
+                        "groupInColumn": true
+                    },
+                    {
+                        "compareMesLabelAlign": false
+                    },
+                    {
+                        "fromSeries": 0
+                    },
+                    {
+                        "toSeries": 0
+                    },
+                    {
+                        "dataModified": ""
+                    },
+                    {
+                        "contextMenuPersist": ""
+                    },
+                    {
+                        "chartTypesPersist": ""
+                    },
+                    {
+                        "numberFormatPersist": ""
+                    },
+                    {
+                        "rowHeight": 18
+                    },
+                    {
+                        "totalColumnPosition": "right"
+                    },
+                    {
+                        "showSideBar": false
+                    },
+                    {
+                        "enableWordWrap": "labelHeader"
+                    },
+                    {
+                        "enableDrillThrough": false
+                    },
+                    {
+                        "columnSelection": false
+                    },
+                    {
+                        "shouldAggregate": false
+                    },
+                    {
+                        "rowSubtotals": true
+                    },
+                    {
+                        "gridLineCount": 0
+                    },
+                    {
+                        "expandRowLevel": null
+                    },
+                    {
+                        "absoluteSort": true
+                    },
+                    {
+                        "scaleBand": true
+                    },
+                    {
+                        "replaceActualWithForecast": false
+                    },
+                    {
+                        "prefixNullWithUnit": true
+                    },
+                    {
+                        "calcCellIcon": true
+                    },
+                    {
+                        "showVisualSumType": false
+                    },
+                    {
+                        "indianNumberSystem": false
+                    },
+                    {
+                        "enableColumnAsMeasure": false
+                    }
+                ],
+                "chartTitle": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "primaryTitleStyle": true
+                    },
+                    {
+                        "primaryFontSize": 14
+                    },
+                    {
+                        "primaryFontWeight": "normal"
+                    },
+                    {
+                        "swapPosition": true
+                    },
+                    {
+                        "secondaryTitleStyle": true
+                    },
+                    {
+                        "secondaryFontSize": 14
+                    },
+                    {
+                        "secondaryFontWeight": "normal"
+                    },
+                    {
+                        "measureTitleStyle": true
+                    },
+                    {
+                        "measureTitleFontSize": 14
+                    },
+                    {
+                        "measureTitleFontWeight": "normal"
+                    },
+                    {
+                        "chartvalueType": ""
+                    },
+                    {
+                        "unitsSentanceCase": true
+                    },
+                    {
+                        "unitsFontWeight": "bold"
+                    },
+                    {
+                        "fontColor": "#000000"
+                    },
+                    {
+                        "darkfontColor": "#ffffff"
+                    },
+                    {
+                        "titleAlignment": "different"
+                    },
+                    {
+                        "grandTotalTitle": ""
+                    },
+                    {
+                        "totalColumnSuffix": "Total"
+                    },
+                    {
+                        "totalColumnName": ""
+                    },
+                    {
+                        "topNOthersLabel": "Others"
+                    },
+                    {
+                        "enableTopNOthersSuffix": false
+                    },
+                    {
+                        "enablePersistFilter": false
+                    }
+                ],
+                "annotation": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "displayAnnotations": "view"
+                    },
+                    {
+                        "autoFit": true
+                    },
+                    {
+                        "annotations": "[]"
+                    },
+                    {
+                        "columnAnnotations": "[]"
+                    },
+                    {
+                        "indicatorType": "numbered"
+                    },
+                    {
+                        "indicatorPosition": "default"
+                    },
+                    {
+                        "persistProperty": "{\"bgColor\":\"rgba(255,255,255,0.9)\",\"lineColor\":\"rgba(3,169,244,0.7)\",\"borderColor\":\"rgba(3,169,244,0.7)\",\"iconColor\":\"rgba(0, 120, 212, 0.7)\",\"displayOptions\":4,\"iconSize\":14}"
+                    },
+                    {
+                        "showFootnote": false
+                    },
+                    {
+                        "rowLevelComments": false
+                    },
+                    {
+                        "enableReply": true
+                    },
+                    {
+                        "annotationNote": "grid"
+                    },
+                    {
+                        "annotationHeight": 15
+                    },
+                    {
+                        "annotationColumnCount": 2
+                    },
+                    {
+                        "indicatorSize": 12
+                    },
+                    {
+                        "footNoteHeight": 15
+                    },
+                    {
+                        "footNoteColumn": 3
+                    },
+                    {
+                        "showTimestamp": true
+                    },
+                    {
+                        "showUsername": true
+                    },
+                    {
+                        "defaultReference": false
+                    }
+                ],
+                "headerOption": [
+                    {
+                        "headerFormatting": true
+                    },
+                    {
+                        "headerHeight": 35
+                    },
+                    {
+                        "headerVarianceStyle": "normal"
+                    },
+                    {
+                        "measureBasedHeader": true
+                    },
+                    {
+                        "deltaOrDiffHeader": false
+                    },
+                    {
+                        "headerValue": "AC"
+                    },
+                    {
+                        "headerReference": "PY"
+                    },
+                    {
+                        "headerAbsoluteVariance": "ΔPY"
+                    },
+                    {
+                        "headerRelativeVariance": "ΔPY%"
+                    },
+                    {
+                        "headerSortOrder": "[]"
+                    }
+                ],
+                "inforiverProps": [
+                    {
+                        "globalStyles": "{\"fontFamily\":\"RobotoMono, monospace\",\"fontSize\":\"12\",\"fontWeight\":\"normal\",\"hierarchyfontWeight\":\"bold\",\"varianceBarFont\":12,\"headerFormat\":false,\"headerHeight\":30,\"headerFontSize\":\"14px\",\"headerFontColor\":\"#000000\",\"headerBGColor\":\"#ffffff\",\"rotateLabels\":{\"enabled\":false,\"angle\":0},\"headerLabelOrient\":\"initial\",\"isHeightUpdatedManually\":false,\"textColor\":\"#FFFFFF\",\"rowHeight\":22}"
+                    },
+                    {
+                        "numberFormatting": "{\"enabled\":true,\"formatType\":\"default\",\"enablePrefixAsUnit\":true,\"ibcsformat\":false,\"thousandSeperator\":\",\",\"decimalSeperator\":\".\",\"noOfDecimal\":0,\"noOfDecimalPercent\":2,\"prefix\":\"\",\"suffix\":\"\",\"scalingFactor\":\"none\",\"showScalingUnit\":false,\"customizeScalingLabel\":false,\"thousands\":\"k\",\"billions\":\"b\",\"millions\":\"m\",\"trillion\":\"t\",\"semanticFormatting\":false,\"positiveValueColor\":\"#7BCA01\",\"positiveValueFormat\":\"x\",\"negativeValueColor\":\"#FF000A\",\"negativeValueFormat\":\"-x\",\"showZeroAs\":\"zero\",\"customZeroText\":\"\",\"showNullAs\":\"blank\",\"customNullText\":\"\",\"showPercentageSymbol\":false}"
+                    },
+                    {
+                        "themeColors": "{\"showTable\":false,\"valueColor\":\"#FFFFFF\",\"invertVarianceColor\":false,\"positiveColor\":\"#7BCA01\",\"negativeColor\":\"#FF000A\",\"chartTheme\":\"customtheme\",\"chartThemeTable\":false,\"themeType\":\"customtheme\",\"previousThemeType\":\"darktheme\",\"tableThemeType\":false,\"highContrast\":null,\"enableRowHover\":\"rowAlternate\",\"rowHoverColor\":\"#4d4d4d\",\"rowOddColor\":\"#666666\",\"rowEvenColor\":\"#4d4d4d\",\"toolbarTheme\":\"light\",\"variancePositiveColor\":\"#7BCA01\",\"varianceNegativeColor\":\"#FF000A\"}"
+                    },
+                    {
+                        "gridStyles": "{\"majorGridLines\":\"off\",\"minorGridLines\":\"off\",\"rowGrandTotalLine\":false,\"compactSplitLine\":true,\"compactSplitLineColor\":\"#A6A6A6\",\"chartSpacing\":false,\"topBottomSpace\":5,\"leftRightSpace\":5,\"titleAndChartSpace\":10,\"indentSpacing\":15,\"majorGridColor\":\"#FFFFFF\",\"minorGridColor\":\"#666666\",\"gridBackground\":\"#333333\",\"lineStyleColor\":\"#1aff1a\",\"lineStyleFormat\":\"solid\",\"enableCategoryLabelColor\":false,\"categoryLabelColor\":\"#666666\",\"showVAHighlight\":true}"
+                    },
+                    {
+                        "viewmode": false
+                    },
+                    {
+                        "readMode": false
+                    },
+                    {
+                        "runtimeEditorChanges": ""
+                    },
+                    {
+                        "outliers": "{\"enableOutlier\": false,\"min\": 0,\"max\": 0}"
+                    },
+                    {
+                        "pagination": "{\"pageNo\":0,\"hierarchyLevel\":\"\",\"enable\":false,\"view\":\"browser\",\"smartProps\":{\"showAsScroll\":true,\"hierarchyLevel\":null},\"pageRowCount\":10,\"paginationHeight\":20,\"currentPageNumber\":0,\"autoRowCount\":\"hide\"}"
+                    },
+                    {
+                        "totalUtility": "{\"rowGrandTotal\":false,\"rowGrandTotalPosition\":\"clear\",\"rowSubTotalPosition\":\"below\",\"columnGrandTotal\":false,\"columnGrandTotalPosition\":\"clear\",\"columnSubTotalPosition\":\"right\",\"freezeTotal\":false}"
+                    },
+                    {
+                        "dataUtility": "[]"
+                    },
+                    {
+                        "tableState": "{\"rowHierarchyLevel\":{},\"compareMeasure\":null,\"expandCollapseIcon\":\"arrows\",\"showExpandCollapse\":false,\"columnHierarchyLevel\":{},\"headerHeight\":25}"
+                    },
+                    {
+                        "sorting": "[]"
+                    },
+                    {
+                        "chartCustomTitle": "{\"secondaryTitle\": \"\", \"measureTitle\": \"\", \"primaryTitle\": \"\", \"customTitle\": \"\"}"
+                    },
+                    {
+                        "rowOrderConfig": "{\"enabled\": false,\"rowOrderConfig\": {},\"rowOrderConfigMeta\":{} }"
+                    },
+                    {
+                        "rowBulkSelect": "{\"enableRowSelect\":false, \"rowSelectConfig\": {}}"
+                    },
+                    {
+                        "rowExpandCollapseOptions": "{\"rows\":{},\"gridState\":null,\"levelStates\":[],\"maxLevelExpanded\":null}"
+                    },
+                    {
+                        "invertSettings": "additionMethod"
+                    },
+                    {
+                        "chartTypes": "{}"
+                    },
+                    {
+                        "dynamicRowIcon": false
+                    },
+                    {
+                        "showChildCount": false
+                    },
+                    {
+                        "enablePersistFilter": false
+                    },
+                    {
+                        "aggregationType": "sum"
+                    },
+                    {
+                        "layoutType": "matrix"
+                    },
+                    {
+                        "autoFitEnabled": false
+                    },
+                    {
+                        "toolbarTheme": "light"
+                    },
+                    {
+                        "showCategorySign": false
+                    },
+                    {
+                        "summarySettings": "{\"forceMultiLine\":\"false\",\"rowLayout\":\"multi\",\"columnCount\":2,\"autoFit\":true,\"detailGridHeight\":300,\"detailXPadding\":10,\"detailYPadding\":10,\"detailBreakBy\":\"\",\"showAggregation\":false,\"detailLayout\":\"table\",\"pageFilter\":[],\"showGroupBorder\":true,\"groupBorderGap\":10,\"showSummaryHeader\":true,\"showSummaryFooter\":false}"
+                    },
+                    {
+                        "ranking": "{\"rules\":[],\"othersLabel\":\"Others\",\"enableOthersSuffix\":false,\"enableOthersCount\":true}"
+                    },
+                    {
+                        "dimensionExplorer": "{\"selectedMeasure\":\"\",\"filterValues\":{},\"dimensions\":[],\"showPanel\":false}"
+                    },
+                    {
+                        "autoFitOptions": "{\"autoFit\":false,\"lockColumnWidth\":false,\"uniformColumnWidth\":{\"enabled\":false,\"width\":null}}"
+                    },
+                    {
+                        "isRowHide": false
+                    },
+                    {
+                        "templateConfig": "{\"template\":\"Matrix\",\"type\":\"default\"}"
+                    },
+                    {
+                        "layout": "HIERARCHICAL"
+                    },
+                    {
+                        "formatConfig": "{\"row\":{},\"column\":{\"Grand__Total__CALC_COL_14\":[{\"order\":14,\"format\":{\"6\":3}},{\"order\":15,\"format\":{\"6\":1}},{\"order\":16,\"format\":{\"6\":3}},{\"order\":17,\"format\":{\"6\":2}}],\"Grand__Total__CALC_COL_15\":[{\"order\":21,\"format\":{\"1\":true}},{\"order\":22,\"format\":{\"1\":false}},{\"order\":23,\"format\":{\"3\":\"#00e600\"}}],\"Grand__Total__CALC_COL_9\":[{\"order\":24,\"format\":{\"3\":\"#00e600\"}}]},\"cell\":{},\"measure\":{\"CALC_COL_8\":[{\"order\":0,\"format\":{\"11\":0}},{\"order\":1,\"format\":{\"11\":1}},{\"order\":3,\"format\":{\"11\":0}},{\"order\":4,\"format\":{\"11\":0}},{\"order\":5,\"format\":{\"11\":1}},{\"order\":6,\"format\":{\"11\":2}}],\"CALC_COL_9\":[{\"order\":2,\"format\":{\"11\":1}},{\"order\":7,\"format\":{\"11\":2}}],\"CALC_COL_10\":[{\"order\":8,\"format\":{\"11\":1}},{\"order\":9,\"format\":{\"11\":2}}],\"CALC_COL_11\":[{\"order\":10,\"format\":{\"11\":1}},{\"order\":11,\"format\":{\"11\":2}},{\"order\":12,\"format\":{\"11\":1}},{\"order\":13,\"format\":{\"11\":0}}],\"CALC_COL_14\":[{\"order\":18,\"format\":{\"11\":0}},{\"order\":19,\"format\":{\"11\":0}},{\"order\":20,\"format\":{\"11\":0}}]},\"formatSize\":25}"
+                    },
+                    {
+                        "subTotalHeight": 10
+                    },
+                    {
+                        "grandTotalHeight": 10
+                    },
+                    {
+                        "layoutSizes": "{\"tableWidth\":75,\"chartWidth\":150,\"labelWidth\":150}"
+                    },
+                    {
+                        "compareHeader": "{\"hasMultiselect\": false, \"left\":{\"label\":\"\",\"values\":[]},\"right\":{\"label\":\"\",\"values\":[]}}"
+                    }
+                ],
+                "subTotals": [
+                    {
+                        "rowSubtotals": true
+                    },
+                    {
+                        "perRowLevel": true
+                    },
+                    {
+                        "columnSubtotals": true
+                    },
+                    {
+                        "perColumnLevel": true
+                    },
+                    {
+                        "levelSubtotalEnabled": true
+                    }
+                ],
+                "export": [
+                    {
+                        "exportSettings": "{\"exportType\":\"matrix\",\"scaling\":\"1\",\"scaleRatio\":\"0\",\"pageSize\":\"a4\",\"columnWidth\":\"normal\",\"orientation\":\"l\",\"margin\":\"md\",\"logo\":{\"filename\":\"\",\"base64\":\"\",\"width\":60,\"height\":30},\"title\":\"\",\"subTitle\":\"\",\"displaydate\":true,\"pageNumber\":true,\"pageLabel\":\"1\",\"footerNote\":\"\",\"printApproach\":\"rowFirst\"}"
+                    }
+                ]
+            }
+        }
+    }
+}
+```
+
+</details>
+
+## Import Custom Report theme file
+
+* In the **View** ribbon bar, select the drop-down button in the **Themes** section.
+* Select **Browse for themes**.
+
+<div style={{ textAlign: "center" }}>
+    <Zoom>
+    <img
+    width="450"
+    alt="Browse for Themes"
+    src={useBaseUrl('img/export/browse-themes.png')}
+    />
+    </Zoom>
+</div>
+
+* Navigate and select your custom theme file and select **Open**.
+
+<div class="center">
+    <Zoom>
+    <img
+    width="450"
+    alt="Navigate custom theme file"
+    src={useBaseUrl('img/export/navigate-theme.png')}
+    />
+    </Zoom>
+</div>
+
+* A dialog box shows that the import was successful.
+* Select **Close**.
+
+<div style={{ textAlign: "center" }}>
+    <Zoom>
+    <img
+    width="450"
+    alt="Custom theme imported"
+    src={useBaseUrl('img/export/theme-imported.png')}
+    />
+    </Zoom>
+</div>
+
+You have successfully imported the custom theme settings in the current Inforiver visual.
