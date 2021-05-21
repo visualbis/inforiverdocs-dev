@@ -9,7 +9,7 @@ The `IFNA` function returns the value you specify if a formula returns the #N/A 
 
 ## Syntax
 
-```
+```javascript
 IFNA(value, value_if_na)
 ```
 
@@ -20,7 +20,7 @@ IFNA(value, value_if_na)
 
 ## Example
 
-If the calculation results in an error value then a to set '0', use the formula as:
+Returns the result of the calculation `(AC-PY)/PY` if the value is a number else in case of an error it returns 0.
 
 ```javascript
 IFNA((AC-PY)/PY, 0)

@@ -5,8 +5,31 @@ title: IN
 import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
 import Link from '@docusaurus/Link';
 
+The `IN` function checks whether value is part of the list.
+
 ## Syntax
+
+```javascript
+IN(value,List)
+```
 
 ## Arguments
 
+* **value**: The value to be validated. This value can be numeric, string, function, or a column reference.
+* **List**: An array of items. This list can be a combination of numbers/string/function or column reference.
+
+## Returns
+
+'True' or 'False'
+
+## Remarks
+
+The `IN` function can be combined with the `IF` function.
+
 ## Example
+
+The function returns 25 if value of the column 'Region' is either 'West' or 'East', otherwise it returns 30.
+
+```javascript
+IF(IN(Region, ["West","East"]),25, 30)
+```
