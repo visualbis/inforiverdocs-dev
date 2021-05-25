@@ -73,3 +73,25 @@ code {
   text-align: center;
   color: rgb(60, 79, 97);
 }
+
+#myTable tr,
+td {
+        padding: 4em;
+        text-align: left;
+        vertical-align: top;
+        border: 1px solid #BBB;
+        border-radius: 0 !important;
+        line-height: 1.6em;
+}
+
+#myTable th {
+  background-color: #215b9a;
+  color: white;
+  text-align: center;
+}
+
+#sub-topic {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
