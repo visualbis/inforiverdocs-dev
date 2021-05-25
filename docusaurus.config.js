@@ -24,6 +24,12 @@ module.exports = {
           position: 'left',
           label: 'Functions',
         },
+        {
+          type: 'doc',
+          docId: 'writeback',
+          position: 'left',
+          label: 'Docs',
+        },
       ],
     },
     footer: {

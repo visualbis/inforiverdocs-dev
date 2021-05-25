@@ -5,11 +5,11 @@ title: FLOOR
 import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
 import Link from '@docusaurus/Link';
 
-The `FLOOR` function rounds a given number down to the nearest specified multiple.
+The `FLOOR` function rounds a given number down to the nearest significance multiple.
 
 ## Syntax
 
-```
+```javascript
 FLOOR (number, significance)
 ```
 
@@ -19,3 +19,11 @@ FLOOR (number, significance)
 **significance** - The multiple to use when rounding.
 
 ## Example
+
+| COLUMN1 | Formula | Result |
+|---------|---------|--------|
+| 10      | 4       | 8      |
+| 2.5     | 1       | 2      |
+| 0.156   | 0.01    | 0.15   |
+| 36      | 7       | 35     |
+| -5.5    | 1       | -6     |

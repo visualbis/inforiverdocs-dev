@@ -5,13 +5,32 @@ title: AVERAGEEXZERONEG
 The `AVERAGEEXZERONEG` function returns the average (arithmetic mean) of its arguments excluding zeros and negatives, which can be numbers or node references.
 
 ## Syntax
+
 ```javascript
 AVERAGEEXZERONEG (value1,[value2]....)
 ```
+
 ## Arguments
+
 `value1` – The first node or number to be averaged. This is a required argument.
 
 `value2, …`  – The additional nodes or numbers to be averaged. These are optional arguments.
 
+## Example
+
+To calculate 'Average Sales' across the 3 regions excluding the zero and negative values, use the formula:
+
+```javascript
+AVERAGEEXZERO (East, South, Central)
+```
+
+| Region               | Jan | Feb  | Mar | Apr |
+|----------------------|-----|------|-----|-----|
+| East                 | 0   | 100  | 100 | 200 |
+| South                | 100 | -100 | 100 | 100 |
+| Central              | 100 | 100  | 100 | 100 |
+| <b>Average Sales</b> | 100 | 100  | 100 | 133 |
+
 ## Excel Equivalent
+
 [AVERAGE](https://support.office.com/en-us/article/AVERAGE-function-047BAC88-D466-426C-A32B-8F33EB960CF6)

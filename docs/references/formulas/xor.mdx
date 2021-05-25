@@ -3,30 +3,40 @@ id: xor
 title: XOR
 ---
 
-A `XOR` statement returns a logical 'Exclusive Or' of all arguments. An `XOR` statement returns TRUE if one or more of the arguments evaluates to TRUE 
-and returns FALSE in case all the arguments evaluates to TRUE. The `XOR` function returns FALSE when all the evaluates to FALSE as well.
+An `XOR` statement returns a logical 'Exclusive Or' of all arguments. 
+
+An `XOR` statement returns TRUE if one or more of the arguments evaluate to TRUE and returns FALSE in case all the arguments evaluates to TRUE. The `XOR` function returns FALSE when all the arguments evaluate to FALSE as well.
 
 ## Syntax
+
 ```javascript
 XOR ( logical_test1, [logical_test2], ... )
 ```
+
 ## Arguments
+
 `logical_test1` – The first condition to be evaluated. This is a required argument.
 
 `logical_test2, …` – The additional conditions to be evaluated. These are optional arguments.
 
 ## Return value
+
 Either True or False
 
 ## Remark
+
 The result of `XOR` is TRUE when the number of TRUE inputs is odd and FALSE when the number of TRUE inputs is even.
 
 ## Example
+
 Consider an investment scenario of investing in either stocks or property, but not both.
 
 To achieve this, the formula should be
+
 ```javascript
  IF (XOR (stocks, property), invested, not invested).
 ```
+
 ## Excel Equivalent
+
 [XOR](https://support.office.com/en-us/article/XOR-function-1548D4C2-5E47-4F77-9A92-0533BBA14F37)

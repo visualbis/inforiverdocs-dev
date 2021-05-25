@@ -16,73 +16,53 @@ import Link from '@docusaurus/Link';
     <th>NAME</th>
     <th>SYNTAX</th>
     <th>DESCRIPTION</th>
-    <th>Example</th>
-    <th>Explanation</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/if')}>IF</Link></td>
-    <td>If( logical_test, value_if_true, value_if_false )</td>
+    <td><code>If( logical_test, value_if_true, value_if_false )</code></td>
     <td>Checks whether a condition is met, and returns one value if TRUE, and another value if FALSE</td>
-    <td><code>IF(PY > 0 , (AC-PY)/PY, 0 )</code></td>
-    <td>Above formula will  return AC-PY% if PY is greater than 0 otherwise it returns 0</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/switch')}>SWITCH</Link></td>
-    <td>SWITCH ( expression, value1, result1, value2, result2, ... value_n, result_n [, default] )</td>
+    <td><code>SWITCH ( expression, value1, result1, value2, result2, ... value_n, result_n [, default] )</code></td>
     <td>Evaluates; ;an expression against a list of values and returns the result corresponding to the first matching value. If there is no match, an  optional default value is returned.</td>
-    <td><code>SWITCH(Region, "West", 25, "East",30, 50)</code></td>
-    <td>Will return 25 if the region is West and 30 is region is East and 50 for all other regions</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/and')}>AND</Link></td>
-    <td>AND( logical_test1, [logical_test2], ... )</td>
+    <td><code>AND( logical_test1, [logical_test2], ... )</code></td>
     <td>Checks whether all the arguments are TRUE, and returns TRUE if all arguments are TRUE</td>
-    <td><code>IF(AND(Region == "West", Category=="Urban"), 25, 30)</code></td>
-    <td>Will return 25 if the region is West and category is Urban otherwise returns 30</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/or')}>OR</Link></td>
-    <td>OR( logical_test1, [logical_test2], ... )</td>
+    <td><code>OR( logical_test1, [logical_test2], ... )</code></td>
     <td>Checks whether any of the arguments are TRUE, and returns TRUE or FALSE. Returns FALSE only if all arguments are FALSE</td>
-    <td><code>IF(OR(Region == "West", Region =="East"), 25, 30)</code></td>
-    <td>Will return 25 if the region is West or East otherwise returns 30</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/not')}>NOT</Link></td>
-    <td>NOT( logical_test )</td>
+    <td><code>NOT( logical_test )</code></td>
     <td>Changes FALSE to TRUE, or TRUE to FALSE</td>
-    <td><code>IF(NOT(Region == "West"), 50, 25)</code></td>
-    <td>Will return 50 if the region is not West otherwise returns 25</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/xor')}>XOR</Link></td>
-    <td>XOR( logical_test1, [logical_test2], ... )</td>
+    <td><code>XOR( logical_test1, [logical_test2], ... )</code></td>
     <td>Returns a logical 'Exclusive Or' of all arguments</td>
-    <td><code>IF(XOR(Region == "West", Category=="Urban"), 25, 30)</code></td>
-    <td>Will return 25 for all category in the West except for category Urban, and returns 25 for all Urban category under all region except for west, for all other items returns 30</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/isnumber')}>ISNUMBER</Link></td>
-    <td>ISNUMBER(value)</td>
+    <td><code>ISNUMBER(value)</code></td>
     <td>Checks whether value is a valid number</td>
-    <td><code>IF(ISNUMBER((AC-PY)/PY), (AC-PY)/PY , 0)</code></td>
-    <td>Returns AC-PY/PY if the value is a number else returns 0</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/ifna')}>IFNA</Link></td>
-    <td>IFNA(value1,value2)</td>
+    <td><code>IFNA(value1,value2)</code></td>
     <td>Return value2 if value1 is not number else returns value1</td>
-    <td><code>IFNA((AC-PY)/PY, 0)</code></td>
-    <td>Returns AC-PY/PY if the value is a number else returns 0</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/in')}>IN</Link></td>
-    <td>IN(value,[Item1,Item2])</td>
+    <td><code>IN(value,[Item1,Item2])</code></td>
     <td>Returns true if the given value is in list</td>
-    <td><code>IF(IN(Region, ["West","East]),25, 30)</code></td>
-    <td>Will return 25 if the region is West or East otherwise returns 30</td>
   </tr>
 </tbody>
 </table>
@@ -124,24 +104,18 @@ import Link from '@docusaurus/Link';
     <th>NAME</th>
     <th>SYNTAX</th>
     <th>DESCRIPTION</th>
-    <th>EXAMPLE</th>
-    <th>Explanation</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>TEXT</td>
-    <td>TEXT(value, format)</td>
+    <td><Link to={useBaseUrl('references/formulas/text')}>TEXT</Link></td>
+    <td><code>TEXT(value, format)</code></td>
     <td>Format the value to the given format string</td>
-    <td><code>TEXT(6000,"$###,###.00")</code></td>
-    <td>Will return $6,000</td>
   </tr>
   <tr>
-    <td>CONCATENATE</td>
-    <td>CONCATENATE(string1, string2, ..)</td>
+    <td><Link to={useBaseUrl('references/formulas/concatenate')}>CONCATENATE</Link></td>
+    <td><code>CONCATENATE(string1, string2, ..)</code></td>
     <td>Concatenates all the arguments</td>
-    <td><code>CONCATENATE("Today's price is ",TEXT(6000,"$###,###.00"))</code></td>
-    <td>Will return "Today's price is $6,000</td>
   </tr>
 </tbody>
 </table>
@@ -154,122 +128,88 @@ import Link from '@docusaurus/Link';
     <th>NAME</th>
     <th>SYNTAX</th>
     <th>DESCRIPTION</th>
-    <th>Example</th>
-    <th>Explanation</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/sum')}>SUM</Link></td>
-    <td>Sum(value1,[value2]....)</td>
+    <td><code>Sum(value1,[value2]....)</code></td>
     <td>Add all numbers in the arguments, which can be numbers or node references</td>
-    <td><code>SUM(COLUMN1, COLUMN2)</code></td>
-    <td>Retruns the sum of COLUMN1 and COLUMN2</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/average')}>AVERAGE</Link></td>
-    <td>Average(value1,[value2]....)</td>
+    <td><code>Average(value1,[value2]....)</code></td>
     <td>Returns the average (arithmetic mean) of its arguments, which can be numbers or node references</td>
-    <td><code>AVERAGE(COLUMN1, COLUMN2)</code></td>
-    <td>Returns the average of COLUMN1, COLUMN1</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/averageexzero')}>AVERGAEEXZERO</Link></td>
-    <td>AverageExZero(value1,[value2]....)</td>
+    <td><code>AverageExZero(value1,[value2]....)</code></td>
     <td>Returns the average (arithmetic mean) of its arguments excluding zeros, which can be numbers or node references</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/averageexneg')}>AVERAGEEXNEG</Link></td>
     <td><code>AverageExNeg(value1,[value2]....)</code></td>
     <td>Returns the average (arithmetic mean) of its arguments excluding negatives, which can be numbers or node references</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/averageexzeroneg')}>AVERAGEEXZERONEG</Link></td>
     <td><code>AverageExZeroNeg(value1,[value2]....)</code></td>
     <td>Returns the average (arithmetic mean) of its arguments excluding zeros and negatives, which can be numbers or node references</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/countif')}>COUNTIF</Link></td>
-    <td>Count(list, condition)</td>
+    <td><code>Count(list, condition)</code></td>
     <td>Returns the count of item matches the condition</td>
-    <td><code>COUNTIF([100,500,120],"&lt;200")</code></td>
-    <td>Returns 2, since only two value in the given list matches the condition</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/abs')}>ABS</Link></td>
-    <td>ABS(value)</td>
+    <td><code>ABS(value)</code></td>
     <td>Returns the absolute value of a number, a number without its sign</td>
-    <td><code>ABS(COLUMN1)</code></td>
-    <td>Returns the absolute value of COLUMN1</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/min')}>MIN</Link></td>
-    <td>Min(value1,[value2]....)</td>
+    <td><code>Min(value1,[value2]....)</code></td>
     <td>Returns the smallest number in a set of values. Node references also accepted as arguments</td>
-    <td><code>MIN(COLUMN1,COLUMN2,COLUMN3)</code></td>
-    <td>Returns the minimum of COLUMN1, COLUMN2, COLUMN3</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/max')}>MAX</Link></td>
-    <td>Max(value1,[value2]....)</td>
+    <td><code>Max(value1,[value2]....)</code></td>
     <td>Returns the largest number in a set of values. Node references also accepted as arguments</td>
-    <td><code>MAX(COLUMN1,COLUMN2,COLUMN3)</code></td>
-    <td>Returns the maximum of COLUMN1, COLUMN2, COLUMN3</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/power')}>POWER</Link></td>
-    <td>POW(value,power)</td>
+    <td><code>POW(value,power)</code></td>
     <td>Returns the result of a number raised to a power</td>
-    <td><code>POW(COLUMN1, 2)</code></td>
-    <td>Returns the COLUMN1 to the power of 2</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/sqrt')}>SQRT</Link></td>
-    <td>SQRT(value)</td>
+    <td><code>SQRT(value)</code></td>
     <td>Returns the square root of a number</td>
-    <td><code>SQRT(COLUMN1)</code></td>
-    <td>Returns the Square Root of COLUMN1</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/exp')}>EXP</Link></td>
-    <td>EXP(value)</td>
+    <td><code>EXP(value)</code></td>
     <td>Returns e raised to the power of a given number</td>
-    <td><code>EXP(COLUMN1)</code></td>
-    <td>Returns the exponential of COLUMN1</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/log')}>LOG</Link></td>
-    <td>LOG(value,base)</td>
+    <td><code>LOG(value,base)</code></td>
     <td>Returns the logarithm of a number to the base you specify</td>
-    <td><code>LOG(COLUMN1, 10)</code></td>
-    <td>Returns the Log to the base 10 of COLUMN1</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/round')}>ROUND</Link></td>
-    <td>ROUND(value, significance)</td>
+    <td><code>ROUND(value, significance)</code></td>
     <td>Returns the round of a number</td>
-    <td><code>ROUND(COLUMN1, 2)</code></td>
-    <td>Returns the round of COLUMN1 to the significance of two decimal</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/ceiling')}>CEILING</Link></td>
-    <td>CEILING(value, significance)</td>
-    <td>Returns the ceil of a number</td>
-    <td><code>CEILING(COLUMN1)</code></td>
-    <td>Returns the ceiling of COLUMN1 to the significance of two decimal</td>
+    <td><code>CEILING(value, significance)</code></td>
+    <td>Round a number up to nearest highest multiple</td>
   </tr>
   <tr>
     <td><Link to={useBaseUrl('references/formulas/floor')}>FLOOR</Link></td>
-    <td>FLOOR(value, significance)</td>
-    <td>Returns the floor of a number</td>
-    <td><code>FLOOR(COLUMN1)</code></td>
-    <td>Returns the floor of COLUMN1 to the significance of two decimal</td>
+    <td><code>FLOOR(value, significance)</code></td>
+    <td>Round up a number up to nearest lowest multiple</td>
   </tr>
 </tbody>
 </table>

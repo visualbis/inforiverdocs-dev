@@ -54,3 +54,44 @@ code {
   padding: 2px;
   font-size: 105%;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: center;
+  padding: 0px 40px;
+  width: 100%;
+}
+
+.center img {
+  width: 750px;
+}
+
+.center p{
+  text-align: center;
+  color: rgb(60, 79, 97);
+}
+
+#myTable tr,
+td {
+        padding: 4em;
+        text-align: left;
+        vertical-align: top;
+        border: 1px solid #BBB;
+        border-radius: 0 !important;
+        line-height: 1.6em;
+}
+
+#myTable th {
+  background-color: #215b9a;
+  color: white;
+  text-align: center;
+}
+
+#sub-topic {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}

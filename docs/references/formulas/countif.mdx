@@ -4,3 +4,29 @@ title: COUNTIF
 ---
 import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
 import Link from '@docusaurus/Link';
+
+The `COUNTIF` function returns the count of item matches the condition.
+
+## Syntax
+
+```javascript
+COUNTIF([list],condition)
+```
+
+## Example
+
+To get the count of columns with value lesser than 200, use the formula as:
+
+```javascript
+COUNTIF([Sales,Finance,Inventory],"<200")
+```
+
+| Sales | Finance | Inventory | COUNTIF |
+|-------|---------|-----------|---------|
+| -389  | 100     | 199       | 3       |
+| 201   | 1000    | 145       | 1       |
+| 783   | 150     | 9091      | 1       |
+
+## Returns
+
+The formula returns an integer.
