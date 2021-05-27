@@ -34,14 +34,14 @@ Either value_if_true or value_if_false.
 
 ## Example
 
-Consider the **Revenue** and **Cost of Goods Sold** nodes to follow the trend as shown below:
+Consider the **Revenue** and **Cost of Goods Sold** to follow the trend as shown below:
 
 | Parameter          | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug |
 |--------------------|-----|-----|-----|-----|-----|-----|-----|-----|
 | Revenue            | 100 | 124 | 137 | 0   | 23  | 45  | 52  | 36  |
 | Cost of Goods Sold | 25  | 25  | 25  | 25  | 25  | 25  | 25  | 25  |
 
-Now, a new node **Gross Profit Margin** can be computed using the `IF` function as: `(Revenue-Cost of Goods Sold)/Revenue`.
+Now, **Gross Profit Margin** can be computed using the `IF` function as: `(Revenue-Cost of Goods Sold)/Revenue`.
 
 In case, **Revenue** has period value of 0, **Gross Profit Margin** should return 0.
 
@@ -51,7 +51,7 @@ To achieve this, the formula should be:
 IF(Revenue==0,0,(Revenue-Cost of Goods Sold)/Revenue)
 ```
 
-The result of the above formula is shown below
+The result of the above formula is shown below:
 
 | Parameter           | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug |
 |---------------------|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -61,5 +61,4 @@ The result of the above formula is shown below
 
 [IF](https://support.office.com/en-gb/article/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
 
-> **Tip** <br /> Use <Link to={useBaseUrl('references/formulas/switch')}>SWITCH</Link> function instead of nesting multiple IF functions
-
+> **Tip** <br /> Use <Link to={useBaseUrl('references/formulas/switch')}>SWITCH</Link> function instead of nesting multiple IF functions.
