@@ -1,114 +1,3 @@
----
-id: export
-title: Export Visual Themes/Report Configs
-sidebar_label: Export Themes/Configs
----
-
-import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
-import Link from "@docusaurus/Link";
-import Zoom from "react-medium-image-zoom";
-import "react-medium-image-zoom/dist/styles.css";
-
-In Inforiver visual you can export the custom report configuration data and visual theme as a `JSON` file format.
-A `JSON` file provides granular level customizations that can be easily shared and imported in a new report.
-Using the export custom theme/config options, you can standardize the reports and charts formats and visual configurations across all the reports.
-
-## Export Custom Theme/Configs
-
-* Select the **Advanced** tab on the ribbon and select **Export/Import**.
-
-<div class="center">
-    <Zoom>
-        <img
-        alt="Export/Import options"
-        src={useBaseUrl('img/export/export-import.png')}
-        />
-    </Zoom>
-    <p>Export/Import drop-down menu list</p>
-</div>
-
-* You can choose to export the visual theme settings or configurations.
-  * **Export Theme**: Design changes (colors and formattings) settings applied in the visual.
-  * **Export Config**: Visual configurations such as navigation, scaling, number format, conditional format, and templates.
-* Select the export type as "Export Theme" or "Export Config":
-
-<div style={{ textAlign: "center" }}>
-    <Zoom>
-        <img
-        alt="Select Export Config"
-        src={useBaseUrl('img/export/export-config.png')}
-        />
-    </Zoom>
-    <p>Exporting the visual's configurations</p>
-</div>
-
-* Right Click on the the `.json` file name and select **Save Link As** option.
-* Navigate to your desired storage location and select **Save**.
-  
-Your visual data will be downloaded in a `json` format.
-
-## JSON Theme File Format
-
-The most basic `JSON` file has following fields:
-
-| Field/Section Name | Description                                                            |
-|--------------------|------------------------------------------------------------------------|
-| `type`             | Type of data export. '1' is for theme file, and '2' for a config file. |
-| `chartSettings`    | Visual chart layout type and settings.                                 |
-| `chartTitle`       | Title field settings                                                   |
-| `annotation`       | Annotation configurations                                              |
-| `headerOption`     | Table Header settings                                                  |
-| `inforiverProps`   | Inforiver global visual formatting configurations.                     |
-| `subTotals`        | Row and Column level sub totals setting to true or false.              |
-| `export`           | Export settings such as export type, scaling, page size etc.           |
-| `metadata`         | Rows and Columns metadata details.                                     |
-
-Below is a templated example of the Extended-format JSON file with nested specifications.
-
-```json "visualStyles template"
-{
-    "version": 1,
-    "type": 1,
-    "config": [
-        {
-            "name": "",
-            "properties": {
-
-            }
-        }
-        {
-            ...
-        }
-    ],
-    "metadata": {
-        "measures": {
-            "": [
-                {
-                    "label": "",
-                    "name": "",
-                    "role": ""
-                },
-            ]
-        },
-        "columns": [],
-        "rows": [
-            {
-
-            }
-        ]
-    }
-}
-```
-
-Click to download a sample  `JSON` formatted  <a target="_blank" href={useBaseUrl("/assets/config.json")} download="Inforiver_Configuration.json">Configuration file</a>
- and <a target="_blank" href={useBaseUrl("/assets/theme.json")} download="Inforiver_Theme.json">Theme file</a>.
-
-<details>
-<summary>
-Select the arrow to copy the detailed <code>JSON</code> file code.
-</summary>
-
-```json
 {
     "version": 1,
     "type": 2,
@@ -177,7 +66,7 @@ Select the arrow to copy the detailed <code>JSON</code> file code.
                 "measureTitleFontSize": 14,
                 "measureTitleFontWeight": "normal",
                 "chartvalueType": "",
-                "unitsSentenceCase": true,
+                "unitsSentanceCase": true,
                 "unitsFontWeight": "bold",
                 "fontColor": "#000000",
                 "darkfontColor": "#ffffff",
@@ -342,6 +231,3 @@ Select the arrow to copy the detailed <code>JSON</code> file code.
         ]
     }
 }
-```
-
-</details>
