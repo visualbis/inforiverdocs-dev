@@ -1,0 +1,64 @@
+---
+id: col-references
+sidebar_label: Column Indexing
+title: Column referencing via Indexes
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from "@docusaurus/Link";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
+In Inforiver you can create visual columns with custom formula for better analytics on your data.
+
+In a complex dataset, you do not have to refer a column respecting the hierarchy. Instead you can refer them by field indexes.
+This way you can save your formula from throwing an error when the hierarchy is altered or a column name is changed.
+
+## Before you begin
+
+* In the **Fields** navigation pane on the right-hand side, select the fields from your dataset.
+* In the **Rows** tab of the **Visualization** navigation pane on the right, re-order the rows and columns fields.
+* The field selected in the **Values (AC)** section will be your columns in the visual.
+
+## Formula calculation based on Column Indexing
+
+Consider an example where you need to calculate Quarterly variance in a hierarchial dataset.
+
+* Select **Advanced > Insert column > Visual Column**.
+* Enter a **Column name**, **Type** as "Custom Calculation".
+* In the **Formula** box, refer the columns listed in the **Values (AC)** field and enter any formula.
+  
+  The basic syntax is: `AC<num>_<index>`, where
+  * `AC<num>` is the column name, referred as **AC, AC1, AC2 .. ACn**.
+  * `<index>` is the same column listed in the hierarchy in the visual, starting from **1, 2, 3 .. n**.
+
+<div class="center">
+    <Zoom>
+        <img alt="Quarterly variance using column indexing" src={useBaseUrl('img/col-index-reference.png')}/>
+    </Zoom>
+        <p>Q1 and Q2 variance calculation based on column indexes</p>
+</div>
+
+`AC_1` refers to the column from Qtr 1, and `AC_2` refers to the column from Qtr 2.
+
+* Select the **Row aggregation type** as **Formula**.
+* Select **Apply**.
+
+The highlighted column displays the result of the formula on the columns that you referenced as indexes.
+
+As you add/remove other columns, the above formula will still be valid as indicated below:
+
+<div class="center">
+    <Zoom>
+        <img alt="Columns hierarchy changed" src={useBaseUrl('img/hierarchy-altered.png')}/>
+    </Zoom>
+        <p>Formula calculation valid on changing column hierarchy</p>
+</div>
+
+## Further example
+
+To calculate a variance between the sum of "Sales Forecast (AC)" for all the quarters and the sum of "Sales Budget (AC1)" for all quarters, use the formula as:
+
+```javascript
+(AC_1+AC_2+AC_3+AC_4) - (AC1_1+AC1_2+AC1_3+AC1_4)
+```
