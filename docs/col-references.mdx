@@ -11,8 +11,17 @@ import "react-medium-image-zoom/dist/styles.css";
 
 In Inforiver you can create visual columns with custom formula for better analytics on your data.
 
-In a complex dataset, you do not have to refer a column respecting the hierarchy. Instead you can refer them by field indexes.
-This way you can save your formula from throwing an error when the hierarchy is altered or a column name is changed.
+You can refer any column in your dataset with the column's field index.
+By writing the formula independent of column's name, you can save your formula from throwing an error while referencing a changed column name.
+
+Here is a sample hierarchy of columns and how to refer them:
+
+<table>
+<tr><td>Parent Node</td><td colspan="10">YYYY</td></tr>
+<tr><td>Sub Category</td><td colspan="4">Q1 (AC)</td><td colspan="4">Q2 (AC1)</td></tr>
+<tr><td>Child Columns</td><td>C1</td><td>C2</td><td>C3</td><td>C4</td><td>C5</td><td>C6</td><td>C7</td><td>C8</td></tr>
+<tr><td>Refer as</td><td><code>AC_1</code></td><td><code>AC_2</code></td><td><code>AC_3</code></td><td><code>AC_4</code></td><td><code>AC1_1</code></td><td><code>AC1_2</code></td><td><code>AC1_3</code></td><td><code>AC1_4</code></td></tr>
+</table>
 
 ## Before you begin
 
@@ -29,8 +38,8 @@ Consider an example where you need to calculate Quarterly variance in a hierarch
 * In the **Formula** box, refer the columns listed in the **Values (AC)** field and enter any formula.
   
   The basic syntax is: `AC<num>_<index>`, where
-  * `AC<num>` is the column name, referred as **AC, AC1, AC2 .. ACn**.
-  * `<index>` is the same column listed in the hierarchy in the visual, starting from **1, 2, 3 .. n**.
+  * `AC<num>` is the sequence number of the listed column name(s), starting with **AC, AC1, AC2 .. ACn**.
+  * `<index>` is position number of columns listed in the visual, starting from **1, 2, 3 .. n**.
 
 <div class="center">
     <Zoom>
@@ -59,6 +68,6 @@ As you add/remove other columns, the above formula will still be valid as indica
 
 To calculate a variance between the sum of "Sales Forecast (AC)" for all the quarters and the sum of "Sales Budget (AC1)" for all quarters, use the formula as:
 
-```javascript
+```JSX title="Visual Column Formula"
 (AC_1+AC_2+AC_3+AC_4) - (AC1_1+AC1_2+AC1_3+AC1_4)
 ```
