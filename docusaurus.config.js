@@ -2,8 +2,8 @@
 module.exports = {
   title: 'Inforiver Documentation',
   tagline: 'Low code/No code Analytics Custom Visual',
-  url: 'https://github.com/visualbis/inforiverdocs/',
-  baseUrl: '/inforiverdocs/',
+  url: 'http://docs.inforiver.com/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/inforiver-logo.svg',
