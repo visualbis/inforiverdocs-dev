@@ -1,0 +1,34 @@
+---
+id: writeback-logs
+title: Writeback Logs
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from "@docusaurus/Link";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
+Go to the <Link to={useBaseUrl('writeback/overview#configure-writeback')}>Configure Writeback</Link> page to access the config setup.
+
+For each writeback operation that you perform, the logs are maintained in the **Logs** section with the following details:
+
+<div class="center">
+    <Zoom>
+        <img alt="Writeback Logs" src={useBaseUrl('img/writeback/logs.png')}/>
+    </Zoom>
+    <p>Writeback Logs</p>
+</div>
+
+* **Version**: Latest writeback version.
+* **Started At**: Timestamp of when the writeback was triggered.
+* **Started By**: Name of the username who triggered writeback.
+* **Status**: Status of the writeback operation. The status message maybe 'Success', 'Failure', or 'Partial Success' ( when one of the destinations failed ).
+
+Select any of the version numbers to see the detailed logs for each writeback destination configured.
+
+<div style={{ textAlign: "center" }}>
+    <Zoom>
+        <img width="400" alt="Writeback Log details" src={useBaseUrl('img/writeback/log-details.png')}/>
+    </Zoom>
+    <p>Writeback Log details with export information</p>
+</div>
