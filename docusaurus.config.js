@@ -12,7 +12,6 @@ module.exports = {
   themeConfig: {
     navbar: {
       hideOnScroll: true,
-      title: 'Inforiver',
       logo: {
         alt: 'Inforiver Documentation',
         src: 'img/inforiver-logo.svg',
@@ -20,15 +19,33 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'formula-list',
+          docId: 'build/build-template/ibcs',
           position: 'left',
-          label: 'Functions',
+          label: 'Build',
         },
         {
           type: 'doc',
-          docId: 'writeback',
+          docId: 'analyze/smart-analysis',
           position: 'left',
-          label: 'Docs',
+          label: 'Analyze'
+        },
+        {
+          type: 'doc',
+          docId: 'static/pdf',
+          position: 'left',
+          label: 'Static Reports'
+        },
+        {
+          type: 'doc',
+          docId: 'features/navigation',
+          position: 'left',
+          label: 'Features'
+        },
+        {
+          type: 'doc',
+          docId: 'licensing',
+          position: 'left',
+          label: 'Licensing'
         },
         {
           
