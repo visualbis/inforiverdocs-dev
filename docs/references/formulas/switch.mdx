@@ -1,0 +1,50 @@
+---
+id: switch
+title: SWITCH
+---
+
+A `SWITCH` statement evaluates an expression against a list of values and returns the result corresponding to the first matching value. 
+If there is no match, an optional default value is returned.
+
+## Syntax
+
+```javascript
+SWITCH ( expression, value1, result1, value2, result2, ... value_n, result_n, [default] )
+```
+
+## Arguments
+
+* `expression` – The statement to be evaluated.
+* `value1, value2, … value_n` – The list of values to be compared against the expression.
+* `result1, result2, … result_n` – The result to be returned if the expression matches with the corresponding value in the argument list.
+* `default` – The default value to be returned if the expression does not match with any of the values in the argument list. This is an optional argument.
+
+## Return value
+
+Returns the corresponding result when the expression matches with value, default in case there was no match.
+
+## Remark
+
+All result expressions and the else expression must be of the same data type.
+
+## Example
+
+Consider a scenario where you have the rank for Total Sales for different regions and want to assign Sales Commission accordingly. Sales Commission for 1st, 2nd and 3rd regions should be 20%, 15% and 10%.
+
+The formula should be:
+
+```javascript
+SWITCH(Total Sales – Rank,1,0.2,2,0.15,3,0.1)
+```
+
+| Account                 | US  | APAC | EMEA |
+|-------------------------|-----|------|------|
+| Total Sales - Rank      | 1   | 3    | 2    |
+| <b>Sales Commission</b> | 20% | 10%  | 15%  |
+
+The result is the in the 'Sales Commission' row.
+
+## Excel Equivalent
+
+[SWITCH](https://support.office.com/en-us/article/SWITCH-function-47ab33c0-28ce-4530-8a45-d532ec4aa25e)
+

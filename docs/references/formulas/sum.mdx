@@ -1,0 +1,38 @@
+---
+id: sum
+title: SUM
+---
+
+The `SUM` function returns the sum of all the arguments list.
+The arguments can be numbers or node references or a combination of both.
+
+## Syntax
+
+```javascript
+SUM (value1,[value2]....)
+```
+
+## Arguments
+
+* `value1` – The first node or number to be added. This is a required argument.
+* `value2, … ` – The additional nodes or numbers to be added. These are optional arguments.
+
+## Example
+
+Consider sales of a particular product across different regions East, South, Central and West to be as follows. To calculate the 'Total Sales' use the formula as:
+
+```javascript
+SUM (East, South, Central, West)
+```
+
+| Region             | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+|--------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| East               | 100 | 100 | 125 | 150 | 100 | 100 | 120 | 125 | 0   | 0   | 0   | 0   |
+| South              | 0   | 0   | 150 | 200 | 200 | 175 | 175 | 150 | 150 | 125 | 125 | 175 |
+| Central            | 100 | 100 | 125 | 150 | 100 | 0   | 0   | 0   | 150 | 200 | 200 | 175 |
+| West               | 0   | 0   | 150 | 125 | 125 | 175 | 200 | 175 | 175 | 125 | 0   | 0   |
+| <b>Total Sales</b> | 200 | 200 | 550 | 625 | 525 | 450 | 495 | 450 | 475 | 450 | 325 | 350 |
+
+## Excel Equivalent
+[SUM](https://support.office.com/en-us/article/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
+

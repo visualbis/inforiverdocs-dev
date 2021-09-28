@@ -1,0 +1,97 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1babe2;
+  --ifm-color-primary-dark: #189acb;
+  --ifm-color-primary-darker: #1791c0;
+  --ifm-color-primary-darkest: #13789e;
+  --ifm-color-primary-light: #30b4e6;
+  --ifm-color-primary-lighter: #3bb8e8;
+  --ifm-color-primary-lightest: #5dc4ec; 
+  --ifm-code-font-size: 95%;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+
+html[data-theme="dark"] h1.hero__title,
+html[data-theme="dark"] p.hero__subtitle {
+    color: #FFFFFF !important;
+},
+html[data-theme="dark"] div.styles.buttons
+
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+blockquote {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-color: rgb(29, 191, 231);
+}
+
+html[data-theme="dark"] blockquote {
+  background-color: rgb(19, 18, 18); 
+  color: rgb(255, 255, 255);
+  border-color: rgb(29, 191, 231);
+}
+
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: center;
+  padding: 0px 40px;
+  width: 100%;
+}
+
+.center img {
+  width: 750px;
+}
+
+.center p{
+  text-align: center;
+  color: rgb(60, 79, 97);
+}
+
+#myTable tr,
+td {
+        padding: 4em;
+        text-align: left;
+        vertical-align: top;
+        border: 1px solid #BBB;
+        border-radius: 0 !important;
+        line-height: 1.6em;
+}
+
+#myTable th {
+  background-color: #215b9a;
+  color: white;
+  text-align: center;
+}
+
+#sub-topic {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}

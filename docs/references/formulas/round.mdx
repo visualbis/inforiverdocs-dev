@@ -1,0 +1,29 @@
+---
+id: round 
+title: ROUND 
+---
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from '@docusaurus/Link';
+
+The `ROUND` function rounds a number to a specified number of digits.
+
+## Syntax
+
+```javascript
+ROUND(number,num_digits)
+```
+
+## Arguments
+
+* **number**: Required. The number or cell reference that you want to round.
+* **num_digits**: Required. The number of digits to which you want to round the number argument.
+
+## Example
+
+To round of the values in 'COLUMN1' up to the specified decimal places:
+
+| COLUMN1  | Formula             | Value   |
+|----------|---------------------|---------|
+| 78.17    | `ROUND(COLUMN1, 2)` | 78.2    |
+| -2183.65 | `ROUND(COLUMN1, 1)` | -2183.7 |
+| 1.98     | `ROUND(1.98,-1)`    | 0       |

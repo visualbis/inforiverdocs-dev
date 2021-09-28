@@ -1,0 +1,36 @@
+---
+id: isnumber
+title: ISNUMBER
+---
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from '@docusaurus/Link';
+
+The `ISNUMBER` function checks if the value refers to a number.
+
+## Syntax
+
+```javascript
+ISNUMBER(value)
+```
+
+## Arguments
+
+value: A Cell or a number
+
+## Example
+
+* To check every value in a column(Employee_id) is numeric, use the formula as:
+
+```javascript
+ISNUMBER(Employee_id)
+```
+
+* To set the value "0" if the expression `(AC-PY)/PY` does not evaluates to a number, use the formula as:
+
+```javascript
+IF(ISNUMBER((AC-PY)/PY), (AC-PY)/PY , 0)
+```
+
+## Returns
+
+`AC-PY/PY` if the value is a number else returns 0.

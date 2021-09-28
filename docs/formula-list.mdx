@@ -1,0 +1,307 @@
+---
+id: formula-list
+title: List of Formulas and Functions
+hide_title: true
+slug: /
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from '@docusaurus/Link';
+
+## Logical Functions
+
+<table className="table">
+<thead>
+  <tr>
+    <th>NAME</th>
+    <th>SYNTAX</th>
+    <th>DESCRIPTION</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/if')}>IF</Link></td>
+    <td><code>IF( logical_test, value_if_true, value_if_false )</code></td>
+    <td>Checks whether a condition is met, and returns one value if TRUE, and another value if FALSE</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/switch')}>SWITCH</Link></td>
+    <td><code>SWITCH ( expression, value1, result1, value2, result2, ... value_n, result_n [, default] )</code></td>
+    <td>Evaluates; ;an expression against a list of values and returns the result corresponding to the first matching value. If there is no match, an  optional default value is returned.</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/and')}>AND</Link></td>
+    <td><code>AND( logical_test1, [logical_test2], ... )</code></td>
+    <td>Checks whether all the arguments are TRUE, and returns TRUE if all arguments are TRUE</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/or')}>OR</Link></td>
+    <td><code>OR( logical_test1, [logical_test2], ... )</code></td>
+    <td>Checks whether any of the arguments are TRUE, and returns TRUE or FALSE. Returns FALSE only if all arguments are FALSE</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/not')}>NOT</Link></td>
+    <td><code>NOT( logical_test )</code></td>
+    <td>Changes FALSE to TRUE, or TRUE to FALSE</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/xor')}>XOR</Link></td>
+    <td><code>XOR( logical_test1, [logical_test2], ... )</code></td>
+    <td>Returns a logical 'Exclusive Or' of all arguments</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/isnumber')}>ISNUMBER</Link></td>
+    <td><code>ISNUMBER(value)</code></td>
+    <td>Checks whether value is a valid number</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/ifna')}>IFNA</Link></td>
+    <td><code>IFNA(value1,value2)</code></td>
+    <td>Return value2 if value1 is not number else returns value1</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/in')}>IN</Link></td>
+    <td><code>IN(value,[Item1,Item2])</code></td>
+    <td>Returns true if the given value is in list</td>
+  </tr>
+</tbody>
+</table>
+
+## Logical Operators
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        <strong>OPERATORS</strong>
+      </th>
+      <th>
+        <strong>DESCRIPTION</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>&&</td>
+      <td>
+        Logical <a href={useBaseUrl("references/formulas/and")}>AND</a>
+      </td>
+    </tr>
+    <tr>
+      <td>||</td>
+      <td>
+        Logical <a href={useBaseUrl("references/formulas/or")}>OR</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Text Formatting Functions
+
+<table>
+<thead>
+  <tr>
+    <th>NAME</th>
+    <th>SYNTAX</th>
+    <th>DESCRIPTION</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/text')}>TEXT</Link></td>
+    <td><code>TEXT(value, format)</code></td>
+    <td>Format the value to the given format string</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/concatenate')}>CONCATENATE</Link></td>
+    <td><code>CONCATENATE(string1, string2, ..)</code></td>
+    <td>Concatenates all the arguments</td>
+  </tr>
+</tbody>
+</table>
+
+## Math Functions
+
+<table>
+<thead>
+  <tr>
+    <th>NAME</th>
+    <th>SYNTAX</th>
+    <th>DESCRIPTION</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/sum')}>SUM</Link></td>
+    <td><code>Sum(value1,[value2]....)</code></td>
+    <td>Add all numbers in the arguments, which can be numbers or cell references</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/average')}>AVERAGE</Link></td>
+    <td><code>Average(value1,[value2]....)</code></td>
+    <td>Returns the average (arithmetic mean) of its arguments, which can be numbers or cell references</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/averageexzero')}>AVERGAEEXZERO</Link></td>
+    <td><code>AverageExZero(value1,[value2]....)</code></td>
+    <td>Returns the average (arithmetic mean) of its arguments excluding zeros, which can be numbers or cell references</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/averageexneg')}>AVERAGEEXNEG</Link></td>
+    <td><code>AverageExNeg(value1,[value2]....)</code></td>
+    <td>Returns the average (arithmetic mean) of its arguments excluding negatives, which can be numbers or cell references</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/averageexzeroneg')}>AVERAGEEXZERONEG</Link></td>
+    <td><code>AverageExZeroNeg(value1,[value2]....)</code></td>
+    <td>Returns the average (arithmetic mean) of its arguments excluding zeros and negatives, which can be numbers or cell references</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/countif')}>COUNTIF</Link></td>
+    <td><code>Count(list, condition)</code></td>
+    <td>Returns the count of item matches the condition</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/abs')}>ABS</Link></td>
+    <td><code>ABS(value)</code></td>
+    <td>Returns the absolute value of a number, a number without its sign</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/min')}>MIN</Link></td>
+    <td><code>Min(value1,[value2]....)</code></td>
+    <td>Returns the smallest number in a set of values. Cell references also accepted as arguments</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/max')}>MAX</Link></td>
+    <td><code>Max(value1,[value2]....)</code></td>
+    <td>Returns the largest number in a set of values. Cell references also accepted as arguments</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/power')}>POWER</Link></td>
+    <td><code>POW(value,power)</code></td>
+    <td>Returns the result of a number raised to a power</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/sqrt')}>SQRT</Link></td>
+    <td><code>SQRT(value)</code></td>
+    <td>Returns the square root of a number</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/exp')}>EXP</Link></td>
+    <td><code>EXP(value)</code></td>
+    <td>Returns e raised to the power of a given number</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/log')}>LOG</Link></td>
+    <td><code>LOG(value,base)</code></td>
+    <td>Returns the logarithm of a number to the base you specify</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/round')}>ROUND</Link></td>
+    <td><code>ROUND(value, significance)</code></td>
+    <td>Returns the round of a number</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/ceiling')}>CEILING</Link></td>
+    <td><code>CEILING(value, significance)</code></td>
+    <td>Round a number up to nearest highest multiple</td>
+  </tr>
+  <tr>
+    <td><Link to={useBaseUrl('references/formulas/floor')}>FLOOR</Link></td>
+    <td><code>FLOOR(value, significance)</code></td>
+    <td>Round up a number up to nearest lowest multiple</td>
+  </tr>
+</tbody>
+</table>
+
+## Other Operators
+
+<table>
+<thead>
+  <tr>
+    <th>OPERATORS</th>
+    <th>DESCRIPTION</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>()</td>
+    <td>Parenthesis</td>
+  </tr>
+  <tr>
+    <td>+, -</td>
+    <td>plus,minus(-1) sign</td>
+  </tr>
+  <tr>
+    <td>*, /</td>
+    <td>Multiplication, Division</td>
+  </tr>
+  <tr>
+    <td>+, -</td>
+    <td>Addition, Subtraction</td>
+  </tr>
+  <tr>
+    <td>==, !=</td>
+    <td>Equal to, Not equal to</td>
+  </tr>
+  <tr>
+    <td>&gt;, &gt;=</td>
+    <td>Greater than, Greater than or equal to</td>
+  </tr>
+  <tr>
+    <td>&lt;, &lt;=</td>
+    <td>Less than, Less than or equal to</td>
+  </tr>
+</tbody>
+</table>
+
+## Identifiers
+
+<table>
+<thead>
+  <tr>
+    <th>IDENTIFIER</th>
+    <th>Usage</th>
+    <th>DESCRIPTION</th>
+    <th>Example</th>
+    <th>Explanation</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>COLUMN_ID</td>
+    <td>Calculated Column Formula</td>
+    <td>Represents the particular column, used in column formula</td>
+    <td>AC + PY</td>
+    <td>Returns the sum of the column AC and PY</td>
+  </tr>
+  <tr>
+    <td>ROW_ID</td>
+    <td>Calculated Row Formula</td>
+    <td>Represents the particular row, used in row formula</td>
+    <td>R_WEST.R_URBAN + R_EAST.R_URBAN</td>
+    <td>Returns the sum row Urban under West and East</td>
+  </tr>
+  <tr>
+    <td>COLUMN</td>
+    <td>Calculated Row Formula</td>
+    <td>Represents the active column in row calculation</td>
+    <td>IF(COLUMN == "AC", 5000, 6000)</td>
+    <td>On using in the row formula, returns 5000 for AC column and 6000 for other columns</td>
+  </tr>
+  <tr>
+    <td>ROW.PARENT</td>
+    <td>Calculated Column Formula, Used along with identifier PARENT and </td>
+    <td>Represents the active row in column calculation</td>
+    <td>ROW.PARENT.AC + ROW.PARENT.PY</td>
+    <td>For each row it adds the value of its parent row's AC column and PY column</td>
+  </tr>
+  <tr>
+    <td>PARENT(Chaining)</td>
+    <td>Calculated Column Formula, Used along with identifier PARENT and </td>
+    <td>Multiple chaining of PARENT is possible</td>
+    <td>ROW.PARENT.PARENT.AC + ROW.PARENT.PARENT.PY</td>
+    <td>For each row it adds the value of its grandparent row's AC column and PY column</td>
+  </tr>
+</tbody>
+</table>

@@ -1,0 +1,73 @@
+---
+id: col-references
+sidebar_label: Column Indexing
+title: Column referencing via Indexes
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from "@docusaurus/Link";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
+In Inforiver you can create visual columns with custom formula for better analytics on your data.
+
+You can refer any column in your dataset with the column's field index.
+By writing the formula independent of column's name, you can save your formula from throwing an error while referencing a changed column name.
+
+Here is a sample hierarchy of columns and how to refer them:
+
+<table>
+<tr><td>Parent Node</td><td colspan="10">YYYY</td></tr>
+<tr><td>Sub Category</td><td colspan="4">Q1 (AC)</td><td colspan="4">Q2 (AC1)</td></tr>
+<tr><td>Child Columns</td><td>C1</td><td>C2</td><td>C3</td><td>C4</td><td>C5</td><td>C6</td><td>C7</td><td>C8</td></tr>
+<tr><td>Refer as</td><td><code>AC_1</code></td><td><code>AC_2</code></td><td><code>AC_3</code></td><td><code>AC_4</code></td><td><code>AC1_1</code></td><td><code>AC1_2</code></td><td><code>AC1_3</code></td><td><code>AC1_4</code></td></tr>
+</table>
+
+## Before you begin
+
+* In the **Fields** navigation pane on the right-hand side, select the fields from your dataset.
+* In the **Rows** tab of the **Visualization** navigation pane on the right, re-order the rows and columns fields.
+* The field selected in the **Values (AC)** section will be your columns in the visual.
+
+## Formula calculation based on Column Indexing
+
+Consider an example where you need to calculate Quarterly variance in a hierarchial dataset.
+
+* Select **Advanced > Insert column > Visual Column**.
+* Enter a **Column name**, **Type** as "Custom Calculation".
+* In the **Formula** box, refer the columns listed in the **Values (AC)** field and enter any formula.
+  
+  The basic syntax is: `AC<num>_<index>`, where
+  * `AC<num>` is the sequence number of the listed column name(s), starting with **AC, AC1, AC2 .. ACn**.
+  * `<index>` is position number of columns listed in the visual, starting from **1, 2, 3 .. n**.
+
+<div class="center">
+    <Zoom>
+        <img alt="Quarterly variance using column indexing" src={useBaseUrl('img/col-index-reference.png')}/>
+    </Zoom>
+        <p>Q1 and Q2 variance calculation based on column indexes</p>
+</div>
+
+`AC_1` refers to the column from Qtr 1, and `AC_2` refers to the column from Qtr 2.
+
+* Select the **Row aggregation type** as **Formula**.
+* Select **Apply**.
+
+The highlighted column displays the result of the formula on the columns that you referenced as indexes.
+
+As you add/remove other columns, the above formula will still be valid as indicated below:
+
+<div class="center">
+    <Zoom>
+        <img alt="Columns hierarchy changed" src={useBaseUrl('img/hierarchy-altered.png')}/>
+    </Zoom>
+        <p>Formula calculation valid on changing column hierarchy</p>
+</div>
+
+## Further example
+
+To calculate a variance between the sum of "Sales Forecast (AC)" for all the quarters and the sum of "Sales Budget (AC1)" for all quarters, use the formula as:
+
+```JSX title="Visual Column Formula"
+(AC_1+AC_2+AC_3+AC_4) - (AC1_1+AC1_2+AC1_3+AC1_4)
+```
