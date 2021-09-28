@@ -1,0 +1,97 @@
+---
+id: csv
+title: CSV
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from "@docusaurus/Link";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
+This section covers the export format for the writeback for URL, SharePoint, and OneDrive.
+
+### OneDrive
+
+For OneDrive integration, you must sign-in to your oneDrive account and enter the folder path where you want to save the reports.
+
+* Select **Connect** and enter your user credentials, and accept the permissions request.
+* In the **Path** field, select **Browse**.
+* In the **Select Folder** pop-up window, select a folder name and then select **OK**.
+* In the **Writeback File Name** field, enter a name for your writeback filename. If you perform multiple writebacks with the same name, the filename will be overwritten and replaced with the latest file.
+
+<div class="center">
+    <Zoom>
+        <img alt="Configure OneDrive" src={useBaseUrl('img/writeback/config-onedrive.png')}/>
+    </Zoom>
+    <p>OneDrive configuration</p>
+</div>
+
+* Select **Save**.
+
+### SharePoint
+
+* Select **Connect**.
+* Enter SharePoint Domain Name as `tenantname.sharepoint.com` in the **Domain Name** field.
+* Select **OK**.
+
+<div class="center">
+    <Zoom>`
+        <img alt="Configure SharePoint" src={useBaseUrl('img/writeback/config-sharepoint.png')}/>
+    </Zoom>
+    <p>SharePoint configuration</p>
+</div>
+
+* Upon successfully connecting to the SharePoint domain, enter the following details:
+  * **Site Name**: Name of the SharePoint site that you want to connect to.
+  * **Drive**: SharePoint document library.
+  * **Folder**: Folder within your document library.
+  * **Data File Name**: Name for the exported data file.
+* Select **Save**.
+
+### URL
+
+Enter a Web **URL**. You may also add **Headers** details.
+
+<div class="center">
+    <Zoom>
+        <img alt="Configure URL" src={useBaseUrl('img/writeback/config-url.png')}/>
+    </Zoom>
+    <p>URL configuration</p>
+</div>
+
+Select **Save**.
+
+<!--
+Once you have configured the writeback settings, select **Yes, Writeback**.
+
+<div class="center">
+    <Zoom>
+        <img alt="Perform Writeback" src={useBaseUrl('img/writeback/yes-writeback.png')}/>
+    </Zoom>
+    <p>Confirm writeback to the selected destinations</p>
+</div>
+-->
+
+### Export format
+
+Below is a sample export in the `CSV` format:
+
+<div class="center">
+    <Zoom>
+        <img alt="CSV format" src={useBaseUrl('img/writeback/csv-export-sample1.png')}/>
+    </Zoom>
+    <p>CSV sample export format</p>
+</div>
+
+Following are the columns in the export format:
+
+| Field name                | Description                                                                                                                                                                    |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `<Row and Column Fields>` | Dynamically generated row and column fields (hierarchies) for the visual                                                                                                       |
+| Value Column Name         | All series names being used in the report                                                                                                                                      |
+| Value                     | This column will have the value corresponding to the ‘Value Column Name’.                                                                                                      |
+| Last Updated Date         | When Cell editing is done for a value, this field captures the last updated date and timestamp for that value.                                                                 |
+| Source                    | Represents the type of column. The column types are: 'Native', 'Visual Column', 'Visual measure', 'Static column', 'Static row', 'Calculated rows', 'Headers', and 'Comments'. |
+| IR Writeback User         | Name of the user who does the writeback.                                                                                                                                       |
+| IR Writeback Timestamp    | Date timestamp of the writeback.                                                                                                                                               |
+| IR Writeback Version      | Version number of the latest writeback export.                                                                                                                                 |

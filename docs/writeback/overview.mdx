@@ -1,0 +1,89 @@
+---
+id: overview
+title: Overview
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from "@docusaurus/Link";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
+Writeback is used to send inforiver visual's data and comments to writeback destinations.
+
+<!--
+You can configure write back to different destinations - a Database, a URL, and/or an external Integration ( OneDrive, and SharePoint ).
+-->
+
+The writeback data is either exported in a `CSV` format or loaded into a table.
+
+:::note
+
+1. Writeback is an add-on service.
+1. To configure the writeback in an inforiver visual, you must be the report's owner and must open the report in edit mode in PowerBI.
+:::
+
+<div>
+    <Zoom>
+        <img alt="Writeback Process Flow" src={useBaseUrl('img/writeback/writeback-process-flow.png')}/>
+    </Zoom>
+    <div class="center"><p>Writeback Process Flow</p></div>
+</div>
+
+## Configure Writeback
+
+1. Select the **Export** tab from the top ribbon bar.
+1. From the **Writeback** section, select Writeback.
+
+   1. Login to configure the writeback settings by selecting **Login with Office 365**.
+   1. Once you log in, select **Export > Writeback** again and now select **Configure Writeback** for first-time configurations.
+
+  <div class="center">
+    <Zoom>
+        <img alt="Configure Writeback" src={useBaseUrl('img/writeback/configure-writeback.png')}/>
+    </Zoom>
+  </div>
+
+The Writeback configuration page will be launched from the visual. On the config page, you can edit general settings and view the writeback history logs.
+
+### General
+
+In the general section you can select the series and assign writeback permissions.
+
+<div class="center">
+    <Zoom>
+        <img alt="Writeback general settings" src={useBaseUrl('img/writeback/general-settings.png')}/>
+    </Zoom>
+    <p>Configure writeback general page</p>
+</div>
+
+  * **Select Series**: Visual series to be exported. You can either **Select All** or check to select individual series.
+  * **Permissions**: Select the user(s) who can writeback from this report. Select all users in the domain or specify certain users from the same domain.
+
+Select **Save**.
+
+### Destinations
+
+There are 4 writeback destinations supported - Database, OneDrive, SharePoint, and URL.
+The export format of the writeback for OneDrive, SharePoint, and URL is in `CSV` format.
+For destination type database, the export format is in a tabular format.
+
+Follow the sections <Link to={useBaseUrl('writeback/database')}>Database</Link> and <Link to={useBaseUrl('writeback/csv')}>CSV</Link> to configure the destinations.
+
+## Perform Writeback
+
+Once you configure the writeback settings, from the **Export** tab select **Writeback**.
+
+<div class="center">
+    <Zoom>
+        <img alt="Perform Writeback" src={useBaseUrl('img/writeback/yes-writeback.png')}/>
+    </Zoom>
+</div>
+
+In the **Confirm destinations** pop-up, select **Yes, Writeback**.
+
+<div class="center">
+    <Zoom>
+        <img alt="Writeback success" src={useBaseUrl('img/writeback/writeback-success.png')}/>
+    </Zoom>
+    <p>Writeback performed for the configured destinations</p>
+</div>
