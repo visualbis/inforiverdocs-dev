@@ -6,7 +6,6 @@ aliases:
     branches:
       only:
         - Docs
-
 version: 2
 jobs:
   deploy-website:
