@@ -7,7 +7,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/inforiver-logo.svg',
-  organizationName: 'visualbis', // Usually your GitHub org/user name.
+  organizationName: process.env.CIRCLE_PROJECT_USERNAME || "visualbis", // Usually your GitHub org/user name.
   projectName: 'inforiverdocs', // Usually your repo name.
   themeConfig: {
     navbar: {
