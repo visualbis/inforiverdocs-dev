@@ -57,6 +57,11 @@ module.exports = {
               docId: 'writeback/overview',
               label: 'Writeback',
               activeSidebarClassName: 'navbar__link--active',
+            },{
+              to: 'back/overview',
+              docId: 'back/overview',
+              label: 'Back',
+              activeSidebarClassName: 'navbar__link--active',
             },
           ]
         },

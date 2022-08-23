@@ -1,0 +1,177 @@
+---
+id: database
+title: Database
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from "@docusaurus/Link";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
+Writeback to database destination will send data to a table that is configured in this section.
+
+### Supported Databases
+
+You can currently writeback to 3 databases, namely Postgres, MySQL, and Microsoft SQL Server.
+
+### Settings
+
+For each database configuration enter the following database properties:
+
+<div class="center">
+    <Zoom>
+        <img alt="Configure Database" src={useBaseUrl('img/writeback/configure-db.png')}/>
+    </Zoom>
+    <p>Database configuration</p>
+</div>
+
+
+Following are the configuration settings available:
+
+* **Database Type**: Postgres, MySQL, or Microsoft SQL Server
+* **Host/IP**: Host or IP address of the database
+* **Port**:        Endpoint port number of the database    
+* **Username**:    Username of the database                
+* **Password**:    Password                                
+* **Database**:    Database name                           
+* **Schema**:      Database schema                         
+* **Enable SSL**:  Check to enable SSL connection          
+* **Table Name**:  Table name to insert the writeback rows  
+
+Select **Save** to save your configuration settings.
+
+### Columns created in the writeback table
+
+Following are the columns in the database export format:
+
+| Column name               | Description                                                                                                                                                                    |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ir_id                     | Primary Key : auto-increment integer.                                                                                                                                          |
+| `<Row and Column Fields>` | Dynamically generated row and column fields (hierarchies) for the visual                                                                                                       |
+| value_column_name         | All series names being used in the report                                                                                                                                      |
+| value                     | This column will have the value corresponding to the ‘value_column_name’.                                                                                                      |
+| last_updated              | When Cell editing is done for a value, this field captures the last updated date and timestamp for that value.                                                                 |
+| source                    | Represents the type of column. The column types are: 'Native', 'Visual Column', 'Visual measure', 'Static column', 'Static row', 'Calculated rows', 'Headers', and 'Comments'. |
+| ir_comments               | This column will have the Comment corresponding to the ‘Value Column Name’. Comments will be saved in JSON format.                                                             |
+| ir_writeback_user         | Name of the user who does the writeback.                                                                                                                                       |
+| ir_writeback_timestamp    | Date timestamp of the writeback.                                                                                                                                               |
+| ir_writeback_version      | Version number of the latest writeback export.                                                                                                                                 |
+### Examples
+
+The following examples show sample visual data that is used to writeback to an external database.
+
+:::note
+
+* Column Header level comments will be sent as new row with source = Headers and value_column_name = Column Name + "Column Header" (For eg: for column AC the value column name would be 'AC Column Header').
+* Row Header level comment will be sent as a new row, with source = Headers, value_column_name = Row Header.
+* Cell level comments will be part of the same row that represents the cell.
+* Comment column will be sent as new row with source= Comments and value_column_name = Comments.
+* If you alter the visual columns, you must also alter the table.
+:::
+
+### Example 1: Visual Measure column and annotations
+
+<div class="center">
+    <Zoom>
+        <img alt="Visual Measure column" src={useBaseUrl('img/writeback/visual-data1.png')}/>
+    </Zoom>
+    <p>Visual Measure column and comments</p>
+</div>
+
+* Columns 'AC' and 'PY' are native columns.
+* Column 'Ac-PY' is a visual measure column.
+* The bold row 'All' is the 'row grand total' row.
+
+The above data is written in the writeback table as shown below:
+
+<div class="center">
+    <Zoom>
+        <img alt="Visual data exported in the database" src={useBaseUrl('img/writeback/database-sample1.png')}/>
+    </Zoom>
+    <p>Visual columns and comments inserted as rows in the table.</p>
+</div>
+
+Column and comments mappings from the visual into the database:
+
+1. Column grand total value for AC = 1176100
+1. Column grand total value for PY = 1264910
+1. Column grand total value for Ac-PY = -88,810.00
+1. Sample column header comment
+1. Sample row header comment
+1. Sample cell level comment
+
+### Example 2: Calculated Row
+
+<div class="center">
+    <Zoom>
+        <img alt="Sample visual data" src={useBaseUrl('img/writeback/visual-data2.png')}/>
+    </Zoom>
+    <p>'Product 4' is a Calculated row</p>
+</div>
+
+The values for 'Product 4' is written in the writeback table with 'source' marked as 'Static Row'.
+
+<div class="center">
+    <Zoom>
+        <img alt="data exported in database" src={useBaseUrl('img/writeback/database-sample2.png')}/>
+    </Zoom>
+    <p>Calculated row inserted as a static row</p>
+</div>
+
+### Example 3: Cell editing
+
+The cell value for 'Central > AC' is edited for 'Product1'.
+
+<div class="center">
+    <Zoom>
+        <img alt="Sample visual data" src={useBaseUrl('img/writeback/visual-data3.png')}/>
+    </Zoom>
+    <p>Cell editing</p>
+</div>
+
+The above value is inserted as highlighted in the below screenshot. 
+
+<div class="center">
+    <Zoom>
+        <img alt="data exported in database" src={useBaseUrl('img/writeback/database-sample3.png')}/>
+    </Zoom>
+    <p>Edited cell inserted as a static row</p>
+</div>
+
+Note the edited date and timestamp updated in the 'last_updated' column.
+
+### Example 4: Percentage Column
+
+<div class="center">
+    <Zoom>
+        <img alt="Sample visual data" src={useBaseUrl('img/writeback/visual-data4.png')}/>
+    </Zoom>
+    <p>Percentage column</p>
+</div>
+
+Here is the writeback for the Percentage column in the writeback table:
+
+<div class="center">
+    <Zoom>
+        <img alt="data exported in database" src={useBaseUrl('img/writeback/database-sample4.png')}/>
+    </Zoom>
+    <p>Percentage columns in the database</p>
+</div>
+
+### Example 5: Row aggregation
+
+Row Aggregation applied will be written as it appears in visual.
+
+<div class="center">
+    <Zoom>
+        <img alt="Sample visual data" src={useBaseUrl('img/writeback/visual-data5.png')}/>
+    </Zoom>
+    <p>Row aggregation set as minimum</p>
+</div>
+
+<div class="center">
+    <Zoom>
+        <img alt="data exported in database" src={useBaseUrl('img/writeback/database-sample5.png')}/>
+    </Zoom>
+    <p>Row aggregation columns</p>
+</div>

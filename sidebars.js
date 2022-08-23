@@ -128,4 +128,13 @@ module.exports = {
     },
     "writeback/writeback-logs",
   ],
+  Back: [
+    {
+      type: "category",
+      label: "Writeback",
+      items: ["back/overview", "back/csv"],
+    },
+    "back/writeback-logs",
+    "back/database", 
+  ],
 };
