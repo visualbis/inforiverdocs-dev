@@ -60,19 +60,6 @@ module.exports = {
             },
           ]
         },
-        {
-          
-          label: 'Add-ons',
-          position: 'left',
-          items: [
-            {
-              to: 'writeback/overview',
-              docId: 'writeback/overview',
-              label: 'Writeback',
-              activeSidebarClassName: 'navbar__link--active',
-            },
-          ]
-        },
       ],
     },
     footer: {
