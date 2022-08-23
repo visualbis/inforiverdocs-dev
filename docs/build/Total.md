@@ -10,11 +10,11 @@ There are many options to manage totals and subtotals in the visual.
 
 With Total feature, you can do the following –
 
-- [Manage Grand Totals](/Total)
+- [Manage Grand Totals](/Setup a Navigation Layout.md)
 
-- [Manage Subtotals](/Total)
+- [Manage Subtotals](/Setup a Navigation Layout.md)
 
-- [Split subtotal from parent row](/Total)
+- [Split subtotal from parent row](/Setup a Navigation Layout.md)
 
 ## Related Links
  
