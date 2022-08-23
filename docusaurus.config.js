@@ -19,60 +19,10 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'build/build-template/ibcs',
+          docId: 'Alignment',
           position: 'left',
           label: 'Build',
-        },
-        {
-          type: 'doc',
-          docId: 'analyze/smart-analysis',
-          position: 'left',
-          label: 'Analyze'
-        },
-        {
-          type: 'doc',
-          docId: 'static/pdf',
-          position: 'left',
-          label: 'Static Reports'
-        },
-        {
-          type: 'doc',
-          docId: 'features/navigation',
-          position: 'left',
-          label: 'Features'
-        },
-        {
-          type: 'doc',
-          docId: 'licensing',
-          position: 'left',
-          label: 'Licensing'
-        },
-        {
-          
-          label: 'Add-ons',
-          position: 'left',
-          items: [
-            {
-              to: 'writeback/overview',
-              docId: 'writeback/overview',
-              label: 'Writeback',
-              activeSidebarClassName: 'navbar__link--active',
-            },
-          ]
-        },
-        {
-          
-          label: 'Add-ons',
-          position: 'left',
-          items: [
-            {
-              to: 'writeback/overview',
-              docId: 'writeback/overview',
-              label: 'Writeback',
-              activeSidebarClassName: 'navbar__link--active',
-            },
-          ]
-        },
+        }
       ],
     },
     footer: {
