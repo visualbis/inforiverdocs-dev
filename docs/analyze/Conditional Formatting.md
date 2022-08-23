@@ -35,16 +35,16 @@ Conditional Formatting can be used to highlight the important data in your visua
 Quick Rule is used to highlight the positive and negative values. By default, positive values are shown in green and negative values in red. 
 
 
-	![Highlight Negative values in a couple of clicks](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ef6245a5-59ef-4eb2-8bd7-90c951f23d6b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105451Z&X-Amz-Expires=3600&X-Amz-Signature=408fbc5d811ab92eeeb19e904d0b614f1a5f1e325f85adbc6a28e3fdfca819af&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![Highlight Negative values in a couple of clicks] 
 
 
-	![Create Quick Rule to highlight Positive and negative values ](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1f5dd123-da2e-47a4-9bf2-2b4e742e7238/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105451Z&X-Amz-Expires=3600&X-Amz-Signature=5e5f170a1049f3334cc40175aee04d6b5b82b17b5bb3827eabb56ee3c854c2e3&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![Create Quick Rule to highlight Positive and negative values ] 
 
 
 You can customize the color for the highlighted numbers
 
 
-	![Customize the conditional formatting](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cac8cf46-81ab-4652-aac2-e4017cfe31ba/Screenshot_2022-06-09_at_2.14.54_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105451Z&X-Amz-Expires=3600&X-Amz-Signature=f73327ab93cc37461ffad6006495e36376eeda0a300bad90c51507b0ed35a0ba&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![Customize the conditional formatting] 
 
 
 ## Color Scheme
@@ -53,7 +53,7 @@ You can customize the color for the highlighted numbers
 Color schemes visualize the data in a 2-dimensional format in the form of colored maps. The color maps use hue, saturation, or luminance to achieve color variation to display various details. There are different formats such as sequential, qualitative, diverging, continuous, and continuous - diverging.
 
 
-	![Highlight the values using a predefined Color Scheme](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7109c008-4e94-46b9-b4ea-bc8169f676b6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105454Z&X-Amz-Expires=3600&X-Amz-Signature=1536d0d0f471e6b53ee924e7d5cc912d331f6d104ff2cb4f308bbda391c29e13&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![Highlight the values using a predefined Color Scheme] 
 
 
 ## **Classification**
@@ -68,7 +68,7 @@ Consider a simple example.
 Click on the column 2021 plan and select the option ‘High Medium Low’ from the menu.
 
 
-	![Classify the values into different groups](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/57429a58-ea11-4d75-9486-37696f9ab27d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105454Z&X-Amz-Expires=3600&X-Amz-Signature=1338808ef718b11467b9b58ae4ecca0bff01167cee34ee50be9536e1a69acdf1&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![Classify the values into different groups]
 
 
 Conditional formatting is applied and shown in another column.
