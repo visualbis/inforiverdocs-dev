@@ -20,13 +20,13 @@ To apply these layouts to your report, simply click on **Navigation** under Home
 
 ## Related Links
 
-[link_to_page](a0de634e-bce6-438e-b171-9425c736d985)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](342d041c-9f0b-4b1f-963c-689b04d7ceb8)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](eee3d569-8a9d-45da-899a-dc1213637b0c)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](1c932615-cb70-4209-b544-8cb1622e236d)
+[link_to_page](/Setup a Navigation Layout.md)
 
 
 ## **Hierarchy Navigation**
