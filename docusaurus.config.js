@@ -19,48 +19,48 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'build/build-template/ibcs',
+          docId: 'build/Templates',
           position: 'left',
           label: 'Build',
         },
         {
           type: 'doc',
-          docId: 'analyze/smart-analysis',
+          docId: 'visual/Insert row',
+          position: 'left',
+          label: 'Visual Calculations'
+        },
+        {
+          type: 'doc',
+          docId: 'analyze/Conditional Formatting',
           position: 'left',
           label: 'Analyze'
-        },
-        {
-          type: 'doc',
-          docId: 'static/pdf',
-          position: 'left',
-          label: 'Static Reports'
-        },
-        {
-          type: 'doc',
-          docId: 'features/navigation',
-          position: 'left',
-          label: 'Features'
-        },
-        {
-          type: 'doc',
-          docId: 'licensing',
-          position: 'left',
-          label: 'Licensing'
-        },
-        {
-          
-          label: 'Add-ons',
+        },  
+        {          
+          label: 'Display',
           position: 'left',
           items: [
             {
-              to: 'writeback/overview',
-              docId: 'writeback/overview',
-              label: 'Writeback',
+              to: 'settings/backup%2Frestore-config',
+              docId: 'settings/backup%2Frestore-config',
+              label: 'Backup / Restore Config',
               activeSidebarClassName: 'navbar__link--active',
-            },{
-              to: 'back/overview',
-              docId: 'back/overview',
-              label: 'Back',
+            },
+            {
+              to: 'settings/display-settings---general',
+              docId: 'settings/display-settings---general',
+              label: 'Display Settings - General',
+              activeSidebarClassName: 'navbar__link--active',
+            },
+            {
+              to: 'settings/display-settings---hierarchy',
+              docId: 'settings/display-settings---hierarchy',
+              label: 'Display Settings - Hierarchy',
+              activeSidebarClassName: 'navbar__link--active',
+            },
+            {
+              to: 'settings/display-settings---numbers',
+              docId: 'settings/display-settings---numbers',
+              label: 'Display Settings - Numbers',
               activeSidebarClassName: 'navbar__link--active',
             },
           ]
@@ -69,7 +69,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} VisualBI, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Lumel, Inc.`,
     },
   },
   plugins: [require.resolve('docusaurus-lunr-search')],
