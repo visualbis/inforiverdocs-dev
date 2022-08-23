@@ -74,7 +74,7 @@ When Ragged hierarchy is enabled:
 
 :::tip
 
-To learn Ragged Hierarchy in more detail click [here](7ead3a4a8093452190710bf0589e61bf)
+To learn Ragged Hierarchy in more detail click [here](/Setup a Navigation Layout.md)
 
 :::
 

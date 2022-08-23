@@ -92,7 +92,7 @@ The features of Drilldown Navigation are –
 
 :::tip
 
-**Note:** Check the Display Settings for Navigation Layout [here](3b103cd8025f4b5994049e6508020396).
+**Note:** Check the Display Settings for Navigation Layout [here](/Setup a Navigation Layout.md).
 
 :::
 

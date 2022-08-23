@@ -45,10 +45,10 @@ Refer to the other number settings [here](/Display Settings - Numbers.md).
 
 Different kinds of formats are –
 
-- [Uniform](1ee72b10702d430b8b6a4ee3b315a302#bd5e9855ff164ad3a343875cd01216ad)
-- [Measure Level](1ee72b10702d430b8b6a4ee3b315a302#624b4206e0904c69a374ac2dd656af72)
-- [Auto](1ee72b10702d430b8b6a4ee3b315a302#2e231b82381346e19e22d2f4bda2cfd1)
-- [Native](1ee72b10702d430b8b6a4ee3b315a302#054841f8e5ea43c2a1db093e541e409d)
+- [Uniform](/Setup a Navigation Layout.md)
+- [Measure Level](/Setup a Navigation Layout.md)
+- [Auto](/Setup a Navigation Layout.md)
+- [Native](/Setup a Navigation Layout.md)
 
 ### 1. **Uniform**
 
@@ -188,7 +188,7 @@ To apply percent style, follow these steps –
 
 For example, lets calculate gross margin % in Inforiver.
 
-- Insert a calculated row and enter this formula ([See Insert Row](3834259f8c974cbb9a6f916294afae67))
+- Insert a calculated row and enter this formula ([See Insert Row](/Setup a Navigation Layout.md))
 
 	Gross Margin % = (Net Revenue - Cost of goods sold)/ Net Revenue.
 

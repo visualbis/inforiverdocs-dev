@@ -8,9 +8,9 @@ slug: filter-and-search
 
 When there is a report which has a huge number of records, filter and search options are particularly very useful. This section covers how to do the following in the visual:
 
-1. [Filter](7f7a694f8844455c86864594b55ef0a2#f1ef62366eaf4d62862d8da13c26b338)
+1. [Filter](/Setup a Navigation Layout.md)
 
-2. [Search](7f7a694f8844455c86864594b55ef0a2#dc2ae3d247da4d14986cb7395097edca)
+2. [Search](/Setup a Navigation Layout.md)
 
 ## **Filter**
 

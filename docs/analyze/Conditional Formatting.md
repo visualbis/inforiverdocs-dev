@@ -77,7 +77,7 @@ Conditional formatting is applied and shown in another column.
 ![New column with the classification added to visual](/img/539253738.png)
 
 
-We will be covering the menu on the right side and classification ranges in detail in the [next section.](7e5c1206793c4c00a604f9b2f865d452#32c180919bb7407a8aae7b440520d7cf)
+We will be covering the menu on the right side and classification ranges in detail in the [next section.](/Setup a Navigation Layout.md)
 
 
 ## **Create Rule**

@@ -8,9 +8,9 @@ slug: backup%2Frestore-config
 
 Import or export the custom visual configuration data as a JSON file. A JSON file provides granular-level customizations that can be easily shared and imported into a new visual. Using the export/import custom configuration options, you can standardize the reports and charts formats and visual configurations across all reports using Inforiver visual. This section will cover how to:
 
-1. [Backup Report Configs](59befd3dbf2f41d297dc0e6801f54f74#ef708fb154e24b8da9e7dca7b8d1866c)
+1. [Backup Report Configs](/Setup a Navigation Layout.md)
 
-2. [Restore Report Configs](59befd3dbf2f41d297dc0e6801f54f74#1328bd51daf7443dbea4af782ccfa6e9)
+2. [Restore Report Configs](/Setup a Navigation Layout.md)
 
 ## Backup Report Config
 
