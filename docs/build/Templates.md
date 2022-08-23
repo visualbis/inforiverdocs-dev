@@ -30,15 +30,15 @@ The different templates available in Inforiver are:
 
 ## Related Links
 
-[link_to_page](d145a029-eeec-4b13-a7db-7195256ad5d3)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](10727ca6-05ef-4a57-b098-e3f6cd831a6d)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](6007742f-b080-4a1d-b0d0-0e1c720e3c0a)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](63c7c0b3-fef1-492d-9631-fe5ba401cb56)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](94479a2c-5d48-466c-ad8b-259dc231f35e)
+[link_to_page](/Setup a Navigation Layout.md)
 
 
 To apply any one of the templates, follow these steps –

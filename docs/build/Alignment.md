@@ -20,17 +20,17 @@ Cell alignment is a key feature when giving your table a more organized and cons
 
 ## Related Links
 
-[link_to_page](a01d2d58-e5cd-4fe9-9c05-6b3daec7be1d)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](94479a2c-5d48-466c-ad8b-259dc231f35e)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](ab7d3ffb-a2f1-4097-9636-b8a03b42c43c)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](63c7c0b3-fef1-492d-9631-fe5ba401cb56)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](2b248bf2-4ac5-485e-9fb7-dd433b0d1e67)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](a0de634e-bce6-438e-b171-9425c736d985)
+[link_to_page](/Setup a Navigation Layout.md)
 
 
 ## **Alignment** 

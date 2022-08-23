@@ -8,15 +8,15 @@ slug: conditional-formatting
 
 Conditional Formatting can be used to highlight the important data in your visual. This feature can be used to spot trends of different kinds. This section will cover the following:
 
-- [Quick Rule](7e5c1206793c4c00a604f9b2f865d452#5d85af1b4c854ad98cc6cdf694485889)
+- [Quick Rule](/Setup a Navigation Layout.md)
 
 - Color Scheme
 
-- [Classification](7e5c1206793c4c00a604f9b2f865d452#24e32a9497134550b9f248325a577f47)
+- [Classification](/Setup a Navigation Layout.md)
 
-- [Create Rule](7e5c1206793c4c00a604f9b2f865d452#59929cdcb4b1447eb0bb3a0a8f1c1c75)
+- [Create Rule](/Setup a Navigation Layout.md)
 
-- [Manage Rules](7e5c1206793c4c00a604f9b2f865d452#5752d7186fc5490c8193fd830fdd1ec7)
+- [Manage Rules](/Setup a Navigation Layout.md)
 
 ## Related Links
 

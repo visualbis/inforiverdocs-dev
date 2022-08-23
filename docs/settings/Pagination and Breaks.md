@@ -8,11 +8,11 @@ slug: pagination-and-breaks
 
 This section will cover the following
 
-- [Pagination](afe1b0fc179c4e4d983f95b2a52c34f6#51da9207bfe145968bcd2e017998aad9)
+- [Pagination](/Setup a Navigation Layout.md)
 
-- [Page Breaks](afe1b0fc179c4e4d983f95b2a52c34f6#cd717ea041734ee4a435c209b4c8671c)
+- [Page Breaks](/Setup a Navigation Layout.md)
 
-- [Section Breaks](afe1b0fc179c4e4d983f95b2a52c34f6#5371fc723f074c64a7645aa57e31d94b)
+- [Section Breaks](/Setup a Navigation Layout.md)
 
 ## **Pagination**
 

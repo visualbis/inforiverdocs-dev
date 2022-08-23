@@ -27,15 +27,15 @@ Refer to the other number settings [here](/Display Settings - Numbers.md).
 
 ## Related Links
 
-[link_to_page](4b3343d0-262b-4912-abd0-8d22e7c21345)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](f1e02aa7-532f-4494-8c9e-e2bc58741c32)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](4a01643f-a74f-4d1a-9495-087fbbd8355a)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](2b248bf2-4ac5-485e-9fb7-dd433b0d1e67)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](a0de634e-bce6-438e-b171-9425c736d985)
+[link_to_page](/Setup a Navigation Layout.md)
 
 
 

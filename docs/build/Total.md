@@ -18,13 +18,13 @@ With Total feature, you can do the following –
 
 ## Related Links
 
-[link_to_page](8294148d-1c9a-40d7-9af6-1544a11da9c2)
+[link_to_page](/Setup a Navigation Layout.md)
 
 
 
-[link_to_page](2b11e4cf-61eb-47bd-b65e-f24b4699db3f)
+[link_to_page](/Setup a Navigation Layout.md)
 
-[link_to_page](1c932615-cb70-4209-b544-8cb1622e236d)
+[link_to_page](/Setup a Navigation Layout.md)
 
 
 

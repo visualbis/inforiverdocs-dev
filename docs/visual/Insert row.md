@@ -10,13 +10,13 @@ Insert rows at any required position and either input values or calculate values
 
 The following are the different types of rows that can be inserted into the visual:
 
-- [Calculated Row](8f9d5dcd851c438d89b8cb07ed69c05f#56cdf307f4e04585b46c65c84c676070)
+- [Calculated Row](/Setup a Navigation Layout.md)
 
-- [% Contribution Row](8f9d5dcd851c438d89b8cb07ed69c05f#9ca7ea5bca9b438693b8cb8ce40adc43)
+- [% Contribution Row](/Setup a Navigation Layout.md)
 
-- [Template Row](8f9d5dcd851c438d89b8cb07ed69c05f#a1670547084a4f3590ca84e847aef193)
+- [Template Row](/Setup a Navigation Layout.md)
 
-- [Static Row](8f9d5dcd851c438d89b8cb07ed69c05f#de53422bf02f4f17a6358532a3eaa023)
+- [Static Row](/Setup a Navigation Layout.md)
 
 This section also covers how to:
 
