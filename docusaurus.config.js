@@ -13,7 +13,7 @@ module.exports = {
     navbar: {
       hideOnScroll: true,
       logo: {
-        alt: 'Inforiver Documentation',
+        alt: 'Inforiver Docs',
         src: 'img/inforiver-logo.svg',
       },
       items: [
