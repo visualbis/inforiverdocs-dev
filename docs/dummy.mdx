@@ -3,19 +3,22 @@ id: dummy
 slug: /
 ---
 
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from "@docusaurus/Link";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+import ReactPlayer from 'react-player'
+
 # Inforiver Guide 
 # Help Center
 
 Inforiver delivers the best of both worlds – spreadsheets & standardized BI reporting and visualizations – through a low-code / no-code architecture. Rapidly build dynamic and interactive formatted reports & financial statements with quick launch templates, on-the-fly configurations and visual calculations and collaborations.
 
-<aside>
-<img src="img/root/Rectangle_14110.svg" alt="img/root/Rectangle_14110.svg" width="40px" /> **  →**
-
-</aside>
 
 [View Website](https://inforiver.com)
 
-[Demo](https://www.youtube.com/watch?v=KsKeozY0mmk)
+<ReactPlayer playing controls url='https://www.youtube.com/watch?v=KsKeozY0mmk' /> 
+
 
 # **🛠**
 
@@ -127,6 +130,15 @@ FAQ
     
     The entire visual data can be exported to Excel using the Premium Edition. Premium Edition supports Export to PDF as well.
     
+
+<div class="center">
+    <Zoom>
+        <img
+        alt="Insert Column"
+        src={useBaseUrl('img/inforiver-logo.svg')}
+        />
+    </Zoom> 
+</div>
 
 ---
 
