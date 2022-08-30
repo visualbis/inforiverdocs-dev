@@ -5,95 +5,96 @@ slug: setup-a-navigation-layout
 ---
 
 
+# Setup a Navigation Layout
 
 The four types of navigation layout define the layout of the data in the visual: 
 
-- [Hierarchy](/Setup a Navigation Layout.md)
-
-- [Table](/Setup a Navigation Layout.md)
-
-- [Stepped](/Setup a Navigation Layout.md)
-
-- [Drilldown](/Setup a Navigation Layout.md)
+- [Hierarchy](https://www.notion.so/Setup-a-Navigation-Layout-9b500e4b6d194df9a92d8f3342ff9b89)
+- [Table](https://www.notion.so/Setup-a-Navigation-Layout-9b500e4b6d194df9a92d8f3342ff9b89)
+- [Stepped](https://www.notion.so/Setup-a-Navigation-Layout-9b500e4b6d194df9a92d8f3342ff9b89)
+- [Drilldown](https://www.notion.so/Setup-a-Navigation-Layout-9b500e4b6d194df9a92d8f3342ff9b89)
 
 To apply these layouts to your report, simply click on **Navigation** under Home tab and click on the navigation type of your choice.
 
+![Navigation Layout types](/img/build/Navigation/Navigationlayout1.jpg)
+
+Navigation Layout types
+
 ## Related Links
 
-[link_to_page](/Setup a Navigation Layout.md)
+[Templates](https://www.notion.so/Templates-f25f8d37d8894988adffbd5b5c1f07ae)
 
-[link_to_page](/Setup a Navigation Layout.md)
+[Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-ffca8d1bc565430a83a1ff78e4424e4a)
 
-[link_to_page](/Setup a Navigation Layout.md)
+[Number Formatting](https://www.notion.so/Number-Formatting-3d83839bb31047b89466086c07fc0071)
 
-[link_to_page](/Setup a Navigation Layout.md)
-
+[Pagination and Breaks](https://www.notion.so/Pagination-and-Breaks-492f09c83dce4701a3bfc14c46941c4e)
 
 ## **Hierarchy Navigation**
-
 
 The features of this navigation layout are –
 
 - The subcategories lie beneath the parent in the same column
 - Parent row is highlighted with bold text and a larger row height. Check Display and Style to customize it.
 - Subtotals appear in the parent row. Check Total to manage these subtotals.
+    
+    An example of report with Hierarchy Navigation is given below:
+    
+    ![Hierarchy Navigation Layout](/img/build/Navigation/Navigationlayout2.png)
 
-	An example of report with Hierarchy Navigation is given below:
-
-
-	![Hierarchy Navigation Layout](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f3a916e1-d666-4d00-b1a7-ff777cacbe0e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105347Z&X-Amz-Expires=3600&X-Amz-Signature=3979905b372cfa7096fc995c5fc4b464f9264790b26f25e2a18cf49cb9986ef0&X-Amz-SignedHeaders=host&x-id=GetObject)
-
+    Hierarchy Navigation Layout
+    
 
 ## **Table Navigation**
-
 
 The features of Table Navigation are –
 
 - It displays data in a tabular format
 - It shows the headers of all row categories
 - There is no subtotal row in this layout
+    
+    An example of a report with Table Navigation is given below:
+    
+    ![Table Navigation Layout](/img/build/Navigation/Navigationlayout3.png)
 
-	An example of a report with Table Navigation is given below:
-
-
-	![Table Navigation Layout](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/60e18197-5123-40dd-a615-9fb8d810bbde/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105347Z&X-Amz-Expires=3600&X-Amz-Signature=347fdd18d24c0fa35944c9dd9e76d6c37bb47ee4821d65b8740d7a425e91489e&X-Amz-SignedHeaders=host&x-id=GetObject)
-
+    Table Navigation Layout
+    
 
 ## Stepped Navigation
-
 
 The features of Stepped Navigation are –
 
 - It is a combination of table layout with expand/ collapse
 - On expansion, the subcategories move to separate columns and values are displayed accordingly
+    
+    An example of a report with Stepped Navigation is given below:
+    
+    ![Stepped Navigation Layout](/img/build/Navigation/Navigationlayout4.png)
 
-	An example of a report with Stepped Navigation is given below:
-
-
-	![Stepped Navigation Layout](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b9844153-f388-41a3-a4ce-ae6c940a4ea5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105347Z&X-Amz-Expires=3600&X-Amz-Signature=cf186bcd1cdb849ac4b67b450960bcfe45ed6a8c2ee444935e95ff7accc00c10&X-Amz-SignedHeaders=host&x-id=GetObject)
-
+    
+    Stepped Navigation Layout
+    
 
 ## Drilldown Navigation
-
 
 The features of Drilldown Navigation are –
 
 - Parent row displays the number of children
 - On clicking a specific row, it will drill down to its lower level. And hides the other rows.
+    
+    An example of the report using drill down navigation is shown below:
+    
+    ![Drilldown Navigation Layout](/img/build/Navigation/Navigationlayout5.png)
 
-	An example of the report using drill down navigation is shown below:
+    
+    Drilldown Navigation Layout
+    
+    ![Drilldown on International shows 2 Children](/img/build/Navigation/Navigationlayout6.png)
 
+    Drilldown on International shows 2 Children
+    
 
-	![Drilldown Navigation Layout](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/575eec49-35af-4bb3-b4d7-1e17785cf0c5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105348Z&X-Amz-Expires=3600&X-Amz-Signature=206f9676d5bb9a39f997bb4aa83c46b2161437b30624b96712740d5d1184f9a8&X-Amz-SignedHeaders=host&x-id=GetObject)
+<aside>
+💡 **Note:** Check the Display Settings for Navigation Layout [here](https://www.notion.so/Display-Settings-Hierarchy-3b103cd8025f4b5994049e6508020396).
 
-
-	![Drilldown on International shows 2 Children](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bc230b23-128d-4e7d-8b5b-141c5a190133/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105348Z&X-Amz-Expires=3600&X-Amz-Signature=2aafe14771e5e15529638579780f461d2a0dfbb1f7bdec5e73880738928e9a36&X-Amz-SignedHeaders=host&x-id=GetObject)
-
-
-:::tip
-
-**Note:** Check the Display Settings for Navigation Layout [here](/Setup a Navigation Layout.md).
-
-:::
-
-
+</aside>

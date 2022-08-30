@@ -20,9 +20,11 @@ module.exports = {
         "build/Alignment",
         "build/Number Formatting",
         "build/Setup a Navigation Layout",
+        "build/Style",
       ],
     },
     "build/Templates",
+    "build/Show and hide",
     "build/Total",
   ],
   Visual: [
