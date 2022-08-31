@@ -13,7 +13,7 @@ To **hide row/column/cell** follow these steps –
 - Select the row/column/cell you want to hide
 - In the **Home** tab, under Style, click on Show/Hide icon
     
-    ![Click on eye icon to hide](/img/build/image1.png)
+    ![Click on eye icon to hide](/img/build/image-1.png)
 
 
     
