@@ -4,8 +4,6 @@ sidebar_position: 14
 slug: backup%2Frestore-config
 ---
 
-
-
 Import or export the custom visual configuration data as a JSON file. A JSON file provides granular-level customizations that can be easily shared and imported into a new visual. Using the export/import custom configuration options, you can standardize the reports and charts formats and visual configurations across all reports using Inforiver visual. This section will cover how to:
 
 1. [Backup Report Configs](/Setup a Navigation Layout.md)
@@ -16,57 +14,57 @@ Import or export the custom visual configuration data as a JSON file. A JSON fil
 
 :::tip
 
-**Note:** Available only in Power BI Services.
+💡 **Note:** Available only in Power BI Services.
 
 :::
-
-
 - Select the **Export** tab on the toolbar and select **Config**.
 
-![Config drop-down menu list](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec8e03d0-0195-4858-a69f-ceaddc3dfce9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105532Z&X-Amz-Expires=3600&X-Amz-Signature=7298da5df5c7adbaa7568945083e5c14b87b751a57f8e3268cfed39c0bd683b7&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Config drop-down menu list](/img/Setting/Backup/backup1.png)
+
+Config drop-down menu list
 
 ## Related Links
 
+[Style, Colors, Borders](https://www.notion.so/Style-Colors-Borders-01f324e80d53439e8e0e834939833e24)
 
+[Number Formatting](https://www.notion.so/Number-Formatting-1ee72b10702d430b8b6a4ee3b315a302)
 
+[Alignment](https://www.notion.so/Alignment-43437a8a0e0643689f6a589971252d89)
 
+[Templates](https://www.notion.so/Templates-3989d8878347402d8111ccc7374c6001)
 
+[Show and Hide](https://www.notion.so/Show-and-Hide-9a90d2c89afa41b582204a5802de1e4e)
 
-
-
-
-
-
-
+[Conditional Formatting](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
 
 - Select **Backup Report Config** to backup configurations such as color, navigation, scaling, number format, conditional formatting, and templates.
 - Right Click on the the `.json` file name and select **Save Link As** option.
+    
+    ![Export Config dialog box](/img/Setting/Backup/backup2.png)
 
-	![Export Config dialog box](https://divyabhushan.github.io/inforiverdocs/img/export/export-config.png)
-
+    Export Config dialog box
+    
 - Navigate to your desired storage location and select **Save**.
 - Your visual data will be downloaded in a `json` format which can be used in other reports through Import Config.
 
 ## Restore Report Configurations
 
-
 To import and apply custom configurations from an exported file:
 
 - From the **Export** tab on the toolbar, select **Config**.
 
-	![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/942e78b7-9a67-4326-97d8-0d1d53d7cd44/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105533Z&X-Amz-Expires=3600&X-Amz-Signature=a10cc781f16592fdf7d3c496a42b703638269c6ae00a7f4018bda0347abd027a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled](/img/Setting/Backup/backup3.png)
 
 - Select **Restore Report Config** from the drop down menu bar.
-
-	![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2e449343-2e61-4631-af29-5ddc875968b2/Screenshot_2022-06-21_at_3.07.46_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105533Z&X-Amz-Expires=3600&X-Amz-Signature=2129af8d721cb3667ba810e9f531088e994e7db2c1faa61669fce1f5113962b5&X-Amz-SignedHeaders=host&x-id=GetObject)
-
+    
+    ![Screenshot 2022-06-21 at 3.07.46 PM.png](/img/Setting/Backup/backup4.png)
+    
 - Select **Upload** and navigate to the location of the exported config file.
 - Select the `JSON` format exported file and select **Open**.
 - Click Yes after confirmation. this action cannot be undone.
 
-	![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/51a423a8-6670-4594-91e8-6b84f545d8d7/Screenshot_2022-06-21_at_3.12.57_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T105533Z&X-Amz-Expires=3600&X-Amz-Signature=fb394062276477eb4c2de9f10bb89b40417546d8d1ef1868893cb5ce13a6181b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Screenshot 2022-06-21 at 3.12.57 PM.png](/img/Setting/Backup/backup5.png)
 
 - Select **Yes** to confirm importing the config file.
 
 Your visual will be now updated with the data configurations from the exported file.
-
