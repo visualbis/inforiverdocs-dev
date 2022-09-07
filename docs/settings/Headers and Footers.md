@@ -18,7 +18,7 @@ Default Header
 
 [Filter and Search](https://www.notion.so/Filter-and-Search-7f7a694f8844455c86864594b55ef0a2)
 
-[Setup a Navigation Layout](https://www.notion.so/Setup-a-Navigation-Layout-45ed337fa8074287841e1ec17ed0b694)
+[Setup a Navigation Layout](http://localhost:3000/build/setup-a-navigation-layout)
 
 This header can be customized as needed by:
 

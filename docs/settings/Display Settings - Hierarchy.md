@@ -20,7 +20,7 @@ Follow below steps to view and set the custom settings to hierarchy.
 
 [Display Settings - General](https://www.notion.so/Display-Settings-General-b182c541541a44aa8720a734b3dc9c45)
 
-[Alignment](https://www.notion.so/Alignment-43437a8a0e0643689f6a589971252d89)
+[Alignment](http://localhost:3000/build/alignment)
 
 [Setup a Navigation Layout](https://www.notion.so/Setup-a-Navigation-Layout-45ed337fa8074287841e1ec17ed0b694)
 

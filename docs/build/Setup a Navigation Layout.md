@@ -21,12 +21,11 @@ To apply these layouts to your report, simply click on **Navigation** under Home
 Navigation Layout types
 
 ## Related Links
-
-[Templates](https://www.notion.so/Templates-f25f8d37d8894988adffbd5b5c1f07ae)
+[Template](http://localhost:3000/build/Template)
 
 [Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-ffca8d1bc565430a83a1ff78e4424e4a)
 
-[Number Formatting](https://www.notion.so/Number-Formatting-3d83839bb31047b89466086c07fc0071)
+[Number Formatting](http://localhost:3000/build/number-formatting)
 
 [Pagination and Breaks](https://www.notion.so/Pagination-and-Breaks-492f09c83dce4701a3bfc14c46941c4e)
 

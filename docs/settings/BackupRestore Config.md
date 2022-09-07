@@ -25,17 +25,17 @@ Config drop-down menu list
 
 ## Related Links
 
-[Style, Colors, Borders](https://www.notion.so/Style-Colors-Borders-01f324e80d53439e8e0e834939833e24)
+[Style, Colors, Borders](http://localhost:3000/build/Style,color,border)
 
-[Number Formatting](https://www.notion.so/Number-Formatting-1ee72b10702d430b8b6a4ee3b315a302)
+[Number Formatting](http://localhost:3000/build/number-formatting)
 
-[Alignment](https://www.notion.so/Alignment-43437a8a0e0643689f6a589971252d89)
+[Alignment](http://localhost:3000/build/alignment)
 
-[Templates](https://www.notion.so/Templates-3989d8878347402d8111ccc7374c6001)
+[Templates](http://localhost:3000/build/Template)
 
-[Show and Hide](https://www.notion.so/Show-and-Hide-9a90d2c89afa41b582204a5802de1e4e)
+[Show and Hide](http://localhost:3000/build/showandhide)
 
-[Conditional Formatting](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
+[Conditional Formatting](http://localhost:3000/analyze/conditional-formatting)
 
 - Select **Backup Report Config** to backup configurations such as color, navigation, scaling, number format, conditional formatting, and templates.
 - Right Click on the the `.json` file name and select **Save Link As** option.

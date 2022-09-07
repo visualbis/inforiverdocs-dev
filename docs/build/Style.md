@@ -116,11 +116,11 @@ Format painter to copy the cell formatting
 
 [Display Settings - General](https://www.notion.so/Display-Settings-General-a4862ce842154969b1f56f39f7c3af2b)
 
-[Number Formatting](https://www.notion.so/Number-Formatting-3d83839bb31047b89466086c07fc0071)
+[Number Formatting](http://localhost:3000/build/number-formatting)
 
-[Alignment](https://www.notion.so/Alignment-4891271978c945adb0bec3a4ce40059c)
+[Alignment](http://localhost:3000/build/alignment)
 
-[Conditional Formatting](https://www.notion.so/Conditional-Formatting-5099b83131484cdeaac334914bc869af)
+[Conditional Formatting](http://localhost:3000/analyze/conditional-formatting)
 
 [Headers and Footers](https://www.notion.so/Headers-and-Footers-2fd661e108b341a0862321d3262b1ff7)
 
