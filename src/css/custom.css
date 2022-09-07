@@ -65,6 +65,15 @@ code {
   width: 100%;
 }
 
+.left img {
+  width: 250px;
+}
+
+table{
+  width:100%;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
 .center img {
   width: 750px;
 }
