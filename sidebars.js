@@ -21,6 +21,9 @@ module.exports = {
         "build/Number Formatting",
         "build/Setup a Navigation Layout",
         "build/Style",
+        "build/Manage Column",
+        "build/Group",
+        "build/Annotate with Notes",
       ],
     },
     "build/Templates",
@@ -38,10 +41,13 @@ module.exports = {
     },
     "visual/formula-list",
     "visual/Insert Column and Insert Measures",
+    "visual/Edit Cell",
   ],
   Analyze: [
     "analyze/Conditional Formatting",
     "analyze/Filter and Search",
+    "analyze/Smart Analysis",
+    "analyze/Top N",
   ],
   Settings: [
     {
