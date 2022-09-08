@@ -24,7 +24,7 @@ The different templates available in Inforiver are:
 
 [Insert row](https://www.notion.so/Insert-row-dcd3a40f5bbb4e51b840258bedd74610)
 
-[Setup a Navigation Layout](http://localhost:3000/build/setup-a-navigation-layout)
+[Setup a Navigation Layout](build/setup-a-navigation-layout)
 
 [Annotate with Notes](https://www.notion.so/Annotate-with-Notes-4ea8b9925cfe440caa282e589a8bb4f7)
 
