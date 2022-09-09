@@ -25,17 +25,17 @@ Config drop-down menu list
 
 ## Related Links
 
-[Style, Colors, Borders](http://localhost:3000/build/Style,color,border)
+[Style, Colors, Borders](build/Style,color,border)
 
-[Number Formatting](http://localhost:3000/build/number-formatting)
+[Number Formatting](build/number-formatting)
 
-[Alignment](http://localhost:3000/build/alignment)
+[Alignment](build/alignment)
 
-[Templates](http://localhost:3000/build/Template)
+[Templates](build/Template)
 
-[Show and Hide](http://localhost:3000/build/showandhide)
+[Show and Hide](build/showandhide)
 
-[Conditional Formatting](http://localhost:3000/analyze/conditional-formatting)
+[Conditional Formatting](analyze/conditional-formatting)
 
 - Select **Backup Report Config** to backup configurations such as color, navigation, scaling, number format, conditional formatting, and templates.
 - Right Click on the the `.json` file name and select **Save Link As** option.

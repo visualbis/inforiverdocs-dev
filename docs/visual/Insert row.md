@@ -61,8 +61,7 @@ Lets consider the example of calculating Gross Margin % from Gross Profit and Ne
     ![Insert Row side panel](/img/VisualCalculations/InsertRow/row3.png)
     
     Insert Row side panel
-    
-    [Screen Recording 2022-06-17 at 5.30.34 PM.mov](Insert%20row%20e796c11b4a3841c79120e64d5e84d8c5/Screen_Recording_2022-06-17_at_5.30.34_PM.mov)
+     
     
 
 - To view the list of inserted rows, select the **Manage** tab in the Row. Tab opens in the right corner.

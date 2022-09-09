@@ -27,7 +27,7 @@ Follow below steps to view and set the custom settings to Numbers.
 
 [Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-3b103cd8025f4b5994049e6508020396)
 
-[Number Formatting](http://localhost:3000/build/number-formatting)
+[Number Formatting](build/number-formatting)
 
 [Manage Columns](https://www.notion.so/Manage-Columns-bdd18023402a4567b5dbf0fbea542c4c)
 

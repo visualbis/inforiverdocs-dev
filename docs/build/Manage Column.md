@@ -45,6 +45,6 @@ From the dropdown on Manage Columns, the following can be done:
 
 [](https://www.notion.so/bc6aae5e44374d78aa5d0a5c81844c72)
 
-[Show and Hide](http://localhost:3000/build/showandhide)
+[Show and Hide](build/showandhide)
 
 [Display Settings - General](https://www.notion.so/Display-Settings-General-a4862ce842154969b1f56f39f7c3af2b)

@@ -27,7 +27,7 @@ Inforiver allows formatting numbers/measures for the entire visual, cell, row or
 
 [Backup/Restore Config](https://www.notion.so/Backup-Restore-Config-926d1fd123fb41b899c1ff92faa1fae2)
 
-[Templates]http://localhost:3000/build/Template
+[Templates](build/Template)
 
 ## **Quick Format**
 
