@@ -21,7 +21,7 @@ Inforiver allows formatting numbers/measures for the entire visual, cell, row or
 
 [Display Settings - Numbers](https://www.notion.so/Display-Settings-Numbers-9f86d6dc36314a14a1dd05d3c21ce174)
 
-[Total](https://www.notion.so/Total-1a2be9ea783341faa8209e5c1d9a1d98)
+[Total](http://localhost:3000/build/Total)
 
 [Edit Cell](https://www.notion.so/Edit-Cell-d0e4f71e51084a73b52666b6b306ee81)
 

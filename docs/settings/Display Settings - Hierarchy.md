@@ -24,7 +24,7 @@ Follow below steps to view and set the custom settings to hierarchy.
 
 [Setup a Navigation Layout](https://www.notion.so/Setup-a-Navigation-Layout-45ed337fa8074287841e1ec17ed0b694)
 
-[Total](https://www.notion.so/Total-1e7a1947efa04bbb92342daf9f8c437d)
+[Total](http://localhost:3000/build/Total)
 
 - And then go to Hierarchy Tab.
     

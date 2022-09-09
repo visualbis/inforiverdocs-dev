@@ -25,7 +25,7 @@ In the **Home** tab, under **Action** click on the **Display (settings)** icon a
 
 [Manage Columns](https://www.notion.so/Manage-Columns-bdd18023402a4567b5dbf0fbea542c4c)
 
-[Total](https://www.notion.so/Total-1e7a1947efa04bbb92342daf9f8c437d)
+[Total](http://localhost:3000/build/Total)
 
 You can select Light theme or dark theme as per your choice from the toolbar option. 
 

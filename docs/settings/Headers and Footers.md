@@ -14,7 +14,7 @@ Default Header
 
 ## Related Links
 
-[Total](https://www.notion.so/Total-1e7a1947efa04bbb92342daf9f8c437d)
+[Total](http://localhost:3000/build/Total)
 
 [Filter and Search](https://www.notion.so/Filter-and-Search-7f7a694f8844455c86864594b55ef0a2)
 

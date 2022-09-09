@@ -4,7 +4,7 @@ There are many options to manage totals and subtotals in the visual.
 
 With Total feature, you can do the following –
 
-- [Manage Grand Totals](https://www.notion.so/Total-1a2be9ea783341faa8209e5c1d9a1d98)
+- [Manage Grand Totals](http://localhost:3000/build/Total)
 - [Manage Subtotals](https://www.notion.so/Total-1a2be9ea783341faa8209e5c1d9a1d98)
 - [Split subtotal from parent row](https://www.notion.so/Total-1a2be9ea783341faa8209e5c1d9a1d98)
 
