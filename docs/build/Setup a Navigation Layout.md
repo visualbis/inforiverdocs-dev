@@ -25,9 +25,9 @@ Navigation Layout types
 
 [Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-ffca8d1bc565430a83a1ff78e4424e4a)
 
-[Number Formatting](https://matrix-docs-dev.inforiver.com/build/number-formatting)
+[Number Formatting](build/number-formatting)
 
-[Pagination and Breaks](https://matrix-docs-dev.inforiver.com/settings/pagination-and-breaks)
+[Pagination and Breaks](settings/pagination-and-breaks)
 
 ## **Hierarchy Navigation**
 

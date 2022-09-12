@@ -29,7 +29,7 @@ Follow the below steps to apply the filter.
 
 [Top N](https://www.notion.so/Top-N-302f514b31dc48ec97466a846fd67807)
 
-[Group](https://matrix-docs-dev.inforiver.com/build/Group)
+[Group](build/Group)
 
 [Annotate with Notes](https://www.notion.so/Annotate-with-Notes-edc8ec91ba1c4ed79029775c470b0176)
 

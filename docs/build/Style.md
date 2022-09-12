@@ -114,16 +114,16 @@ Format painter to copy the cell formatting
 
 ## Related Links
 
-[Display Settings - General](https://matrix-docs-dev.inforiver.com/settings/display-settings---general/)
+[Display Settings - General](settings/display-settings---general/)
 
-[Number Formatting](https://matrix-docs-dev.inforiver.com/build/number-formatting)
+[Number Formatting](build/number-formatting)
 
-[Alignment](https://matrix-docs-dev.inforiver.com/build/alignment)
+[Alignment](build/alignment)
 
-[Conditional Formatting](https://matrix-docs-dev.inforiver.com/analyze/conditional-formatting)
+[Conditional Formatting](analyze/conditional-formatting)
 
-[Headers and Footers](https://matrix-docs-dev.inforiver.com/settings/headers-and-footers)
+[Headers and Footers](settings/headers-and-footers)
 
 [Backup/Restore Config](https://www.notion.so/Backup-Restore-Config-926d1fd123fb41b899c1ff92faa1fae2)
 
-[Templates](https://matrix-docs-dev.inforiver.com/build/Template)
+[Templates](build/Template)

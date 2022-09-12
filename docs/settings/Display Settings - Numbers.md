@@ -23,13 +23,13 @@ Follow below steps to view and set the custom settings to Numbers.
 
 ## Related Links
 
-[Display Settings - General](https://matrix-docs-dev.inforiver.com/settings/display-settings---general/)
+[Display Settings - General](settings/display-settings---general/)
 
 [Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-3b103cd8025f4b5994049e6508020396)
 
-[Number Formatting](https://matrix-docs-dev.inforiver.com/build/number-formatting)
+[Number Formatting](build/number-formatting)
 
-[Manage Columns](https://matrix-docs-dev.inforiver.com/build/Managecolumn)
+[Manage Columns](build/Managecolumn)
 
 [Toggle Sign](https://www.notion.so/Toggle-Sign-7162aaf3d14348f9af5fb942ee0fc73e)
 
@@ -41,7 +41,7 @@ Enable to all total, gross values on the top of the table
 
 ![Screenshot 2022-06-23 at 1.58.50 PM.png](/img/Setting/Number/number3.png)
 
-![Show values on the top](https://matrix-docs-dev.inforiver.com/build/showandhide)
+![Show values on the top](build/showandhide)
 
 Show values on the top
 

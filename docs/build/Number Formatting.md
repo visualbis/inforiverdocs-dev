@@ -21,13 +21,13 @@ Inforiver allows formatting numbers/measures for the entire visual, cell, row or
 
 [Display Settings - Numbers](https://www.notion.so/Display-Settings-Numbers-9f86d6dc36314a14a1dd05d3c21ce174)
 
-[Total](https://matrix-docs-dev.inforiver.com/build/Total)
+[Total](build/Total)
 
 [Edit Cell](https://www.notion.so/Edit-Cell-d0e4f71e51084a73b52666b6b306ee81)
 
 [Backup/Restore Config](https://www.notion.so/Backup-Restore-Config-926d1fd123fb41b899c1ff92faa1fae2)
 
-[Templates](https://matrix-docs-dev.inforiver.com/build/Template)
+[Templates](build/Template)
 
 ## **Quick Format**
 

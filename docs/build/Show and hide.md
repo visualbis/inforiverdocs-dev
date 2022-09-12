@@ -42,6 +42,6 @@ To **un-hide row(s)/ column(s)** follow these steps –
 
 ## Related Links
 
-[Manage Columns](https://matrix-docs-dev.inforiver.com/build/Managecolumn)
+[Manage Columns](build/Managecolumn)
 
 [Utilities](https://www.notion.so/Utilities-519910bf0e4a4b60a8e785dbd6874f2f)

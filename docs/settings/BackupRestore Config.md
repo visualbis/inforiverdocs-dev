@@ -25,17 +25,17 @@ Config drop-down menu list
 
 ## Related Links
 
-[Style, Colors, Borders](https://matrix-docs-dev.inforiver.com/build/Style,color,border)
+[Style, Colors, Borders](build/Style,color,border)
 
-[Number Formatting](https://matrix-docs-dev.inforiver.com/build/number-formatting)
+[Number Formatting](build/number-formatting)
 
-[Alignment](https://matrix-docs-dev.inforiver.com/build/alignment)
+[Alignment](build/alignment)
 
-[Templates](https://matrix-docs-dev.inforiver.com/build/Template)
+[Templates](build/Template)
 
-[Show and Hide](bhttps://matrix-docs-dev.inforiver.com/build/showandhide)
+[Show and Hide](build/showandhide)
 
-[Conditional Formatting](https://matrix-docs-dev.inforiver.com/analyze/conditional-formatting)
+[Conditional Formatting](analyze/conditional-formatting)
 
 - Select **Backup Report Config** to backup configurations such as color, navigation, scaling, number format, conditional formatting, and templates.
 - Right Click on the the `.json` file name and select **Save Link As** option.
