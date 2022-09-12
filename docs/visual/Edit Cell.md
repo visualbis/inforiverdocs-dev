@@ -14,8 +14,8 @@ slug: Editcell
 
 **Edit Cell** allows you to edit the value in a single cell. This section covers:
 
-- [How to edit cell](visual/Editcell)
-- [Cell Editing types](visual/Editcell)
+- [How to edit cell](/visual/Editcell)
+- [Cell Editing types](/visual/Editcell)
 
 ## How to Edit cell
 
@@ -46,18 +46,18 @@ slug: Editcell
 
 ## Related Links
 
-[Insert Row](visual/insert-row)
+[Insert Row](/visual/insert-row)
 
-[Insert Column and Insert measure](visual/insert-column-and-insert-measures)
+[Insert Column and Insert measure](/visual/insert-column-and-insert-measures)
 
-[Toggle Sign](visual/toggle-sign)
+[Toggle Sign](/visual/toggle-sign)
 
-[Formula Syntax ](visual/formula-list)
+[Formula Syntax ](/visual/formula-list)
 
 ![Untitled](/img/VisualCalculations/Editcell/Editcell5.png)
 ## Cell editing types
 
-- Apply an adjustment to the value (Add, subtract, divide, multiply or use other [functions](visual/formula-list)
+- Apply an adjustment to the value (Add, subtract, divide, multiply or use other [functions](/visual/formula-list)
     
     ![Increment the value](/img/VisualCalculations/Editcell/Editcell6.jpg)
 

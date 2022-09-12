@@ -4,17 +4,17 @@ There are many options to manage totals and subtotals in the visual.
 
 With Total feature, you can do the following –
 
-- [Manage Grand Totals](build/Total)
-- [Manage Subtotals](build/Total)
-- [Split subtotal from parent row](build/Total)
+- [Manage Grand Totals](/build/Total)
+- [Manage Subtotals](/build/Total)
+- [Split subtotal from parent row](/build/Total)
 
 ## Related Links
 
-[Group](build/Group)
+[Group](/build/Group)
 
 [Top N](analyze/TopN)
 
-[Pagination and Breaks](settings/pagination-and-breaks)
+[Pagination and Breaks](/settings/pagination-and-breaks)
 
 ## **Manage Grand Total**
 

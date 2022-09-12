@@ -17,15 +17,15 @@ In the **Home** tab, under **Action** click on the **Display (settings)** icon a
 
 ## Related Links
 
-[Display Settings - Numbers](settings/display-settings---numbers)
+[Display Settings - Numbers](/settings/display-settings---numbers)
 
-[Display Settings - Hierarchy](settings/display-settings---hierarchy)
+[Display Settings - Hierarchy](/settings/display-settings---hierarchy)
 
-[Style, Colors, Borders](build/Style,color,border)
+[Style, Colors, Borders](/build/Style,color,border)
 
-[Manage Columns](build/Managecolumn)
+[Manage Columns](/build/Managecolumn)
 
-[Total](build/Total)
+[Total](/build/Total)
 
 You can select Light theme or dark theme as per your choice from the toolbar option. 
 

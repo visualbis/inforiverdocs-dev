@@ -9,10 +9,10 @@ slug: setup-a-navigation-layout
 
 The four types of navigation layout define the layout of the data in the visual: 
 
-- [Hierarchy](build/setup-a-navigation-layout)
-- [Table](build/setup-a-navigation-layout)
-- [Stepped](build/setup-a-navigation-layout)
-- [Drilldown](build/setup-a-navigation-layout)
+- [Hierarchy](/build/setup-a-navigation-layout)
+- [Table](/build/setup-a-navigation-layout)
+- [Stepped](/build/setup-a-navigation-layout)
+- [Drilldown](/build/setup-a-navigation-layout)
 
 To apply these layouts to your report, simply click on **Navigation** under Home tab and click on the navigation type of your choice.
 
@@ -21,13 +21,13 @@ To apply these layouts to your report, simply click on **Navigation** under Home
 Navigation Layout types
 
 ## Related Links
-[Template](build/Template)
+[Template](/build/Template)
 
-[Display Settings - Hierarchy](settings/display-settings---hierarchy)
+[Display Settings - Hierarchy](/settings/display-settings---hierarchy)
 
-[Number Formatting](build/number-formatting)
+[Number Formatting](/build/number-formatting)
 
-[Pagination and Breaks](settings/pagination-and-breaks)
+[Pagination and Breaks](/settings/pagination-and-breaks)
 
 ## **Hierarchy Navigation**
 
@@ -94,5 +94,5 @@ The features of Drilldown Navigation are –
     
 
 <aside>
-💡 **Note:** Check the Display Settings for Navigation Layout [here](settings/display-settings---hierarchy)
+💡 **Note:** Check the Display Settings for Navigation Layout [here](/settings/display-settings---hierarchy)
 </aside>

@@ -20,11 +20,11 @@ Let’s consider the example of displaying the 5 Top states in each region and t
 
 ## Related Links
 
-[Group](build/Group)
+[Group](/build/Group)
 
 [Filter and Search](analyze/filter-and-search)
 
-[Annotate with Notes](build/Annotatenotes)
+[Annotate with Notes](/build/Annotatenotes)
 
 - In the Top n dialog box that appears, we have the following options:
     - Top/Bottom/Both: Both displays Top and Bottom

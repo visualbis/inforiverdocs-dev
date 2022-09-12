@@ -42,6 +42,6 @@ To **un-hide row(s)/ column(s)** follow these steps –
 
 ## Related Links
 
-[Manage Columns](build/Managecolumn)
+[Manage Columns](/build/Managecolumn)
 
-[Utilities](settings/utilities)
+[Utilities](/settings/utilities)

@@ -16,15 +16,15 @@ Follow below steps to view and set the custom settings to hierarchy.
 
 ## Related Links
 
-[Display Settings - Numbers](settings/display-settings---numbers)
+[Display Settings - Numbers](/settings/display-settings---numbers)
 
-[Display Settings - General](settings/display-settings---general/)
+[Display Settings - General](/settings/display-settings---general/)
 
-[Alignment](build/alignment)
+[Alignment](/build/alignment)
 
-[Setup a Navigation Layout](build/setup-a-navigation-layout)
+[Setup a Navigation Layout](/build/setup-a-navigation-layout)
 
-[Total](build/Total)
+[Total](/build/Total)
 
 - And then go to Hierarchy Tab.
     
@@ -65,7 +65,7 @@ When Ragged hierarchy is enabled:
 Empty rows hidden when Ragged hierarchy enabled
 
 <aside>
-💡 To learn Ragged Hierarchy in more detail click [here](settings/display-settings---hierarchy)
+💡 To learn Ragged Hierarchy in more detail click [here](/settings/display-settings---hierarchy)
 
 </aside>
 

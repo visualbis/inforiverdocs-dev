@@ -23,15 +23,15 @@ Follow below steps to view and set the custom settings to Numbers.
 
 ## Related Links
 
-[Display Settings - General](settings/display-settings---general/)
+[Display Settings - General](/settings/display-settings---general/)
 
-[Display Settings - Hierarchy](settings/display-settings---hierarchy)
+[Display Settings - Hierarchy](/settings/display-settings---hierarchy)
 
-[Number Formatting](build/number-formatting)
+[Number Formatting](/build/number-formatting)
 
-[Manage Columns](build/Managecolumn)
+[Manage Columns](/build/Managecolumn)
 
-[Toggle Sign](visual/toggle-sign)
+[Toggle Sign](/visual/toggle-sign)
 
 **Value Display** 
 

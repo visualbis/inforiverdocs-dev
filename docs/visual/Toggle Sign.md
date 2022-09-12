@@ -14,13 +14,13 @@ Sign of the selected rows are now inverted
 
 ## Related Links
 
-[Display Settings - Numbers](settings/display-settings---numbers)
+[Display Settings - Numbers](/settings/display-settings---numbers)
 
-[Edit Cell ](visual/Editcell)
+[Edit Cell ](/visual/Editcell)
 
-[Insert Row](visual/insert-row)
+[Insert Row](/visual/insert-row)
 
-[Utilities](settings/utilities)
+[Utilities](/settings/utilities)
 
 Advanced settings for the invert sign can be done as follows
 

@@ -14,11 +14,11 @@ Default Header
 
 ## Related Links
 
-[Total](build/Total)
+[Total](/build/Total)
 
 [Filter and Search](analyze/filter-and-search)
 
-[Setup a Navigation Layout](build/setup-a-navigation-layout)
+[Setup a Navigation Layout](/build/setup-a-navigation-layout)
 
 This header can be customized as needed by:
 

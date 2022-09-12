@@ -98,8 +98,8 @@ The settings tab opens
 
 ## Related Links
 
-[Insert row](visual/insert-row)
+[Insert row](/visual/insert-row)
 
-[Insert Column and Insert Measures](visual/insert-column-and-insert-measures)
+[Insert Column and Insert Measures](/visual/insert-column-and-insert-measures)
 
 [Smart Analysis](analyze/Smartanalysis)

@@ -16,7 +16,7 @@ Conditional Formatting can be used to highlight the important data in your visua
 
 ## Related Links
 
-[Insert Column and Insert measure](visual/insert-column-and-insert-measures)
+[Insert Column and Insert measure](/visual/insert-column-and-insert-measures)
 
 ## **Quick Rule**
 

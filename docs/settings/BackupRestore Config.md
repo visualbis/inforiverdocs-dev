@@ -25,15 +25,15 @@ Config drop-down menu list
 
 ## Related Links
 
-[Style, Colors, Borders](build/Style,color,border)
+[Style, Colors, Borders](/build/Style,color,border)
 
-[Number Formatting](build/number-formatting)
+[Number Formatting](/build/number-formatting)
 
-[Alignment](build/alignment)
+[Alignment](/build/alignment)
 
-[Templates](build/Template)
+[Templates](/build/Template)
 
-[Show and Hide](build/showandhide)
+[Show and Hide](/build/showandhide)
 
 [Conditional Formatting](analyze/conditional-formatting)
 

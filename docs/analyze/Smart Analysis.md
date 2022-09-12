@@ -25,10 +25,10 @@ Column with % Contribution of Net Revenue
 
 ## Related Links
 
-[Insert Row](visual/insert-row)
+[Insert Row](/visual/insert-row)
 
-[Insert Column and Insert measure](visual/insert-column-and-insert-measures)
+[Insert Column and Insert measure](/visual/insert-column-and-insert-measures)
 
-[Annotate with Notes](build/Annotatenotes)
+[Annotate with Notes](/build/Annotatenotes)
 
 - Select **None** from the drop down to switch off the smart analysis.

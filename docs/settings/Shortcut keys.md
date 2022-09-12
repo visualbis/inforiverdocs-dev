@@ -36,7 +36,7 @@ The various Shortcut keys that can be used within the visual:
 [Pagination](/Setup a Navigation Layout.md)
 
 
-[Templates](build/Template)
+[Templates](/build/Template)
 
 
 [Menu and Side Panels](/Setup a Navigation Layout.md)

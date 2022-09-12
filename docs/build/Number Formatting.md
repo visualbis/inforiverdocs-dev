@@ -7,36 +7,36 @@ slug: number-formatting
 
 Inforiver allows formatting numbers/measures for the entire visual, cell, row or column level. You can do the following as part of the number formatting:
 
-- [Quick Format](build/number-formatting)
-- [Add Prefix and Suffix](build/number-formatting)
-- [Increase/Decrease Decimal Points](build/number-formatting)
-- [Percent Style %](build/number-formatting)
+- [Quick Format](/build/number-formatting)
+- [Add Prefix and Suffix](/build/number-formatting)
+- [Increase/Decrease Decimal Points](/build/number-formatting)
+- [Percent Style %](/build/number-formatting)
 
 <aside>
-💡 Refer to the other number settings [here](settings/display-settings---numbers).
+💡 Refer to the other number settings [here](/settings/display-settings---numbers).
 
 </aside>
 
 ## Related Links
 
-[Display Settings - Numbers](settings/display-settings---numbers)
+[Display Settings - Numbers](/settings/display-settings---numbers)
 
-[Total](build/Total)
+[Total](/build/Total)
 
-[Edit Cell](visual/Editcell)
+[Edit Cell](/visual/Editcell)
 
-[Backup/Restore Config](setting/analyze/conditional-formatting)
+[Backup/Restore Config](/setting/analyze/conditional-formatting)
 
-[Templates](build/Template)
+[Templates](/build/Template)
 
 ## **Quick Format**
 
 Different kinds of formats are –
 
-1. [Uniform](build/number-formatting)
-2. [Measure Level](build/number-formatting)
-3. [Auto](build/number-formatting)
-4. [Native](build/number-formatting)
+1. [Uniform](/build/number-formatting)
+2. [Measure Level](/build/number-formatting)
+3. [Auto](/build/number-formatting)
+4. [Native](/build/number-formatting)
 
 ### 1. **Uniform**
 
@@ -180,7 +180,7 @@ To apply percent style, follow these steps –
 
 For example, lets calculate gross margin % in Inforiver.
 
-1. Insert a calculated row and enter this formula ([See Insert Row](visual/insert-row)
+1. Insert a calculated row and enter this formula ([See Insert Row](/visual/insert-row)
     
     Gross Margin % = (Net Revenue - Cost of goods sold)/ Net Revenue.
     

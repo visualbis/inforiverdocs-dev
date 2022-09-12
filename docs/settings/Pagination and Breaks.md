@@ -7,19 +7,19 @@ slug: pagination-and-breaks
 
 This section will cover the following
 
-- [Pagination](settings/pagination-and-breaks)
-- [Page Breaks](settings/pagination-and-breaks)
-- [Section Breaks](settings/pagination-and-breaks)
+- [Pagination](/settings/pagination-and-breaks)
+- [Page Breaks](/settings/pagination-and-breaks)
+- [Section Breaks](/settings/pagination-and-breaks)
 
 ## **Pagination**
 
 ## Related Links
 
-[Pagination and Breaks](settings/pagination-and-breaks)
+[Pagination and Breaks](/settings/pagination-and-breaks)
 
-[Display Settings - General](settings/display-settings---general/)
+[Display Settings - General](/settings/display-settings---general/)
 
-[Utilities](settings/utilities)
+[Utilities](/settings/utilities)
 
 Pagination allows you to separate the visual into discrete pages. In inforiver, you can choose how to do the pagination.
 

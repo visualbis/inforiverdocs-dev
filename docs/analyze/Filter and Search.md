@@ -29,9 +29,9 @@ Follow the below steps to apply the filter.
 
 [Top N](analyze/TopN)
 
-[Group](build/Group)
+[Group](/build/Group)
 
-[Annotate with Notes](build/Annotatenotes)
+[Annotate with Notes](/build/Annotatenotes)
 
 - On clicking the filter icon, it shows a pop-up as below.
 - Enabling Persist filters allows you to keep the filter active while switching between different pages and tabs.

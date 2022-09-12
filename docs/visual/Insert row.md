@@ -9,10 +9,10 @@ Insert rows at any required position and either input values or calculate values
 
 The following are the different types of rows that can be inserted into the visual:
 
-- [Calculated Row](visual/insert-row)
-- [% Contribution Row](visual/insert-row)
-- [Template Row](visual/insert-row)
-- [Static Row](visual/insert-row)
+- [Calculated Row](/visual/insert-row)
+- [% Contribution Row](/visual/insert-row)
+- [Template Row](/visual/insert-row)
+- [Static Row](/visual/insert-row)
 
 This section also covers how to:
 
@@ -21,15 +21,15 @@ This section also covers how to:
 
 ## Related Links
 
-[Insert Column and Insert Measures](visual/insert-column-and-insert-measures)
+[Insert Column and Insert Measures](/visual/insert-column-and-insert-measures)
 
-[Edit Cell ](visual/Editcell)
+[Edit Cell ](/visual/Editcell)
 
-[Toggle Sign](visual/toggle-sign)
+[Toggle Sign](/visual/toggle-sign)
 
 [Smart Analysis](analyze/Smartanalysis)
 
-[Formula Syntax ](visual/formula-list)
+[Formula Syntax ](/visual/formula-list)
 
 ## Calculated row
 
