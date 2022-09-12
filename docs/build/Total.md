@@ -4,19 +4,17 @@ There are many options to manage totals and subtotals in the visual.
 
 With Total feature, you can do the following –
 
-- [Manage Grand Totals](http://localhost:3000/build/Total)
+- [Manage Grand Totals](https://matrix-docs-dev.inforiver.com/build/Total)
 - [Manage Subtotals](https://www.notion.so/Total-1a2be9ea783341faa8209e5c1d9a1d98)
 - [Split subtotal from parent row](https://www.notion.so/Total-1a2be9ea783341faa8209e5c1d9a1d98)
 
 ## Related Links
 
-[Group](https://www.notion.so/Group-08869e32b59a4eb08d18f80d84a894e7)
-
-[](https://www.notion.so/bc6aae5e44374d78aa5d0a5c81844c72)
+[Group](https://matrix-docs-dev.inforiver.com/build/Group)
 
 [Top N](https://www.notion.so/Top-N-a0479cd7d9684d48ac1aee2a060c0685)
 
-[Pagination and Breaks](https://www.notion.so/Pagination-and-Breaks-492f09c83dce4701a3bfc14c46941c4e)
+[Pagination and Breaks](https://matrix-docs-dev.inforiver.com/settings/pagination-and-breaks)
 
 ## **Manage Grand Total**
 
