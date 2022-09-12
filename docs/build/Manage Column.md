@@ -41,7 +41,7 @@ From the dropdown on Manage Columns, the following can be done:
 
 ## Related Links
 
-[Insert Column and Insert Measures](https://www.notion.so/Insert-Column-and-Insert-Measures-948011bb350c4204a910daf173e0f498)
+[Insert Column and Insert Measures](visual/insert-column-and-insert-measures)
 
 [](https://www.notion.so/bc6aae5e44374d78aa5d0a5c81844c72)
 

@@ -17,7 +17,7 @@ In the **Home** tab, under **Action** click on the **Display (settings)** icon a
 
 ## Related Links
 
-[Display Settings - Numbers](https://www.notion.so/Display-Settings-Numbers-75a4c2e462394aa0b778238bf36af1bc)
+[Display Settings - Numbers](settings/display-settings---numbers)
 
 [Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-3b103cd8025f4b5994049e6508020396)
 

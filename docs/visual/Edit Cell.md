@@ -46,9 +46,9 @@ slug: Editcell
 
 ## Related Links
 
-[Insert Row](https://www.notion.so/Insert-Row-8f9d5dcd851c438d89b8cb07ed69c05f)
+[Insert Row](visual/insert-row)
 
-[Insert Column and Insert measure](https://www.notion.so/Insert-Column-and-Insert-measure-297ebaac1cea49baac25251de32773e1)
+[Insert Column and Insert measure](visual/insert-column-and-insert-measures)
 
 [Toggle Sign](https://www.notion.so/Toggle-Sign-7162aaf3d14348f9af5fb942ee0fc73e)
 

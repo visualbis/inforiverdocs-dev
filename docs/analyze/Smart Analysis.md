@@ -1,3 +1,8 @@
+---
+title: Smart Analysis
+sidebar_position: 9
+slug: Smartanalysis
+---
 # Smart Analysis
 
 You can create a column to do analysis of each row value compared to a base value.
@@ -20,12 +25,10 @@ Column with % Contribution of Net Revenue
 
 ## Related Links
 
-[Insert Row](https://www.notion.so/Insert-Row-8f9d5dcd851c438d89b8cb07ed69c05f)
+[Insert Row](visual/insert-row)
 
-[Insert Column and Insert measure](https://www.notion.so/Insert-Column-and-Insert-measure-297ebaac1cea49baac25251de32773e1)
+[Insert Column and Insert measure](visual/insert-column-and-insert-measures)
 
-[Insert Measures](https://www.notion.so/Insert-Measures-fee617f90ff74c3588d0b5447e9417d5)
-
-[Annotate with Notes](https://www.notion.so/Annotate-with-Notes-edc8ec91ba1c4ed79029775c470b0176)
+[Annotate with Notes](build/Annotatenotes)
 
 - Select **None** from the drop down to switch off the smart analysis.

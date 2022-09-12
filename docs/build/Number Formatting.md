@@ -19,11 +19,11 @@ Inforiver allows formatting numbers/measures for the entire visual, cell, row or
 
 ## Related Links
 
-[Display Settings - Numbers](https://www.notion.so/Display-Settings-Numbers-9f86d6dc36314a14a1dd05d3c21ce174)
+[Display Settings - Numbers](settings/display-settings---numbers)
 
 [Total](build/Total)
 
-[Edit Cell](https://www.notion.so/Edit-Cell-d0e4f71e51084a73b52666b6b306ee81)
+[Edit Cell](visual/Editcell)
 
 [Backup/Restore Config](https://www.notion.so/Backup-Restore-Config-926d1fd123fb41b899c1ff92faa1fae2)
 

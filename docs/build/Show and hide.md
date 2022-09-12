@@ -44,4 +44,4 @@ To **un-hide row(s)/ column(s)** follow these steps –
 
 [Manage Columns](build/Managecolumn)
 
-[Utilities](https://www.notion.so/Utilities-519910bf0e4a4b60a8e785dbd6874f2f)
+[Utilities](settings/utilities)

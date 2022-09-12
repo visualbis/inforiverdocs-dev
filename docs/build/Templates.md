@@ -22,15 +22,15 @@ The different templates available in Inforiver are:
 
 ## Related Links
 
-[Insert row](https://www.notion.so/Insert-row-dcd3a40f5bbb4e51b840258bedd74610)
+[Insert row](visual/insert-row)
 
 [Setup a Navigation Layout](build/setup-a-navigation-layout)
 
-[Annotate with Notes](https://www.notion.so/Annotate-with-Notes-4ea8b9925cfe440caa282e589a8bb4f7)
+[Annotate with Notes](build/Annotatenotes)
 
 [Headers and Footers](settings/headers-and-footers)
 
-[Utilities](https://www.notion.so/Utilities-519910bf0e4a4b60a8e785dbd6874f2f)
+[Utilities](settings/utilities)
 
 To apply any one of the templates, follow these steps –
 

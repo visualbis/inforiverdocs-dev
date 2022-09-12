@@ -8,8 +8,8 @@ slug: filter-and-search
 
 When there is a report which has a huge number of records, filter and search options are particularly very useful. This section covers how to do the following in the visual:
 
-1. [Filter](https://www.notion.so/Filter-and-Search-7f7a694f8844455c86864594b55ef0a2)
-2. [Search](https://www.notion.so/Filter-and-Search-7f7a694f8844455c86864594b55ef0a2)
+1. [Filter](analyze/filter-and-search)
+2. [Search](analyze/filter-and-search)
 
 ## **Filter**
 
@@ -31,7 +31,7 @@ Follow the below steps to apply the filter.
 
 [Group](build/Group)
 
-[Annotate with Notes](https://www.notion.so/Annotate-with-Notes-edc8ec91ba1c4ed79029775c470b0176)
+[Annotate with Notes](build/Annotatenotes)
 
 - On clicking the filter icon, it shows a pop-up as below.
 - Enabling Persist filters allows you to keep the filter active while switching between different pages and tabs.

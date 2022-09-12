@@ -16,7 +16,7 @@ Follow below steps to view and set the custom settings to hierarchy.
 
 ## Related Links
 
-[Display Settings - Numbers](https://www.notion.so/Display-Settings-Numbers-75a4c2e462394aa0b778238bf36af1bc)
+[Display Settings - Numbers](settings/display-settings---numbers)
 
 [Display Settings - General](settings/display-settings---general/)
 

@@ -98,10 +98,8 @@ The settings tab opens
 
 ## Related Links
 
-[Insert row](https://www.notion.so/Insert-row-dcd3a40f5bbb4e51b840258bedd74610)
+[Insert row](visual/insert-row)
 
-[Insert Column and Insert Measures](https://www.notion.so/Insert-Column-and-Insert-Measures-948011bb350c4204a910daf173e0f498)
+[Insert Column and Insert Measures](visual/insert-column-and-insert-measures)
 
-[](https://www.notion.so/bc6aae5e44374d78aa5d0a5c81844c72)
-
-[Smart Analysis](https://www.notion.so/Smart-Analysis-4eecf4380777405095ccdc670c33a402)
+[Smart Analysis](analyze/Smartanalysis)

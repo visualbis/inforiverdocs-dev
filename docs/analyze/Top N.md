@@ -24,7 +24,7 @@ Let’s consider the example of displaying the 5 Top states in each region and t
 
 [Filter and Search](analyze/filter-and-search)
 
-[Annotate with Notes](https://www.notion.so/Annotate-with-Notes-edc8ec91ba1c4ed79029775c470b0176)
+[Annotate with Notes](build/Annotatenotes)
 
 - In the Top n dialog box that appears, we have the following options:
     - Top/Bottom/Both: Both displays Top and Bottom

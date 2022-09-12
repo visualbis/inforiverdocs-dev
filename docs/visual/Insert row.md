@@ -9,10 +9,10 @@ Insert rows at any required position and either input values or calculate values
 
 The following are the different types of rows that can be inserted into the visual:
 
-- [Calculated Row](https://www.notion.so/Insert-Row-8f9d5dcd851c438d89b8cb07ed69c05f)
-- [% Contribution Row](https://www.notion.so/Insert-Row-8f9d5dcd851c438d89b8cb07ed69c05f)
-- [Template Row](https://www.notion.so/Insert-Row-8f9d5dcd851c438d89b8cb07ed69c05f)
-- [Static Row](https://www.notion.so/Insert-Row-8f9d5dcd851c438d89b8cb07ed69c05f)
+- [Calculated Row](visual/insert-row)
+- [% Contribution Row](visual/insert-row)
+- [Template Row](visual/insert-row)
+- [Static Row](visual/insert-row)
 
 This section also covers how to:
 
@@ -21,13 +21,13 @@ This section also covers how to:
 
 ## Related Links
 
-[Insert Column and Insert Measures](https://www.notion.so/Insert-Column-and-Insert-Measures-c506394a312a476d9fb1756ece0af649)
+[Insert Column and Insert Measures](visual/insert-column-and-insert-measures)
 
-[Edit Cell ](https://www.notion.so/Edit-Cell-2ed0bd5be4ff42e3b87e541258bcedbb)
+[Edit Cell ](visual/Editcell)
 
 [Toggle Sign](https://www.notion.so/Toggle-Sign-7162aaf3d14348f9af5fb942ee0fc73e)
 
-[Smart Analysis](https://www.notion.so/Smart-Analysis-56fe45b3c0274e9cb9663bd2e33d76ed)
+[Smart Analysis](analyze/Smartanalysis)
 
 [Formula Syntax ](https://www.notion.so/Formula-Syntax-53938047929b4ff6aa50da34b01dd718)
 
