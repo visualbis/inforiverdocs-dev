@@ -8,11 +8,10 @@ slug: Style,color,border
 
 Inforiver provides the flexibility to format report by offering many customization options. This section covers how to apply the following customizations:
 
-- [Font style and size](https://www.notion.so/Style-Colors-Borders-f79b6332f5264ec49e1292488434d20a)
-- [Font Fill and color](https://www.notion.so/Style-Colors-Borders-f79b6332f5264ec49e1292488434d20a)
-- [Draw Border](https://www.notion.so/Style-Colors-Borders-f79b6332f5264ec49e1292488434d20a)
-- [Format Painter](https://www.notion.so/Style-Colors-Borders-f79b6332f5264ec49e1292488434d20a)
-
+- [Font style and size](build/Style,color,border)
+- [Font Fill and color](build/Style,color,border)
+- [Draw Border](build/Style,color,border)
+- [Format Painter](build/Style,color,border)
 ## **Font style and size**
 
 To apply font style, follow these steps –
@@ -124,6 +123,6 @@ Format painter to copy the cell formatting
 
 [Headers and Footers](settings/headers-and-footers)
 
-[Backup/Restore Config](https://www.notion.so/Backup-Restore-Config-926d1fd123fb41b899c1ff92faa1fae2)
+[Backup/Restore Config](setting/analyze/conditional-formatting)
 
 [Templates](build/Template)

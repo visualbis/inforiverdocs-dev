@@ -7,9 +7,9 @@ slug: pagination-and-breaks
 
 This section will cover the following
 
-- [Pagination](https://www.notion.so/Pagination-and-Breaks-afe1b0fc179c4e4d983f95b2a52c34f6)
-- [Page Breaks](https://www.notion.so/Pagination-and-Breaks-afe1b0fc179c4e4d983f95b2a52c34f6)
-- [Section Breaks](https://www.notion.so/Pagination-and-Breaks-afe1b0fc179c4e4d983f95b2a52c34f6)
+- [Pagination](settings/pagination-and-breaks)
+- [Page Breaks](settings/pagination-and-breaks)
+- [Section Breaks](settings/pagination-and-breaks)
 
 ## **Pagination**
 

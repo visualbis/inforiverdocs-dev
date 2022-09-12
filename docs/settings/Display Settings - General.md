@@ -19,7 +19,7 @@ In the **Home** tab, under **Action** click on the **Display (settings)** icon a
 
 [Display Settings - Numbers](settings/display-settings---numbers)
 
-[Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-3b103cd8025f4b5994049e6508020396)
+[Display Settings - Hierarchy](settings/display-settings---hierarchy)
 
 [Style, Colors, Borders](build/Style,color,border)
 
