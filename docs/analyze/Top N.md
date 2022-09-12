@@ -16,15 +16,8 @@ Let’s consider the example of displaying the 5 Top states in each region and t
     ![Top 5 States](/img/Analysis/TopN/topn1.png)
 
     Top 5 States
-    
+     
 
-## Related Links
-
-[Group](/build/Group)
-
-[Filter and Search](/analyze/filter-and-search)
-
-[Annotate with Notes](/build/Annotatenotes)
 
 - In the Top n dialog box that appears, we have the following options:
     - Top/Bottom/Both: Both displays Top and Bottom
@@ -78,3 +71,11 @@ Let’s consider the example of displaying the 5 Top states in each region and t
     ![Warning message](/img/Analysis/TopN/topn10.jpg)
     
     Warning message
+
+
+   
+## Related Links
+
+- [Group](/build/Group)
+- [Filter and Search](/analyze/filter-and-search) 
+- [Annotate with Notes](/build/Annotatenotes) 
