@@ -35,7 +35,7 @@ This header can be customized as needed by:
     
 4. This opens the Header and Footer tab which can be used to edit the header and footer.
     
-    ![Header and Footer Tab](settings/headers-and-footers)
+    ![Header and Footer Tab](/img/Setting/HeaderandFooter/header4.png)
 
     Header and Footer Tab
     
@@ -46,7 +46,7 @@ This header can be customized as needed by:
     - Variances and
     - Report Title
     
-    ![Header Preset](settings/headers-and-footers)
+    ![Header Preset](/img/Setting/HeaderandFooter/header5.png)
 
     Header Preset
     

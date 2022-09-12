@@ -19,7 +19,7 @@ From the dropdown on Manage Columns, the following can be done:
     - Filter helps in filtering the columns as per requirements
     - and the settings tab helps to manage column dimensions.
     
-    ![Manage column drop down](build/Managecolumn)
+    ![Manage column drop down](/img/build/Manage/image2.png)
     
     Manage column drop down
     

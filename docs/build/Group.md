@@ -27,7 +27,7 @@ Let’s consider the example of grouping products into 2 categories:
     
     Create Group Name 
     
-    ![Group two columns](build/Group)
+    ![Group two columns](/img/build/Group/Group3.png)
     
     Group two columns
     

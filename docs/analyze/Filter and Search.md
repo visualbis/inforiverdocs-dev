@@ -27,7 +27,7 @@ Follow the below steps to apply the filter.
 ![Untitled](/img/Analysis/SearchandFilter/search1.png)
 ## Related Links
 
-[Top N](https://www.notion.so/Top-N-302f514b31dc48ec97466a846fd67807)
+[Top N](analyze/TopN)
 
 [Group](build/Group)
 

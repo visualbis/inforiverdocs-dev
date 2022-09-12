@@ -41,7 +41,7 @@ Enable to all total, gross values on the top of the table
 
 ![Screenshot 2022-06-23 at 1.58.50 PM.png](/img/Setting/Number/number3.png)
 
-![Show values on the top](build/showandhide)
+![Show values on the top](/img/Setting/Number/number4.png)
 
 Show values on the top
 
