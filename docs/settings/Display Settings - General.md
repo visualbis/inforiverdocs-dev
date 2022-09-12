@@ -21,11 +21,11 @@ In the **Home** tab, under **Action** click on the **Display (settings)** icon a
 
 [Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-3b103cd8025f4b5994049e6508020396)
 
-[Style, Colors, Borders](https://www.notion.so/Style-Colors-Borders-01f324e80d53439e8e0e834939833e24)
+[Style, Colors, Borders](https://matrix-docs-dev.inforiver.com/build/Style,color,border)
 
-[Manage Columns](https://www.notion.so/Manage-Columns-bdd18023402a4567b5dbf0fbea542c4c)
+[Manage Columns](https://matrix-docs-dev.inforiver.com/build/Managecolumn)
 
-[Total](http://localhost:3000/build/Total)
+[Total](https://matrix-docs-dev.inforiver.com/build/Total)
 
 You can select Light theme or dark theme as per your choice from the toolbar option. 
 

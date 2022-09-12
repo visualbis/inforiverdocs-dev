@@ -19,7 +19,7 @@ From the dropdown on Manage Columns, the following can be done:
     - Filter helps in filtering the columns as per requirements
     - and the settings tab helps to manage column dimensions.
     
-    ![Manage column drop down](/img/build/Manage/image2.png)
+    ![Manage column drop down](https://matrix-docs-dev.inforiver.com/build/Managecolumn)
     
     Manage column drop down
     
@@ -45,6 +45,6 @@ From the dropdown on Manage Columns, the following can be done:
 
 [](https://www.notion.so/bc6aae5e44374d78aa5d0a5c81844c72)
 
-[Show and Hide](build/showandhide)
+[Show and Hide](https://matrix-docs-dev.inforiver.com/build/showandhide)
 
-[Display Settings - General](https://www.notion.so/Display-Settings-General-a4862ce842154969b1f56f39f7c3af2b)
+[Display Settings - General](https://matrix-docs-dev.inforiver.com/settings/display-settings---general/)

@@ -18,13 +18,13 @@ Follow below steps to view and set the custom settings to hierarchy.
 
 [Display Settings - Numbers](https://www.notion.so/Display-Settings-Numbers-75a4c2e462394aa0b778238bf36af1bc)
 
-[Display Settings - General](https://www.notion.so/Display-Settings-General-b182c541541a44aa8720a734b3dc9c45)
+[Display Settings - General](https://matrix-docs-dev.inforiver.com/settings/display-settings---general/)
 
-[Alignment](build/alignment)
+[Alignment](https://matrix-docs-dev.inforiver.com/build/alignment)
 
-[Setup a Navigation Layout](https://www.notion.so/Setup-a-Navigation-Layout-45ed337fa8074287841e1ec17ed0b694)
+[Setup a Navigation Layout](https://matrix-docs-dev.inforiver.com/build/setup-a-navigation-layout)
 
-[Total](http://localhost:3000/build/Total)
+[Total](https://matrix-docs-dev.inforiver.com/build/Total)
 
 - And then go to Hierarchy Tab.
     

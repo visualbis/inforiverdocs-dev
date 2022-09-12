@@ -24,11 +24,11 @@ The different templates available in Inforiver are:
 
 [Insert row](https://www.notion.so/Insert-row-dcd3a40f5bbb4e51b840258bedd74610)
 
-[Setup a Navigation Layout](build/setup-a-navigation-layout)
+[Setup a Navigation Layout](https://matrix-docs-dev.inforiver.com/build/setup-a-navigation-layout)
 
 [Annotate with Notes](https://www.notion.so/Annotate-with-Notes-4ea8b9925cfe440caa282e589a8bb4f7)
 
-[Headers and Footers](https://www.notion.so/Headers-and-Footers-2fd661e108b341a0862321d3262b1ff7)
+[Headers and Footers](https://matrix-docs-dev.inforiver.com/settings/headers-and-footers)
 
 [Utilities](https://www.notion.so/Utilities-519910bf0e4a4b60a8e785dbd6874f2f)
 

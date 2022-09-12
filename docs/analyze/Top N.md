@@ -20,9 +20,9 @@ Let’s consider the example of displaying the 5 Top states in each region and t
 
 ## Related Links
 
-[Group](https://www.notion.so/Group-7898308d622f425dbca12c42a8390f45)
+[Group](https://matrix-docs-dev.inforiver.com/build/Group)
 
-[Filter and Search](https://www.notion.so/Filter-and-Search-7f7a694f8844455c86864594b55ef0a2)
+[Filter and Search](https://matrix-docs-dev.inforiver.com/analyze/filter-and-search)
 
 [Annotate with Notes](https://www.notion.so/Annotate-with-Notes-edc8ec91ba1c4ed79029775c470b0176)
 

@@ -8,9 +8,9 @@ slug: alignment
 
 Cell alignment is a key feature when giving your table a more organized and consistent look. Data in a cell can be positioned left, right or center and even top, bottom or middle within the cell to enhance the visual presentation. Column headers can be rotated which optimizes the column width and accommodates more columns in the report. This section reviews the following:
 
-- [Alignment](/Setup a Navigation Layout.md)
+- [Alignment](https://matrix-docs-dev.inforiver.com/build/alignment)
 
-- [Header Orientation](/Setup a Navigation Layout.md)
+- [Header Orientation](https://matrix-docs-dev.inforiver.com/settings/headers-and-footers)
 
 - [Indentation](/Setup a Navigation Layout.md)
 

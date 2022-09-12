@@ -15,9 +15,9 @@ This section will cover the following
 
 ## Related Links
 
-[Pagination and Breaks](https://www.notion.so/Pagination-and-Breaks-afe1b0fc179c4e4d983f95b2a52c34f6)
+[Pagination and Breaks](https://matrix-docs-dev.inforiver.com/settings/pagination-and-breaks)
 
-[Display Settings - General](https://www.notion.so/Display-Settings-General-b182c541541a44aa8720a734b3dc9c45)
+[Display Settings - General](https://matrix-docs-dev.inforiver.com/settings/display-settings---general/)
 
 [Utilities](https://www.notion.so/Utilities-b89462aaff2b42f3a49e986b985dd005)
 

@@ -14,11 +14,11 @@ Default Header
 
 ## Related Links
 
-[Total](http://localhost:3000/build/Total)
+[Total](https://matrix-docs-dev.inforiver.com/build/Total)
 
-[Filter and Search](https://www.notion.so/Filter-and-Search-7f7a694f8844455c86864594b55ef0a2)
+[Filter and Search](https://matrix-docs-dev.inforiver.com/analyze/filter-and-search)
 
-[Setup a Navigation Layout](build/setup-a-navigation-layout)
+[Setup a Navigation Layout](https://matrix-docs-dev.inforiver.com/build/setup-a-navigation-layout)
 
 This header can be customized as needed by:
 
@@ -35,7 +35,7 @@ This header can be customized as needed by:
     
 4. This opens the Header and Footer tab which can be used to edit the header and footer.
     
-    ![Header and Footer Tab](/img/Setting/HeaderandFooter/header4.png)
+    ![Header and Footer Tab](https://matrix-docs-dev.inforiver.com/settings/headers-and-footers)
 
     Header and Footer Tab
     
@@ -46,7 +46,7 @@ This header can be customized as needed by:
     - Variances and
     - Report Title
     
-    ![Header Preset](/img/Setting/HeaderandFooter/header5.png)
+    ![Header Preset](https://matrix-docs-dev.inforiver.com/settings/headers-and-footers)
 
     Header Preset
     
