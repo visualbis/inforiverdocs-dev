@@ -22,7 +22,7 @@ Let’s consider the example of displaying the 5 Top states in each region and t
 
 [Group](/build/Group)
 
-[Filter and Search](analyze/filter-and-search)
+[Filter and Search](/analyze/filter-and-search)
 
 [Annotate with Notes](/build/Annotatenotes)
 

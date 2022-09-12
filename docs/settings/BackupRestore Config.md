@@ -35,7 +35,7 @@ Config drop-down menu list
 
 [Show and Hide](/build/showandhide)
 
-[Conditional Formatting](analyze/conditional-formatting)
+[Conditional Formatting](/analyze/conditional-formatting)
 
 - Select **Backup Report Config** to backup configurations such as color, navigation, scaling, number format, conditional formatting, and templates.
 - Right Click on the the `.json` file name and select **Save Link As** option.

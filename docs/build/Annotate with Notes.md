@@ -102,4 +102,4 @@ The settings tab opens
 
 [Insert Column and Insert Measures](/visual/insert-column-and-insert-measures)
 
-[Smart Analysis](analyze/Smartanalysis)
+[Smart Analysis](/analyze/Smartanalysis)

@@ -80,6 +80,6 @@ Let’s consider the example of grouping products into 2 categories:
 
 [Insert Column and Insert Measures](/visual/insert-column-and-insert-measures)
 
-[Top N](analyze/TopN)
+[Top N](/analyze/TopN)
 
 [Annotate with Notes](/build/Annotatenotes)

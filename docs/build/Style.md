@@ -119,7 +119,7 @@ Format painter to copy the cell formatting
 
 [Alignment](/build/alignment)
 
-[Conditional Formatting](analyze/conditional-formatting)
+[Conditional Formatting](/analyze/conditional-formatting)
 
 [Headers and Footers](/settings/headers-and-footers)
 

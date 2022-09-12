@@ -12,7 +12,7 @@ With Total feature, you can do the following –
 
 [Group](/build/Group)
 
-[Top N](analyze/TopN)
+[Top N](/analyze/TopN)
 
 [Pagination and Breaks](/settings/pagination-and-breaks)
 

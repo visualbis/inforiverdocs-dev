@@ -27,7 +27,7 @@ This section also covers how to:
 
 [Toggle Sign](/visual/toggle-sign)
 
-[Smart Analysis](analyze/Smartanalysis)
+[Smart Analysis](/analyze/Smartanalysis)
 
 [Formula Syntax ](/visual/formula-list)
 
