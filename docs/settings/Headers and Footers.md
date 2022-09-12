@@ -16,7 +16,7 @@ Default Header
 
 [Total](/build/Total)
 
-[Filter and Search](analyze/filter-and-search)
+[Filter and Search](/analyze/filter-and-search)
 
 [Setup a Navigation Layout](/build/setup-a-navigation-layout)
 
