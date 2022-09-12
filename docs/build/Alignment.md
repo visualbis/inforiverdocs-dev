@@ -76,7 +76,7 @@ Follow below steps to apply row height
 	![Row height selection](/img/build/Alignment/Alignment8.png)
 
 - Row height can be managed from this selection box.
-- Table padding can be managed from the [Untitled](https://www.notion.so/b182c541541a44aa8720a734b3dc9c45) as well.
+- Table padding can be managed from the [Untitled](settings/display-settings---general) as well.
 
 ## **Autofit**
 

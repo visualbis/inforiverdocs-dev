@@ -25,13 +25,13 @@ Follow below steps to view and set the custom settings to Numbers.
 
 [Display Settings - General](settings/display-settings---general/)
 
-[Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-3b103cd8025f4b5994049e6508020396)
+[Display Settings - Hierarchy](settings/display-settings---hierarchy)
 
 [Number Formatting](build/number-formatting)
 
 [Manage Columns](build/Managecolumn)
 
-[Toggle Sign](https://www.notion.so/Toggle-Sign-7162aaf3d14348f9af5fb942ee0fc73e)
+[Toggle Sign](visual/toggle-sign)
 
 **Value Display** 
 

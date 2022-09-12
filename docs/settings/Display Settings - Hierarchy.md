@@ -65,7 +65,7 @@ When Ragged hierarchy is enabled:
 Empty rows hidden when Ragged hierarchy enabled
 
 <aside>
-💡 To learn Ragged Hierarchy in more detail click [here](https://www.notion.so/Ragged-Hierarchy-7ead3a4a8093452190710bf0589e61bf)
+💡 To learn Ragged Hierarchy in more detail click [here](settings/display-settings---hierarchy)
 
 </aside>
 

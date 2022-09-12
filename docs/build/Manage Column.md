@@ -43,8 +43,6 @@ From the dropdown on Manage Columns, the following can be done:
 
 [Insert Column and Insert Measures](visual/insert-column-and-insert-measures)
 
-[](https://www.notion.so/bc6aae5e44374d78aa5d0a5c81844c72)
-
 [Show and Hide](build/showandhide)
 
 [Display Settings - General](settings/display-settings---general/)

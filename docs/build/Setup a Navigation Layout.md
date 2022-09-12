@@ -9,10 +9,10 @@ slug: setup-a-navigation-layout
 
 The four types of navigation layout define the layout of the data in the visual: 
 
-- [Hierarchy](https://www.notion.so/Setup-a-Navigation-Layout-9b500e4b6d194df9a92d8f3342ff9b89)
-- [Table](https://www.notion.so/Setup-a-Navigation-Layout-9b500e4b6d194df9a92d8f3342ff9b89)
-- [Stepped](https://www.notion.so/Setup-a-Navigation-Layout-9b500e4b6d194df9a92d8f3342ff9b89)
-- [Drilldown](https://www.notion.so/Setup-a-Navigation-Layout-9b500e4b6d194df9a92d8f3342ff9b89)
+- [Hierarchy](build/setup-a-navigation-layout)
+- [Table](build/setup-a-navigation-layout)
+- [Stepped](build/setup-a-navigation-layout)
+- [Drilldown](build/setup-a-navigation-layout)
 
 To apply these layouts to your report, simply click on **Navigation** under Home tab and click on the navigation type of your choice.
 
@@ -23,7 +23,7 @@ Navigation Layout types
 ## Related Links
 [Template](build/Template)
 
-[Display Settings - Hierarchy](https://www.notion.so/Display-Settings-Hierarchy-ffca8d1bc565430a83a1ff78e4424e4a)
+[Display Settings - Hierarchy](settings/display-settings---hierarchy)
 
 [Number Formatting](build/number-formatting)
 
@@ -94,6 +94,5 @@ The features of Drilldown Navigation are –
     
 
 <aside>
-💡 **Note:** Check the Display Settings for Navigation Layout [here](https://www.notion.so/Display-Settings-Hierarchy-3b103cd8025f4b5994049e6508020396).
-
+💡 **Note:** Check the Display Settings for Navigation Layout [here](settings/display-settings---hierarchy)
 </aside>

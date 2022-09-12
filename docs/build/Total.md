@@ -5,14 +5,14 @@ There are many options to manage totals and subtotals in the visual.
 With Total feature, you can do the following –
 
 - [Manage Grand Totals](build/Total)
-- [Manage Subtotals](https://www.notion.so/Total-1a2be9ea783341faa8209e5c1d9a1d98)
-- [Split subtotal from parent row](https://www.notion.so/Total-1a2be9ea783341faa8209e5c1d9a1d98)
+- [Manage Subtotals](build/Total)
+- [Split subtotal from parent row](build/Total)
 
 ## Related Links
 
 [Group](build/Group)
 
-[Top N](https://www.notion.so/Top-N-a0479cd7d9684d48ac1aee2a060c0685)
+[Top N](analyze/TopN)
 
 [Pagination and Breaks](settings/pagination-and-breaks)
 

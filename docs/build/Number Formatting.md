@@ -7,13 +7,13 @@ slug: number-formatting
 
 Inforiver allows formatting numbers/measures for the entire visual, cell, row or column level. You can do the following as part of the number formatting:
 
-- [Quick Format](https://www.notion.so/Number-Formatting-3d83839bb31047b89466086c07fc0071)
-- [Add Prefix and Suffix](https://www.notion.so/Number-Formatting-3d83839bb31047b89466086c07fc0071)
-- [Increase/Decrease Decimal Points](https://www.notion.so/Number-Formatting-3d83839bb31047b89466086c07fc0071)
-- [Percent Style %](https://www.notion.so/Number-Formatting-3d83839bb31047b89466086c07fc0071)
+- [Quick Format](build/number-formatting)
+- [Add Prefix and Suffix](build/number-formatting)
+- [Increase/Decrease Decimal Points](build/number-formatting)
+- [Percent Style %](build/number-formatting)
 
 <aside>
-💡 Refer to the other number settings [here](https://www.notion.so/Display-Settings-Numbers-9f86d6dc36314a14a1dd05d3c21ce174).
+💡 Refer to the other number settings [here](settings/display-settings---numbers).
 
 </aside>
 
@@ -25,7 +25,7 @@ Inforiver allows formatting numbers/measures for the entire visual, cell, row or
 
 [Edit Cell](visual/Editcell)
 
-[Backup/Restore Config](https://www.notion.so/Backup-Restore-Config-926d1fd123fb41b899c1ff92faa1fae2)
+[Backup/Restore Config](setting/analyze/conditional-formatting)
 
 [Templates](build/Template)
 
@@ -33,10 +33,10 @@ Inforiver allows formatting numbers/measures for the entire visual, cell, row or
 
 Different kinds of formats are –
 
-1. [Uniform](https://www.notion.so/Number-Formatting-1ee72b10702d430b8b6a4ee3b315a302)
-2. [Measure Level](https://www.notion.so/Number-Formatting-1ee72b10702d430b8b6a4ee3b315a302)
-3. [Auto](https://www.notion.so/Number-Formatting-1ee72b10702d430b8b6a4ee3b315a302)
-4. [Native](https://www.notion.so/Number-Formatting-1ee72b10702d430b8b6a4ee3b315a302)
+1. [Uniform](build/number-formatting)
+2. [Measure Level](build/number-formatting)
+3. [Auto](build/number-formatting)
+4. [Native](build/number-formatting)
 
 ### 1. **Uniform**
 
@@ -180,7 +180,7 @@ To apply percent style, follow these steps –
 
 For example, lets calculate gross margin % in Inforiver.
 
-1. Insert a calculated row and enter this formula ([See Insert Row](https://www.notion.so/3834259f8c974cbb9a6f916294afae67))
+1. Insert a calculated row and enter this formula ([See Insert Row](visual/insert-row)
     
     Gross Margin % = (Net Revenue - Cost of goods sold)/ Net Revenue.
     

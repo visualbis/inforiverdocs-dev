@@ -8,11 +8,11 @@ slug: conditional-formatting
 
 Conditional Formatting can be used to highlight the important data in your visual. This feature can be used to spot trends of different kinds. This section will cover the following:
 
-- [Quick Rule](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
-- [Color Scheme](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
-- [Classification](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
-- [Create Rule](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
-- [Manage Rules](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
+- [Quick Rule](analyze/conditional-formatting)
+- [Color Scheme](analyze/conditional-formatting)
+- [Classification](analyze/conditional-formatting)
+- [Create Rule](analyze/conditional-formatting)
+- [Manage Rules](analyze/conditional-formatting)
 
 ## Related Links
 
@@ -60,7 +60,7 @@ Conditional formatting is applied and shown in another column.
 
 New column with the classification added to visual
 
-We will be covering the menu on the right side and classification ranges in detail in the [next section.](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
+We will be covering the menu on the right side and classification ranges in detail in the [next section.](analyze/conditional-formatting)
 
 ## **Create Rule**
 

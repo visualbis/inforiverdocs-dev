@@ -14,8 +14,8 @@ slug: Editcell
 
 **Edit Cell** allows you to edit the value in a single cell. This section covers:
 
-- [How to edit cell](https://www.notion.so/Edit-Cell-2ed0bd5be4ff42e3b87e541258bcedbb)
-- [Cell Editing types](https://www.notion.so/Edit-Cell-2ed0bd5be4ff42e3b87e541258bcedbb)
+- [How to edit cell](visual/Editcell)
+- [Cell Editing types](visual/Editcell)
 
 ## How to Edit cell
 
@@ -50,14 +50,14 @@ slug: Editcell
 
 [Insert Column and Insert measure](visual/insert-column-and-insert-measures)
 
-[Toggle Sign](https://www.notion.so/Toggle-Sign-7162aaf3d14348f9af5fb942ee0fc73e)
+[Toggle Sign](visual/toggle-sign)
 
-[Formula Syntax ](https://www.notion.so/Formula-Syntax-53938047929b4ff6aa50da34b01dd718)
+[Formula Syntax ](visual/formula-list)
 
 ![Untitled](/img/VisualCalculations/Editcell/Editcell5.png)
 ## Cell editing types
 
-- Apply an adjustment to the value (Add, subtract, divide, multiply or use other [functions](https://www.notion.so/Formula-Syntax-53938047929b4ff6aa50da34b01dd718))
+- Apply an adjustment to the value (Add, subtract, divide, multiply or use other [functions](visual/formula-list)
     
     ![Increment the value](/img/VisualCalculations/Editcell/Editcell6.jpg)
 

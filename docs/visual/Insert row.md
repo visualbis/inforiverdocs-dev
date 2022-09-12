@@ -25,11 +25,11 @@ This section also covers how to:
 
 [Edit Cell ](visual/Editcell)
 
-[Toggle Sign](https://www.notion.so/Toggle-Sign-7162aaf3d14348f9af5fb942ee0fc73e)
+[Toggle Sign](visual/toggle-sign)
 
 [Smart Analysis](analyze/Smartanalysis)
 
-[Formula Syntax ](https://www.notion.so/Formula-Syntax-53938047929b4ff6aa50da34b01dd718)
+[Formula Syntax ](visual/formula-list)
 
 ## Calculated row
 

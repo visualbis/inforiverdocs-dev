@@ -9,8 +9,8 @@ Group two or more relevant columns/rows in the same hierarchy level to create an
 
 This section will cover how to create:
 
-- [Column Group](https://www.notion.so/Group-08869e32b59a4eb08d18f80d84a894e7)
-- [Row Group](https://www.notion.so/Group-08869e32b59a4eb08d18f80d84a894e7)
+- [Column Group](build/Group)
+- [Row Group](build/Group)
 
 ## Column Group
 
