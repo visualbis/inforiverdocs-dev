@@ -1,6 +1,6 @@
 ---
 title: Top N
-sidebar_position: 4
+sidebar_position: 3
 slug: TopN
 ---
 
@@ -15,9 +15,7 @@ Let’s consider the example of displaying the 5 Top states in each region and t
     
     ![Top 5 States](/img/Analysis/TopN/topn1.png)
 
-    Top 5 States
-     
-
+    Top 5 States 
 
 - In the Top n dialog box that appears, we have the following options:
     - Top/Bottom/Both: Both displays Top and Bottom
@@ -73,9 +71,14 @@ Let’s consider the example of displaying the 5 Top states in each region and t
     Warning message
 
 
-   
 ## Related Links
 
-- [Group](/build/Group)
-- [Filter and Search](/analyze/filter-and-search) 
-- [Annotate with Notes](/build/Annotatenotes) 
+[Insert row](/visual/insert-row)
+
+[Setup a Navigation Layout](/build/setup-a-navigation-layout)
+
+[Annotate with Notes](/build/Annotatenotes)
+
+[Headers and Footers](/settings/headers-and-footers)
+
+[Utilities](/settings/utilities)    
