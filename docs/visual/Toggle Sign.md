@@ -14,13 +14,13 @@ Sign of the selected rows are now inverted
 
 ## Related Links
 
-[Display Settings - Numbers](https://www.notion.so/Display-Settings-Numbers-75a4c2e462394aa0b778238bf36af1bc)
+[Display Settings - Numbers](settings/display-settings---numbers)
 
-[Edit Cell ](https://www.notion.so/Edit-Cell-2ed0bd5be4ff42e3b87e541258bcedbb)
+[Edit Cell ](visual/Editcell)
 
-[Insert Row](https://www.notion.so/Insert-Row-8f9d5dcd851c438d89b8cb07ed69c05f)
+[Insert Row](visual/insert-row)
 
-[Utilities](https://www.notion.so/Utilities-b89462aaff2b42f3a49e986b985dd005)
+[Utilities](settings/utilities)
 
 Advanced settings for the invert sign can be done as follows
 

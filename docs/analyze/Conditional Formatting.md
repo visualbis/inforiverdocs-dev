@@ -9,16 +9,14 @@ slug: conditional-formatting
 Conditional Formatting can be used to highlight the important data in your visual. This feature can be used to spot trends of different kinds. This section will cover the following:
 
 - [Quick Rule](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
-- Color Scheme
+- [Color Scheme](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
 - [Classification](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
 - [Create Rule](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
 - [Manage Rules](https://www.notion.so/Conditional-Formatting-7e5c1206793c4c00a604f9b2f865d452)
 
 ## Related Links
 
-[Insert Measures](https://www.notion.so/Insert-Measures-fee617f90ff74c3588d0b5447e9417d5)
-
-[Insert Column and Insert measure](https://www.notion.so/Insert-Column-and-Insert-measure-297ebaac1cea49baac25251de32773e1)
+[Insert Column and Insert measure](visual/insert-column-and-insert-measures)
 
 ## **Quick Rule**
 
