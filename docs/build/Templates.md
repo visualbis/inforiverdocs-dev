@@ -20,18 +20,6 @@ The different templates available in Inforiver are:
 - Performance - Table with variance charts
 - Performance - Numeric
 
-## Related Links
-
-[Insert row](/visual/insert-row)
-
-[Setup a Navigation Layout](/build/setup-a-navigation-layout)
-
-[Annotate with Notes](/build/Annotatenotes)
-
-[Headers and Footers](/settings/headers-and-footers)
-
-[Utilities](/settings/utilities)
-
 To apply any one of the templates, follow these steps –
 
 1. Under **Home** tab, click on **Templates**. This will launch a sidebar with template options.
@@ -97,3 +85,14 @@ To apply any one of the templates, follow these steps –
 
 
 [Templates * IBCS - International Business Communication Standards](https://www.ibcs.com/resource_category/templates/)
+## Related Links
+
+[Insert row](/visual/insert-row)
+
+[Setup a Navigation Layout](/build/setup-a-navigation-layout)
+
+[Annotate with Notes](/build/Annotatenotes)
+
+[Headers and Footers](/settings/headers-and-footers)
+
+[Utilities](/settings/utilities)
