@@ -7,11 +7,6 @@ slug: number-formatting
 
 Inforiver allows formatting numbers/measures for the entire visual, cell, row or column level. You can do the following as part of the number formatting:
 
-- [Quick Format](/build/number-formatting)
-- [Add Prefix and Suffix](/build/number-formatting)
-- [Increase/Decrease Decimal Points](/build/number-formatting)
-- [Percent Style %](/build/number-formatting)
-
 <aside>
 💡 Refer to the other number settings [here](/settings/display-settings---numbers).
 
@@ -192,3 +187,10 @@ For example, lets calculate gross margin % in Inforiver.
     ![Gross margin% Row converted to Percentage Value](/img/build/NF18.png)
     
     Gross margin% Row converted to Percentage Value
+
+## Related Links
+- [Quick Format](build/number-formatting#quick-format)
+- [Measure Level](build/number-formatting#2-measure-level)
+- [Prefix/Suffix](build/number-formatting#prefixsuffix)
+- [Increase/Decrease Decimal Points](number-formatting#increasedecrease-decimal)
+- [Percent Style %](/build/number-formatting)

@@ -38,11 +38,3 @@ From the dropdown on Manage Columns, the following can be done:
         
         Advanced Column Option
         
-
-## Related Links
-
-[Insert Column and Insert Measures](/visual/insert-column-and-insert-measures)
-
-[Show and Hide](/build/showandhide)
-
-[Display Settings - General](/settings/display-settings---general/)

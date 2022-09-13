@@ -7,10 +7,6 @@ slug: Group
 
 Group two or more relevant columns/rows in the same hierarchy level to create another category.
 
-This section will cover how to create:
-
-- [Column Group](/build/Group)
-- [Row Group](/build/Group)
 
 ## Column Group
 
@@ -75,11 +71,5 @@ Let’s consider the example of grouping products into 2 categories:
         
 
 ## Related Links
-
-[Insert row](/visual/insert-row)
-
-[Insert Column and Insert Measures](/visual/insert-column-and-insert-measures)
-
-[Top N](/analyze/TopN)
-
-[Annotate with Notes](/build/Annotatenotes)
+- [Column Group](/build/Group)
+- [Row Group](/build/Group)

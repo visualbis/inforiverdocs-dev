@@ -39,9 +39,3 @@ To **un-hide row(s)/ column(s)** follow these steps –
     
     Click on dropdown to show hidden rows/columns
     
-
-## Related Links
-
-[Manage Columns](/build/Managecolumn)
-
-[Utilities](/settings/utilities)

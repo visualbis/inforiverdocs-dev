@@ -7,11 +7,8 @@ slug: Style,color,border
 # Style, Colors, Borders
 
 Inforiver provides the flexibility to format report by offering many customization options. This section covers how to apply the following customizations:
+Font style, Font size, Font fill, color, Draw border and Format painter
 
-- [Font style and size](/build/Style,color,border)
-- [Font Fill and color](/build/Style,color,border)
-- [Draw Border](/build/Style,color,border)
-- [Format Painter](/build/Style,color,border)
 ## **Font style and size**
 
 To apply font style, follow these steps –
@@ -112,17 +109,7 @@ Format painter to copy the cell formatting
 ![Untitled](/img/build/Style/Style11.png)
 
 ## Related Links
-
-[Display Settings - General](/settings/display-settings---general/)
-
-[Number Formatting](/build/number-formatting)
-
-[Alignment](/build/alignment)
-
-[Conditional Formatting](/analyze/conditional-formatting)
-
-[Headers and Footers](/settings/headers-and-footers)
-
-[Backup/Restore Config](/setting/analyze/conditional-formatting)
-
-[Templates](/build/Template)
+- [Font style and size](build/Style,color,border#font-style-and-size)
+- [Font Fill and color](build/Style,color,border#font-and-fill-color)
+- [Draw Border](build/Style,color,border#draw-border)
+- [Format Painter](build/Style,color,border#format-painter)

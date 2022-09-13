@@ -98,8 +98,6 @@ The settings tab opens
 
 ## Related Links
 
-[Insert row](/visual/insert-row)
+[Marker Mode](build/Annotatenotes#marker-mode)
 
-[Insert Column and Insert Measures](/visual/insert-column-and-insert-measures)
-
-[Smart Analysis](/analyze/Smartanalysis)
+[Notes Customization](build/Annotatenotes#notes-customization)
