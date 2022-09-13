@@ -8,7 +8,7 @@ slug: Editcell
 # Edit Cell
 
 <aside>
-💡 **Note:** Available only in Professional and Premium plans.
+**💡 Note:** Available only in Professional and Premium plans.
 
 </aside>
 
@@ -78,7 +78,7 @@ slug: Editcell
  The subtotal is shown as sum of the children
 
 <aside>
-💡 **Note:** The changes made to the cell will affect the subtotal/total values.
+**💡 Note:** The changes made to the cell will affect the subtotal/total values.
 
 </aside>
 

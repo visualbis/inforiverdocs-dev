@@ -16,7 +16,7 @@ This section will cover the following
 Pagination allows you to separate the visual into discrete pages. In inforiver, you can choose how to do the pagination.
 
 <aside>
-💡 **Note:** Pagination is turned off when Page Breaks are applied.
+**💡 Note:** Pagination is turned off when Page Breaks are applied.
 
 </aside>
 

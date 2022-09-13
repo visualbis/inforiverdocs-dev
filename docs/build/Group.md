@@ -40,7 +40,7 @@ Let’s consider the example of grouping products into 2 categories:
     ## **Row Group**
     
     <aside>
-    💡 **Note:** Row Group is disabled when the Navigation type is Table.
+    **💡 Note:** Row Group is disabled when the Navigation type is Table.
     
     </aside>
     

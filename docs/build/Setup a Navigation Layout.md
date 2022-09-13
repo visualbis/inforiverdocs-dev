@@ -79,7 +79,7 @@ The features of Drilldown Navigation are –
     
 
 <aside>
-💡 **Note:** Check the Display Settings for Navigation Layout [here](/settings/display-settings---hierarchy)
+**💡 Note:** Check the Display Settings for Navigation Layout [here](/settings/display-settings---hierarchy)
 </aside>
 
 ## Related Links

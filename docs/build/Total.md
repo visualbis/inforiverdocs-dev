@@ -53,7 +53,7 @@ By default, row grand total appears on top, and column grand total appears in ri
 ## **Manage subtotal**
 
 <aside>
-💡 **Note:** Row or/and column subtotals will appear only if there is hierarchy in row or/and column.
+**💡 Note:** Row or/and column subtotals will appear only if there is hierarchy in row or/and column.
 
 </aside>
 

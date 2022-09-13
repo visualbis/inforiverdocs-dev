@@ -230,7 +230,7 @@ Classify the data and add text and color
     
 
 <aside>
-💡 **Note:** You cannot duplicate conditional formatting types such as quick rules, heat maps, and classifications.
+**💡 Note:** You cannot duplicate conditional formatting types such as quick rules, heat maps, and classifications.
 
 </aside>
 

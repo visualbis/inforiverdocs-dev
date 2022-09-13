@@ -14,7 +14,7 @@ Import or export the custom visual configuration data as a JSON file. A JSON fil
 
 :::tip
 
-💡 **Note:** Available only in Power BI Services.
+**💡 Note:** Available only in Power BI Services.
 
 :::
 - Select the **Export** tab on the toolbar and select **Config**.

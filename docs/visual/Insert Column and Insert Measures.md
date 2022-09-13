@@ -15,7 +15,7 @@ In insert Measure : Add columns that are repeated for every hierarchy level.
 ![Untitled](/img/VisualCalculations/Column/column1.png)
 
 <aside>
-💡 **Note:** To insert a column, you must have a field added to the “Columns” section in the visual.
+**💡 Note:** To insert a column, you must have a field added to the “Columns” section in the visual.
 
 </aside>
 

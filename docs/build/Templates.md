@@ -34,7 +34,7 @@ To apply any one of the templates, follow these steps –
     
 
 <aside>
-💡 **Note:** Default, Spreadsheet and Finance available only in Professional and Premium Editions   ****
+**💡 Note:** Default, Spreadsheet and Finance available only in Professional and Premium Editions   ****
 
 </aside>
 

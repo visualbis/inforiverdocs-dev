@@ -14,7 +14,7 @@ When there is a report which has a huge number of records, filter and search opt
 ## **Filter**
 
 <aside>
-💡 **Note:** Available only in Premium and Professional Edition
+**💡 Note:** Available only in Premium and Professional Edition
 
 </aside>
 

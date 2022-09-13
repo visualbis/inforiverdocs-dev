@@ -41,8 +41,9 @@ Advanced settings for the invert sign can be done as follows
     Sign in Category labels
     
 
-**Note:** 1. The invert sign can be applied only to the last node of a hierarchy. 
-           ****2. ****The signage of the inserted rows cannot be changed.
+**💡 Note:** 
+1. The invert sign can be applied only to the last node of a hierarchy. 
+2. The signage of the inserted rows cannot be changed.
 
 
 ## Related Links

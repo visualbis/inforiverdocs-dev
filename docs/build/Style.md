@@ -37,7 +37,7 @@ To select/change font size –
     
 
 <aside>
-💡 **Note:** To change font style and size for a row/ column/ individual cell, you need to first select a row/ column/ individual cell in the matrix.
+**💡 Note:** To change font style and size for a row/ column/ individual cell, you need to first select a row/ column/ individual cell in the matrix.
 
 </aside>
 
