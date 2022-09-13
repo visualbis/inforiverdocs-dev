@@ -8,20 +8,7 @@ slug: alignment
 
 Cell alignment is a key feature when giving your table a more organized and consistent look. Data in a cell can be positioned left, right or center and even top, bottom or middle within the cell to enhance the visual presentation. Column headers can be rotated which optimizes the column width and accommodates more columns in the report. This section reviews the following:
 
-- [Alignment](/build/alignment)
-
-- [Header Orientation](/settings/headers-and-footers)
-
-- [Indentation](/Setup a Navigation Layout.md)
-
-- [Row Height](/Setup a Navigation Layout.md)
-
-- [Autofit](/Setup a Navigation Layout.md)
-
-## Related Links
- 
 ## **Alignment** 
-
 
 Follow below steps to apply alignment:
 
@@ -104,3 +91,13 @@ When there are many columns, it is difficult to individually change the column w
 
 	![Lock /unlock column width](/img/build/Alignment/Alignment14.png)
 
+## Related Links
+- [Alignment](build/alignment/#alignment)
+
+- [Header Orientation](build/alignment/#header-orientation)
+
+- [Indentation](build/alignment/#indentation)
+
+- [Row Height](build/alignment/#row-height)
+
+- [Autofit](build/alignment/#autofit)
