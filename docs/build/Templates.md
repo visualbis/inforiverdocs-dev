@@ -39,7 +39,7 @@ To apply any one of the templates, follow these steps –
 </aside>
 
 ### TEMPLATES
-
+## **Grid**
 1. Grid: Under Grid, there are two options available Default and Spreadsheet. 
 - **Default template:** comes with pre-formatted alternating row colors and table borders, similar to the PowerBI native visual.
     
@@ -49,7 +49,8 @@ To apply any one of the templates, follow these steps –
     
     ![Untitled](/img/build/Template/Template4.png)
 
-1. Finance: Under Finance, there are two options available Simple and Standard.  
+## **Finance**
+2. Finance: Under Finance, there are two options available Simple and Standard.  
 - **Finance template:** is generally used to build financial reports like income statements, balance sheets, etc.
     - Simple Template comes with no borders and bold formatting for the totals/subtotals.
     
@@ -59,6 +60,8 @@ To apply any one of the templates, follow these steps –
     
     ![Untitled](/img/build/Template/Template6.png)
     
+
+## IBCS**
 - **International Business Communication Standard (IBCS) compliant templates**: The [International Business Communication Standards](https://www.ibcs.com/standards/) (IBCS®) are practical proposals for the design of reports and dashboards. These templates can be used to create IBCS compliant reports.
 
 - **T01** - ****TABLE WITH HIERARCHICAL ROWS AND VARIANCE COLUMNS:**** Table template 01 presents one measure (Profit after tax) with rows showing a regional structure and columns showing absolute and relative variances to the previous year and plan.
@@ -85,14 +88,3 @@ To apply any one of the templates, follow these steps –
 
 
 [Templates * IBCS - International Business Communication Standards](https://www.ibcs.com/resource_category/templates/)
-## Related Links
-
-[Insert row](/visual/insert-row)
-
-[Setup a Navigation Layout](/build/setup-a-navigation-layout)
-
-[Annotate with Notes](/build/Annotatenotes)
-
-[Headers and Footers](/settings/headers-and-footers)
-
-[Utilities](/settings/utilities)
