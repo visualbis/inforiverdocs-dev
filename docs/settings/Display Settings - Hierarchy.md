@@ -14,17 +14,6 @@ Follow below steps to view and set the custom settings to hierarchy.
 
 ![Untitled](/img/Setting/Hierarchy/Hierarchy1.png)
 
-## Related Links
-
-[Display Settings - Numbers](/settings/display-settings---numbers)
-
-[Display Settings - General](/settings/display-settings---general/)
-
-[Alignment](/build/alignment)
-
-[Setup a Navigation Layout](/build/setup-a-navigation-layout)
-
-[Total](/build/Total)
 
 - And then go to Hierarchy Tab.
     
@@ -102,3 +91,15 @@ It gives you an option to select which nodes to be displayed when a parent hiera
 ![Single Child Display options](/img/Setting/Hierarchy/Hierarchy10.png)
 
 Single Child Display options
+
+## Related Links
+
+[Display Settings - Numbers](/settings/display-settings---numbers)
+
+[Display Settings - General](/settings/display-settings---general/)
+
+[Alignment](/build/alignment)
+
+[Setup a Navigation Layout](/build/setup-a-navigation-layout)
+
+[Total](/build/Total)

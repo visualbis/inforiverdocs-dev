@@ -21,18 +21,6 @@ Follow below steps to view and set the custom settings to Numbers.
 
 ***Below are the options available for formatting the numbers***
 
-## Related Links
-
-[Display Settings - General](/settings/display-settings---general/)
-
-[Display Settings - Hierarchy](/settings/display-settings---hierarchy)
-
-[Number Formatting](/build/number-formatting)
-
-[Manage Columns](/build/Managecolumn)
-
-[Toggle Sign](/visual/toggle-sign)
-
 **Value Display** 
 
 - Show Values on Rows
@@ -155,3 +143,16 @@ Short and Full Scaling Custom Labels
     ![When sign-in headers are enabled](/img/Setting/Number/number22.png)
     
     When sign-in headers are enabled
+
+
+## Related Links
+
+[Display Settings - General](/settings/display-settings---general/)
+
+[Display Settings - Hierarchy](/settings/display-settings---hierarchy)
+
+[Number Formatting](/build/number-formatting)
+
+[Manage Columns](/build/Managecolumn)
+
+[Toggle Sign](/visual/toggle-sign)

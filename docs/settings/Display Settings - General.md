@@ -15,17 +15,6 @@ In the **Home** tab, under **Action** click on the **Display (settings)** icon a
 
 ### **Toolbar**
 
-## Related Links
-
-[Display Settings - Numbers](/settings/display-settings---numbers)
-
-[Display Settings - Hierarchy](/settings/display-settings---hierarchy)
-
-[Style, Colors, Borders](/build/Style,color,border)
-
-[Manage Columns](/build/Managecolumn)
-
-[Total](/build/Total)
 
 You can select Light theme or dark theme as per your choice from the toolbar option. 
 
@@ -114,3 +103,16 @@ Default width can be used to set a common width for numbers and label. This feat
 Use Manage Columns to change the individual column width
 
 ![Untitled](/img/Setting/General/general10.png)
+
+
+## Related Links
+
+[Display Settings - Numbers](/settings/display-settings---numbers)
+
+[Display Settings - Hierarchy](/settings/display-settings---hierarchy)
+
+[Style, Colors, Borders](/build/Style,color,border)
+
+[Manage Columns](/build/Managecolumn)
+
+[Total](/build/Total)

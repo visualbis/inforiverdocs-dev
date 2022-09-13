@@ -12,18 +12,6 @@ Inforiver allows formatting numbers/measures for the entire visual, cell, row or
 
 </aside>
 
-## Related Links
-
-[Display Settings - Numbers](/settings/display-settings---numbers)
-
-[Total](/build/Total)
-
-[Edit Cell](/visual/Editcell)
-
-[Backup/Restore Config](/setting/analyze/conditional-formatting)
-
-[Templates](/build/Template)
-
 ## **Quick Format**
 
 Different kinds of formats are –
@@ -194,3 +182,8 @@ For example, lets calculate gross margin % in Inforiver.
 - [Prefix/Suffix](build/number-formatting#prefixsuffix)
 - [Increase/Decrease Decimal Points](number-formatting#increasedecrease-decimal)
 - [Percent Style %](/build/number-formatting)
+- [Display Settings - Numbers](/settings/display-settings---numbers)
+- [Total](/build/Total)
+- [Edit Cell](/visual/Editcell)
+- [Backup/Restore Config](/setting/analyze/conditional-formatting)
+- [Templates](/build/Template)

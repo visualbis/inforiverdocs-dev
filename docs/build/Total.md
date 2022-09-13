@@ -8,13 +8,6 @@ With Total feature, you can do the following –
 - [Manage Subtotals](/build/Total)
 - [Split subtotal from parent row](/build/Total)
 
-## Related Links
-
-[Group](/build/Group)
-
-[Top N](/analyze/TopN)
-
-[Pagination and Breaks](/settings/pagination-and-breaks)
 
 ## **Manage Grand Total**
 
@@ -94,9 +87,16 @@ Inforiver visual also allows you to split the subtotal from parent row. This wil
 This can be achieved in one click –
 
 - In **Home** tab, click on **Total** drop down, turn on **Enable row subtotal split**.
-    
-    ![image16.png
+     
 
 - In the visual you can see that two new rows have been added which shows the subtotals.
-    
-    ![df.png
+     
+
+
+## Related Links
+
+[Group](/build/Group)
+
+[Top N](/analyze/TopN)
+
+[Pagination and Breaks](/settings/pagination-and-breaks)    

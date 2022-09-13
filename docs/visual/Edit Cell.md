@@ -44,16 +44,6 @@ slug: Editcell
     
 - Click on the close icon to close the formula bar. If you close the formula bar before clicking on the tick mark icon, the updated value is not saved.
 
-## Related Links
-
-[Insert Row](/visual/insert-row)
-
-[Insert Column and Insert measure](/visual/insert-column-and-insert-measures)
-
-[Toggle Sign](/visual/toggle-sign)
-
-[Formula Syntax ](/visual/formula-list)
-
 ![Untitled](/img/VisualCalculations/Editcell/Editcell5.png)
 ## Cell editing types
 
@@ -91,3 +81,14 @@ slug: Editcell
 💡 **Note:** The changes made to the cell will affect the subtotal/total values.
 
 </aside>
+
+
+## Related Links
+
+[Insert Row](/visual/insert-row)
+
+[Insert Column and Insert measure](/visual/insert-column-and-insert-measures)
+
+[Toggle Sign](/visual/toggle-sign)
+
+[Formula Syntax ](/visual/formula-list)

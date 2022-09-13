@@ -14,10 +14,6 @@ Conditional Formatting can be used to highlight the important data in your visua
 - [Create Rule](/analyze/conditional-formatting)
 - [Manage Rules](/analyze/conditional-formatting)
 
-## Related Links
-
-[Insert Column and Insert measure](/visual/insert-column-and-insert-measures)
-
 ## **Quick Rule**
 
 Quick Rule is used to highlight the positive and negative values. By default, positive values are shown in green and negative values in red. 
@@ -241,3 +237,8 @@ Classify the data and add text and color
 - Delete the rules using the delete icon.
 - To enable/disable the rule(s) use the on/off toggle.
 - Reorder (using the gripper) the rules to prioritize the order in which the rules will be applied in the manage tab.
+
+
+## Related Links
+
+[Insert Column and Insert measure](/visual/insert-column-and-insert-measures)

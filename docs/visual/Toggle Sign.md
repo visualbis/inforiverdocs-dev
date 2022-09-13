@@ -12,15 +12,6 @@ Select row(s), then select **Insert  -> +/- Invert**.
 ![Sign of the selected rows are now inverted](/img/VisualCalculations/Sign/Sign1.png)
 Sign of the selected rows are now inverted
 
-## Related Links
-
-[Display Settings - Numbers](/settings/display-settings---numbers)
-
-[Edit Cell ](/visual/Editcell)
-
-[Insert Row](/visual/insert-row)
-
-[Utilities](/settings/utilities)
 
 Advanced settings for the invert sign can be done as follows
 
@@ -52,3 +43,14 @@ Advanced settings for the invert sign can be done as follows
 
 **Note:** 1. The invert sign can be applied only to the last node of a hierarchy. 
            ****2. ****The signage of the inserted rows cannot be changed.
+
+
+## Related Links
+
+[Display Settings - Numbers](/settings/display-settings---numbers)
+
+[Edit Cell ](/visual/Editcell)
+
+[Insert Row](/visual/insert-row)
+
+[Utilities](/settings/utilities)

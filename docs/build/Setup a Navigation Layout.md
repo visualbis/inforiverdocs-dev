@@ -13,14 +13,6 @@ To apply these layouts to your report, simply click on **Navigation** under Home
 
 Navigation Layout types
 
-## Related Links
-[Template](/build/Template)
-
-[Display Settings - Hierarchy](/settings/display-settings---hierarchy)
-
-[Number Formatting](/build/number-formatting)
-
-[Pagination and Breaks](/settings/pagination-and-breaks)
 
 ## **Hierarchy Navigation**
 

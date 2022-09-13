@@ -25,13 +25,6 @@ Follow the below steps to apply the filter.
 - In the tool menu, go to the **Home** tab, under Analyze click on the **filter icon** as shown below.
 
 ![Untitled](/img/Analysis/SearchandFilter/search1.png)
-## Related Links
-
-[Top N](/analyze/TopN)
-
-[Group](/build/Group)
-
-[Annotate with Notes](/build/Annotatenotes)
 
 - On clicking the filter icon, it shows a pop-up as below.
 - Enabling Persist filters allows you to keep the filter active while switching between different pages and tabs.
@@ -80,3 +73,12 @@ To find a row, you can click on the search icon and enter the string/value that 
 - In the space provided, enter a text or value which you want to search. Navigate to the various instances of the keyword in the visual (across pages) using the up and down arrow.
     
     ![Untitled](/img/Analysis/SearchandFilter/search11.png)
+
+
+## Related Links
+
+[Top N](/analyze/TopN)
+
+[Group](/build/Group)
+
+[Annotate with Notes](/build/Annotatenotes)
