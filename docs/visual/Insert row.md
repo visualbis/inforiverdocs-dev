@@ -7,29 +7,10 @@ slug: insert-row
 
 Insert rows at any required position and either input values or calculate values based on the existing measures to do better analysis.
 
-The following are the different types of rows that can be inserted into the visual:
-
-- [Calculated Row](/visual/insert-row)
-- [% Contribution Row](/visual/insert-row)
-- [Template Row](/visual/insert-row)
-- [Static Row](/visual/insert-row)
-
 This section also covers how to:
 
 - Reorder Rows
 - Expand/Collapse Rows
-
-## Related Links
-
-[Insert Column and Insert Measures](/visual/insert-column-and-insert-measures)
-
-[Edit Cell ](/visual/Editcell)
-
-[Toggle Sign](/visual/toggle-sign)
-
-[Smart Analysis](/analyze/Smartanalysis)
-
-[Formula Syntax ](/visual/formula-list)
 
 ## Calculated row
 
@@ -210,4 +191,24 @@ You can expand/collapse the fields to:
     ![Collapse Rows](/img/VisualCalculations/InsertRow/row22.png)
     
     Collapse Rows
+
+
  -->
+The following are the different types of rows that can be inserted into the visual:
+
+- [Calculated Row](/visual/insert-row)
+- [% Contribution Row](/visual/insert-row)
+- [Template Row](/visual/insert-row)
+- [Static Row](/visual/insert-row)
+
+## Related Links
+
+[Insert Column and Insert Measures](/visual/insert-column-and-insert-measures)
+
+[Edit Cell ](/visual/Editcell)
+
+[Toggle Sign](/visual/toggle-sign)
+
+[Smart Analysis](/analyze/Smartanalysis)
+
+[Formula Syntax ](/visual/formula-list)
