@@ -6,9 +6,8 @@ slug: backuprestore-config
 
 Import or export the custom visual configuration data as a JSON file. A JSON file provides granular-level customizations that can be easily shared and imported into a new visual. Using the export/import custom configuration options, you can standardize the reports and charts formats and visual configurations across all reports using Inforiver visual. This section will cover how to:
 
-1. [Backup Report Configs](/Setup a Navigation Layout.md)
-
-2. [Restore Report Configs](/Setup a Navigation Layout.md)
+1. [Backup Report Configs]
+2. [Restore Report Configs]
 
 ## Backup Report Config
 
@@ -23,19 +22,6 @@ Import or export the custom visual configuration data as a JSON file. A JSON fil
 
 Config drop-down menu list
 
-## Related Links
-
-[Style, Colors, Borders](/build/Style,color,border)
-
-[Number Formatting](/build/number-formatting)
-
-[Alignment](/build/alignment)
-
-[Templates](/build/Template)
-
-[Show and Hide](/build/showandhide)
-
-[Conditional Formatting](/analyze/conditional-formatting)
 
 - Select **Backup Report Config** to backup configurations such as color, navigation, scaling, number format, conditional formatting, and templates.
 - Right Click on the the `.json` file name and select **Save Link As** option.
@@ -68,3 +54,17 @@ To import and apply custom configurations from an exported file:
 - Select **Yes** to confirm importing the config file.
 
 Your visual will be now updated with the data configurations from the exported file.
+
+## Related Links
+
+[Style, Colors, Borders](build/Style,color,border)
+
+[Number Formatting](/build/number-formatting)
+
+[Alignment](/build/alignment)
+
+[Templates](/build/Template)
+
+[Show and Hide](/build/showandhide)
+
+[Conditional Formatting](/analyze/conditional-formatting)

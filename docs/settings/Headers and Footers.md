@@ -12,14 +12,6 @@ In Inforiver, a custom header is automatically added based on the fields include
 
 Default Header
 
-## Related Links
-
-[Total](/build/Total)
-
-[Filter and Search](/analyze/filter-and-search)
-
-[Setup a Navigation Layout](/build/setup-a-navigation-layout)
-
 This header can be customized as needed by:
 
 1. Select **Design** Tab from the toolbar.
@@ -160,3 +152,12 @@ This header can be customized as needed by:
 ![Close Header and Footer editor](/img/Setting/HeaderandFooter/header23.png)
 
 Close Header and Footer editor
+
+
+## Related Links
+
+[Total](/build/Total)
+
+[Filter and Search](/analyze/filter-and-search)
+
+[Setup a Navigation Layout](/build/setup-a-navigation-layout)

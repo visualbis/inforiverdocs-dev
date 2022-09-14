@@ -71,5 +71,5 @@ Let’s consider the example of grouping products into 2 categories:
         
 
 ## Related Links
-- [Column Group](/build/Group)
-- [Row Group](/build/Group)
+- [Column Group](isual/insert-column-and-insert-measures)
+- [Row Group](visual/insert-row)
