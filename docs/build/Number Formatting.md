@@ -20,8 +20,6 @@ Inforiver allows formatting numbers/measures for the entire visual, cell, row or
 
 [Edit Cell](/visual/Editcell)
 
-[Backup/Restore Config](/setting/analyze/conditional-formatting)
-
 [Templates](/build/Template)
 
 

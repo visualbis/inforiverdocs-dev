@@ -92,12 +92,12 @@ When there are many columns, it is difficult to individually change the column w
 	![Lock /unlock column width](/img/build/Alignment/Alignment14.png)
 
 ## Related Links
-- [Alignment](build/alignment/#alignment)
+- [Alignment](/build/alignment/#alignment)
 
-- [Header Orientation](build/alignment/#header-orientation)
+- [Header Orientation](/build/alignment/#header-orientation)
 
-- [Indentation](build/alignment/#indentation)
+- [Indentation](/build/alignment/#indentation)
 
-- [Row Height](build/alignment/#row-height)
+- [Row Height](/build/alignment/#row-height)
 
-- [Autofit](build/alignment/#autofit)
+- [Autofit](/build/alignment/#autofit)
