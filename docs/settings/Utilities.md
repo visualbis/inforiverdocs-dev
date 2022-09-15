@@ -58,12 +58,12 @@ From the **Home** tab under the Setup category:
 
 ## Related Links
 
-[Alignment](https://www.notion.so/Alignment-43437a8a0e0643689f6a589971252d89)
+[Alignment](build/alignment)
 
-[Style, Colors, Borders](https://www.notion.so/Style-Colors-Borders-01f324e80d53439e8e0e834939833e24)
+[Style, Colors, Borders](/build/Style,color,border)
 
-[Templates](https://www.notion.so/Templates-3989d8878347402d8111ccc7374c6001)
+[Templates](/build/Template)
 
-[Number Formatting](https://www.notion.so/Number-Formatting-1ee72b10702d430b8b6a4ee3b315a302)
+[Number Formatting](/build/number-formatting)
 
-[Show and Hide](https://www.notion.so/Show-and-Hide-9a90d2c89afa41b582204a5802de1e4e)
+[Show and Hide](/build/showandhide)
