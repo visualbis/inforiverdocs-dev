@@ -109,7 +109,7 @@ Format painter to copy the cell formatting
 ![Untitled](/img/build/Style/Style11.png)
 
 ## Related Links
-- [Font style and size](build/Style,color,border#font-style-and-size)
-- [Font Fill and color](build/Style,color,border#font-and-fill-color)
-- [Draw Border](build/Style,color,border#draw-border)
-- [Format Painter](build/Style,color,border#format-painter)
+- [Font style and size](/build/Style,color,border#font-style-and-size)
+- [Font Fill and color](/build/Style,color,border#font-and-fill-color)
+- [Draw Border](/build/Style,color,border#draw-border)
+- [Format Painter](/build/Style,color,border#format-painter)

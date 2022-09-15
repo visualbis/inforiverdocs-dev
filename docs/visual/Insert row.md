@@ -211,4 +211,4 @@ The following are the different types of rows that can be inserted into the visu
 
 [Smart Analysis](/analyze/Smartanalysis)
 
-[Formula Syntax ](/visual/formula-list)
+[Formula Syntax](/visual/formula-list)

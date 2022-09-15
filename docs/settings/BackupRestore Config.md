@@ -57,7 +57,7 @@ Your visual will be now updated with the data configurations from the exported f
 
 ## Related Links
 
-[Style, Colors, Borders](build/Style,color,border)
+[Style, Colors, Borders](/build/Style,color,border)
 
 [Number Formatting](/build/number-formatting)
 

@@ -94,9 +94,9 @@ This can be achieved in one click –
 
 
 ## Related Links
-- [Manage Grand Totals](build/Total#manage-grand-total)
-- [Manage Subtotals](build/Total#manage-subtotal)
-- [Split subtotal from parent row](build/Total#split-subtotal-from-parent-row)
+- [Manage Grand Totals](/build/Total#manage-grand-total)
+- [Manage Subtotals](/build/Total#manage-subtotal)
+- [Split subtotal from parent row](/build/Total#split-subtotal-from-parent-row)
 - [Group](/build/Group)
 - [Top N](/analyze/TopN)
 - [Pagination and Breaks](/settings/pagination-and-breaks)

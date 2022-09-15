@@ -91,4 +91,4 @@ slug: Editcell
 
 [Toggle Sign](/visual/toggle-sign)
 
-[Formula Syntax ](/visual/formula-list)
+[Formula Syntax](/visual/formula-list)

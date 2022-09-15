@@ -181,8 +181,8 @@ For example, lets calculate gross margin % in Inforiver.
     Gross margin% Row converted to Percentage Value
 
 ## Related Links
-- [Quick Format](build/number-formatting#quick-format)
-- [Measure Level](build/number-formatting#2-measure-level)
-- [Prefix/Suffix](build/number-formatting#prefixsuffix)
-- [Increase/Decrease Decimal Points](number-formatting#increasedecrease-decimal)
+- [Quick Format](/build/number-formatting#quick-format)
+- [Measure Level](/build/number-formatting#2-measure-level)
+- [Prefix/Suffix](/build/number-formatting#prefixsuffix)
+- [Increase/Decrease Decimal Points](/build/number-formatting#increasedecrease-decimal)
 - [Percent Style %](/build/number-formatting)

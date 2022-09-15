@@ -98,6 +98,6 @@ The settings tab opens
 
 ## Related Links
 
-[Marker Mode](build/Annotatenotes#marker-mode)
+[Marker Mode](/build/Annotatenotes#marker-mode)
 
-[Notes Customization](build/Annotatenotes#notes-customization)
+[Notes Customization](/build/Annotatenotes#notes-customization)

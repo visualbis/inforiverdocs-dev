@@ -1,6 +1,6 @@
 ---
 title: Top N
-sidebar_position: 3
+sidebar_position: 4
 slug: TopN
 ---
 
