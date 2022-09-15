@@ -10,7 +10,7 @@ version: 2
 jobs:
   deploy-website:
     docker:
-        - image: circleci/node:14-browsers
+        - image: circleci/node:16-browsers
 
     steps:
       - checkout
