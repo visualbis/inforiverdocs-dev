@@ -196,10 +196,10 @@ You can expand/collapse the fields to:
  -->
 The following are the different types of rows that can be inserted into the visual:
 
-- [Calculated Row](/insert-row/#calculated-row)
-- [% Contribution Row](/insert-row/#-contribution-row)
-- [Template Row](/insert-row/#template-row)
-- [Static Row](/insert-row/#static-row)
+- [Calculated Row](/visual/insert-row/#calculated-row)
+- [% Contribution Row](/visual/insert-row/#-contribution-row)
+- [Template Row](/visual/insert-row/#template-row)
+- [Static Row](/visual/insert-row/#static-row)
 
 ## Related Links
 
