@@ -40,8 +40,8 @@ module.exports = {
           position: 'left',
           items: [
             {
-              to: 'settings/backup%2Frestore-config',
-              docId: 'settings/backup%2Frestore-config',
+              to: 'settings/backuprestore-config',
+              docId: 'settings/backuprestore-config',
               label: 'Backup / Restore Config',
               activeSidebarClassName: 'navbar__link--active',
             },
