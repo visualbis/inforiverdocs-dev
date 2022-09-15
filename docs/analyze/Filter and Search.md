@@ -8,8 +8,8 @@ slug: filter-and-search
 
 When there is a report which has a huge number of records, filter and search options are particularly very useful. This section covers how to do the following in the visual:
 
-1. [Filter](/analyze/filter-and-search)
-2. [Search](/analyze/filter-and-search)
+1. [Filter](/filter-and-search/#filter)
+2. [Search](/filter-and-search/#search)
 
 ## **Filter**
 
