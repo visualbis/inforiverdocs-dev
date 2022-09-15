@@ -28,23 +28,22 @@ By default, row grand total appears on top, and column grand total appears in ri
     
     ![Total Positions.jpg](/img/build/T4.jpg)
     
-    ![Customize the total and subtotal positions](/img/build/T5.jpg)
+    ![Customize the total and subtotal positions] 
 
     Customize the total and subtotal positions
     
 3. In Positions, under Row, tick/ select Bottom for Grand Total. Under Column, tick/ select Left for Grand Total.
     
-    ![Grand Total Position change.jpg](/img/build/T6.jpg)
+    ![Grand Total Position change.jpg] 
     
 4. Click **Apply** to save the changes made to row and column grand total positions. Now you can see that the grand total positions have changed as applied.
     
-    ![Grand Total Positions changed](/img/build/T7.jpg)
-    
+    ![Grand Total Positions changed] 
     Grand Total Positions changed
     
 5. In the positions box, turn off the Grand Total for Row and Column.
     
-    ![Turning off Grand Total](/img/build/T8.jpg)
+    ![Turning off Grand Total] 
 
     Turning off Grand Total
     
@@ -60,11 +59,11 @@ You can turn off or customize the position of the subtotals. By default, row sub
 
 1. To turn off/ change positions of row or/and column subtotals, click on Position(s) under Total. This will pop up Positions box.
     
-    ![Total Positions.jpg](/img/build/T9.jpg)
+    ![Total Positions.jpg]
     
 2. Follow this to turn off the subtotals - In Positions, under Row, tick/ select Off for Subtotal. Under Column, tick/ select Off for Subtotal. Click on Apply to save the changes.
     
-    ![image10.png](/img/build/T10.png)
+    ![image10.png]
     
     ![Mewww.png](/img/build/T11.png)
 
