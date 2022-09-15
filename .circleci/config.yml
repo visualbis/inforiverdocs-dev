@@ -10,7 +10,7 @@ version: 2
 jobs:
   deploy-website:
     docker:
-        - image: circleci/node:16.15.1
+        - image: circleci/node:17.2.0-buster-browsers-legacy
 
     steps:
       - checkout
