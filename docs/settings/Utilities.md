@@ -58,7 +58,7 @@ From the **Home** tab under the Setup category:
 
 ## Related Links
 
-[Alignment](build/alignment)
+[Alignment](/build/alignment)
 
 [Style, Colors, Borders](/build/Style,color,border)
 

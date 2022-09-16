@@ -91,8 +91,7 @@ When there are many columns, it is difficult to individually change the column w
 
 	![Lock /unlock column width](/img/build/Alignment/Alignment14.png)
 
-## Related Links
-- [Alignment](/build/alignment/#alignment)
+## Related Links 
 
 - [Header Orientation](/build/alignment/#header-orientation)
 
