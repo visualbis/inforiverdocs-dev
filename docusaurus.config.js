@@ -65,6 +65,12 @@ module.exports = {
             },
           ]
         },
+        {
+          type: 'doc',
+          docId: 'enterprise/Templates',
+          position: 'left',
+          label: 'Enterprise',
+        },
       ],
     },
     footer: {

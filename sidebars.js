@@ -49,6 +49,24 @@ module.exports = {
     "analyze/Smart Analysis",
     "analyze/Top N",
   ],
+  Enterprise: [
+    {
+      type: "category",
+      label: "Build Reports",
+      items: [
+        "enterprise/Alignment",
+        "enterprise/Number Formatting",
+        "enterprise/Setup a Navigation Layout",
+        "enterprise/Style",
+        "enterprise/Manage Column",
+        "enterprise/Group",
+        "enterprise/Annotate with Notes",
+      ],
+    },
+    "enterprise/Templates",
+    "enterprise/Show and hide",
+    "enterprise/Total",
+  ],
   Settings: [
     {
       type: "category",
