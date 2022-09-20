@@ -55,10 +55,12 @@ module.exports = {
       label: "Build Reports",
       items: [
         "enterprise/Commenting",
+        "enterprise/Scheduler",
+        "enterprise/Theme"
       ],
     },
-    "enterprise/Templates",
-    "enterprise/Show and hide",
+    "enterprise/Commenting",
+    "enterprise/Scheduler",
     "enterprise/Total",
   ],
   Settings: [
