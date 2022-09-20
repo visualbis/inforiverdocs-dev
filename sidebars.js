@@ -56,7 +56,7 @@ module.exports = {
       items: [
         "enterprise/Commenting",
         "enterprise/Scheduler",
-        "enterprise/Theme"
+        "enterprise/Themes"
       ],
     },
     "enterprise/Commenting",
