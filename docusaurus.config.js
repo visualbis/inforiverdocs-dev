@@ -67,7 +67,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'enterprise/Templates',
+          docId: 'enterprise/Commenting',
           position: 'left',
           label: 'Enterprise',
         },
