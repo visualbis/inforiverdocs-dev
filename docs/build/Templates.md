@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: Template
 ---
 # Templates
-![Cover](/img/cover/Template.jpg)
+![Cover](/img/cover/template.jpg)
 
 Inforiver visual offers various types of templates to help you start with a pre-formatted report with just a click and then you can apply the customizations as desired. 
 
