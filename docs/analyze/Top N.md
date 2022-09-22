@@ -3,8 +3,13 @@ title: Top N
 sidebar_position: 4
 slug: TopN
 ---
+import useBaseUrl from "@docusaurus/useBaseUrl"; // Add to the top of the file below the front matter.
+import Link from "@docusaurus/Link";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 # Top N
+
 
 The Top and Bottom categories based on any measure can be displayed using Top N feature. Top N can be applied to only **one column/measure** at a time. Though, you can add multiple Top or Bottom conditions on the same measure.
 
@@ -12,8 +17,15 @@ Let’s consider the example of displaying the 5 Top states in each region and t
 
 - Select the Sales column.
 - Select the **Home** tab from the toolbar, and select **Top N** from the **Analyze** section.
-    
-    ![Top 5 States](/img/Analysis/TopN/topn1.png)
+
+<div style={{ textAlign: "center" }}>
+  <Zoom>
+    <img width="550"
+      src={useBaseUrl("/img/Analysis/TopN/topn1.png")}
+    />
+  </Zoom>
+</div>
+
 
     Top 5 States 
 
@@ -23,8 +35,15 @@ Let’s consider the example of displaying the 5 Top states in each region and t
     - Condition-based on Value or Percentage
     - Field to apply condition
     
-    ![Choose from Top, Bottom or Both](/img/Analysis/TopN/topn2.png)
-    
+   
+  <div style={{ textAlign: "center" }}>
+  <Zoom>
+    <img width="550px" height="215px"
+      src={useBaseUrl("/img/Analysis/TopN/topn2.png")}
+    />
+  </Zoom>
+</div>
+  
     Choose from Top, Bottom or Both
     
 - To display the remaining categories as Others, check the box.
