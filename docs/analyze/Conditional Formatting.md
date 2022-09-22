@@ -18,7 +18,7 @@ Conditional Formatting can be used to highlight the important data in your visua
 
 Quick Rule is used to highlight the positive and negative values. By default, positive values are shown in green and negative values in red. 
 
-![Highlight Negative values in a couple of clicks](/img/Analysis/CF/CF1.png)
+![Highlight Negative values in a couple of clicks](/img/Analysis/CF/CF-homepage.png)
 Highlight Negative values in a couple of clicks
 
 ![Create Quick Rule to highlight Positive and negative values ](/img/Analysis/CF/CF2.png)
