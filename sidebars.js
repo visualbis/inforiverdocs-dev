@@ -56,10 +56,10 @@ module.exports = {
       items: [
         "enterprise/Commenting",
         "enterprise/Scheduler",
+        "enterprise/Themes",
+        "enterprise/Writeback",
       ],
     },
-    "enterprise/Commenting",
-    "enterprise/Scheduler", 
   ],
   Settings: [
     {
