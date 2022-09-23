@@ -58,7 +58,7 @@ module.exports = {
         "enterprise/Scheduler",
         "enterprise/Themes",
         "enterprise/Writeback",
-        "enterprise/Installation",
+        "enterprise/Instal",
       ],
     },
   ],

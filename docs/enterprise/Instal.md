@@ -1,7 +1,7 @@
 ---
-title: Installation
+title: Instal
 sidebar_position: 3
-slug: Installation
+slug: Instal
 ---
 
 # Inforiver On-Premise Installation Guide
