@@ -297,12 +297,12 @@ Prerequisite files:
 
 1. Coredns-custom
     
-    [coredns-custom.yaml(Inforiver%20On-Premise%20Installation%20Guide%20230a570d341f4bb89dec44b1af3210c4/coredns-custom.yaml)
+    [coredns-custom.yaml](/img/Instal/Instal19.png)
     
 
  2. Compiled           
 
-[compiled.yaml(Inforiver%20On-Premise%20Installation%20Guide%20230a570d341f4bb89dec44b1af3210c4/compiled.yaml)
+[compiled.yaml](/img/Instal/Instal20.png)
 
 1**) Custom DNS Setup**
 
@@ -327,7 +327,7 @@ Go to ‘Overview’ section and click on ‘Create’ and select ‘Create with
 
 Then paste the contents from ‘compiled.yaml’ file.
 
-![ks2.pngInforiver%20On-Premise%20Installation%20Guide%20230a570d341f4bb89dec44b1af3210c4/ks2.png)
+![ks2.png](/img/Instal/Instal21.png)
 
 Add or change the env variables like smtp, Redis, etc. based on your needs and click ‘Add’.
 
@@ -346,12 +346,12 @@ Since the Inforiver supporting application is customized and deployed in your Az
     1. Navigate to [https://inforiver.com/login/](https://inforiver.com/login/)
     2. Enter billing email in the login page and click on **Send Verification Code**. (*Note: verification code will be sent via email)* 
         
-        ![sign in.png(Inforiver%20On-Premise%20Installation%20Guide%20230a570d341f4bb89dec44b1af3210c4/sign_in%201.png)
+        ![sign in.png](/img/Instal/Instal22.png)
         
     3. Enter the received verification code in the login screen and click on **Login**.
     4. In the Subscription Overview page, click on **View Downloads** under **Downloads** or **View Details** under **Actions** within the subscription that has On-Prem enabled. 
         
-        ![subscription.png(Inforiver%20On-Premise%20Installation%20Guide%20230a570d341f4bb89dec44b1af3210c4/subscription%201.png)
+        ![subscription.png](/img/Instal/Instal23.png)
         
     5. In the Subscription Details page, **Custom Build** can be found under the **On-Prem Details** section. *(refer screenshot below)* 
         
@@ -365,7 +365,7 @@ Since the Inforiver supporting application is customized and deployed in your Az
     3. Enter licensee email and subscription id, then click on **Send Verification Code**. 
     (*Note: To get Subscription Id, contact your Billing Admin )*
         
-        ![sign1.png](Inforiver%20On-Premise%20Installation%20Guide%20230a570d341f4bb89dec44b1af3210c4/sign1%201.png)
+        ![sign1.png(Inforiver%20On-Premise%20Installation%20Guide%20230a570d341f4bb89dec44b1af3210c4/sign1%201.png)
         
     4. Enter the received verification code in the login screen and click on **Login**.
     5. In the Subscription Details page, the **Custom Build** section can be found under the **On-Prem Details** section. *(refer screenshot below)*
@@ -381,6 +381,6 @@ Once you have your own custom visual generated, you can start importing Inforive
 
 1. While logging in to Inforiver, if you encounter this screen, the O365 admin needs to provide approval. Detailed steps are provided **[here](https://www.notion.so/Microsoft-Login-Admin-Consent-b3b8eea861ff4070ab0d586f0b5cc3d7).**
     
-    ![Inforiver Enterprise Edition — On-premiseEdit(Inforiver%20On-Premise%20Installation%20Guide%20230a570d341f4bb89dec44b1af3210c4/2022-03-04_17-23-22.png)
+    ![Inforiver Enterprise Edition — On-premiseEdit](/img/Instal/Instal18.png)
     
     Inforiver Enterprise Edition — On-premiseEdit

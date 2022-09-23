@@ -52,7 +52,7 @@ module.exports = {
   Enterprise: [
     {
       type: "category",
-      label: "Build Reports",
+      label: "Enterprise",
       items: [
         "enterprise/Commenting",
         "enterprise/Scheduler",
