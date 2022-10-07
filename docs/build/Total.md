@@ -91,6 +91,9 @@ This can be achieved in one click –
 - In the visual you can see that two new rows have been added which shows the subtotals.
     
     ![df.png](/img/build/T16.png)
+    This is just a sample image
+
+    ![df.png](/img/build/Totalsample.png)
 
 
 ## Related Links
