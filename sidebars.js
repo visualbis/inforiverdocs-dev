@@ -17,7 +17,9 @@ module.exports = {
       type: "category",
       label: "ExportandImport",
       items: [
-        "OtherAdvancedTopic/ExportandImport",
+        "LearningPath/ExportandImport",
+        "LearningPath/Auditlogs",
+
       
       ],
     },
