@@ -15,15 +15,12 @@ module.exports = {
   LearningPath: [
     {
       type: "category",
-      label: "OtherAdvancedTopic",
+      label: "ExportandImport",
       items: [
-        "LearningPath/BackupandRestore",
+        "OtherAdvancedTopic/ExportandImport",
       
       ],
     },
-    "build/Templates",
-    "build/Show and hide",
-    "build/Total",
   ],
   Build: [
     {
