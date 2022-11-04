@@ -18,7 +18,7 @@ module.exports = {
       label: "ExportandImport",
       items: [
         "LearningPath/ExportandImport",
-        "LearningPath/Audit",
+        "LearningPath/AuditLogs",
       ],
     },
   ],
