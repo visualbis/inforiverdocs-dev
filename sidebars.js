@@ -15,10 +15,10 @@ module.exports = {
   LearningPath: [
     {
       type: "category",
-      label: "ExportandImport",
+      label: "Learning Path",
       items: [
-        "LearningPath/ExportandImport",
-        "LearningPath/AuditLogs",
+        "learningpaths/ExportandImport",
+        "learningpaths/AuditLogs",
       ],
     },
   ],

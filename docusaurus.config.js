@@ -19,6 +19,12 @@ module.exports = {
       items: [
         {
           type: 'doc',
+          docId: 'learningpaths/ExportandImport',
+          position: 'left',
+          label: 'LearningPath',
+        },
+        {
+          type: 'doc',
           docId: 'build/Templates',
           position: 'left',
           label: 'Build',
