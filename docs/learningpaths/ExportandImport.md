@@ -39,9 +39,7 @@ Config drop-down menu list
 
 - Select **Backup Report Config** to backup configurations such as color, navigation, scaling, number format, conditional formatting, and templates.
 - Right Click on the the `.json` file name and select **Save Link As** option.
-    
-    ![Export Config dialog box](/static/img/Othertopic/Creatingreportbackup/Fig2.ExportConfigdialogbox.png)
-    
+     
     Export Config dialog box
     
 - Navigate to your desired storage location and select **Save**.
@@ -52,18 +50,15 @@ Config drop-down menu list
 To import and apply custom configurations from an exported file:
 
 - From the **Export** tab on the toolbar, select **Config**.
-
-![Untitled](/static/img/Othertopic/Creatingreportbackup/Fig3Restoremenu.png)
+ 
 
 - Select **Restore Report Config** from the drop down menu bar.
-    
-    ![Screenshot 2022-06-21 at 3.07.46 PM.png](static/img/Othertopic/Creatingreportbackup/Fig4.Importconfig.png)
+     
     
 - Select **Upload** and navigate to the location of the exported config file.
 - Select the `JSON` format exported file and select **Open**.
 - Click Yes after confirmation. this action cannot be undone.
-
-![Screenshot 2022-06-21 at 3.12.57 PM.png](/static/img/Othertopic/Creatingreportbackup/Fig5.Configundone.png)
+ 
 
 - Select **Yes** to confirm importing the config file.
 
