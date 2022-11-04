@@ -15,7 +15,7 @@ module.exports = {
   LearningPath: [
     {
       type: "category",
-      label: "ExportandImport",
+      label: "Learning Path",
       items: [
         "learningpaths/ExportandImport",
         "learningpaths/AuditLogs",
