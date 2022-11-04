@@ -1,7 +1,7 @@
 ---
-title: BackupandRestore
+title: ExportandImport
 sidebar_position: 01
-slug: BackupandRestore
+slug: ExportandImport
 ---
 # Backup/Restore Config
 
