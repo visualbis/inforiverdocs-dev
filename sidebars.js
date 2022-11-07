@@ -24,6 +24,7 @@ module.exports = {
         "learningpaths/Blend",
         "learningpaths/Invert",
         "learningpaths/Aggregation",
+        "learningpaths/Report+",
       ],
     },
   ],
