@@ -19,6 +19,11 @@ module.exports = {
       items: [
         "learningpaths/ExportandImport",
         "learningpaths/AuditLogs",
+        "learningpaths/Theme",
+        "learningpaths/Setversion",
+        "learningpaths/Blend",
+        "learningpaths/Invert",
+        "learningpaths/Aggregation",
       ],
     },
   ],
