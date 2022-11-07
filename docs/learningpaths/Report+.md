@@ -1,8 +1,13 @@
-
+---
+title: Report+
+sidebar_position: 08
+slug: Report+
+---
 # Report+
 
 Inforiver's Report+ is a report builder feature similar to paginated reports. It is a unique tool where you can load images and charts onto the reports. It is designed for people to create a paginated report with ease and simplicity. With Report+, you can segregate the data using row categories and column breaks. You can also generate comparative data reports, invoices, customer emails like Mail Merge, etc.
-With this amazing technique you can start creating advanced reports through single click
+
+With this amazing technique you can start creating advanced reports
 
 
 The **[header and footer](https://www.notion.so/Report-33354a2ed36e450d8c0a076d42e915cd)** can be customized with many presets that enable them to be rendered in no-code/ low-code and one-click situations.
