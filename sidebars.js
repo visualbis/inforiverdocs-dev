@@ -29,6 +29,15 @@ module.exports = {
       ],
     },
   ],
+  AnnotationandNotes: [
+    {
+      type: "category",
+      label: "Annotation and Notes",
+      items: [
+        "AnnotationandNotes/Notes",
+      ],
+    },
+  ],
   Build: [
     {
       type: "category",
