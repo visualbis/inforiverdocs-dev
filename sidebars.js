@@ -25,6 +25,7 @@ module.exports = {
         "learningpaths/Invert",
         "learningpaths/Aggregation",
         "learningpaths/Report+",
+        "learningpaths/TemplateRow",
       ],
     },
   ],
