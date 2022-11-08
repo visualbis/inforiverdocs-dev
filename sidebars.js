@@ -50,7 +50,7 @@ module.exports = {
         "build/Style",
         "build/Manage Column",
         "build/Group",
-        "build/Annotate with Notes",
+        "build/Annotatenotes",
       ],
     },
     "build/Templates",

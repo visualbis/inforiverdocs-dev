@@ -21,7 +21,7 @@ module.exports = {
           type: 'doc',
           docId: 'learningpaths/ExportandImport',
           position: 'left',
-          label: 'LearningPath',
+          label: 'Learning Path',
         },
         {
           type: 'doc',
