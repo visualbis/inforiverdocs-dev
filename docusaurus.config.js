@@ -25,6 +25,12 @@ module.exports = {
         },
         {
           type: 'doc',
+          docId: 'notes/Notes',
+          position: 'left',
+          label: 'Annotation and Notes',
+        },
+        {
+          type: 'doc',
           docId: 'build/Templates',
           position: 'left',
           label: 'Build',

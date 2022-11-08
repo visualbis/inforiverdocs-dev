@@ -29,22 +29,22 @@ module.exports = {
       ],
     },
   ],
-  AnnotationandNotes: [
+  notes: [
     {
       type: "category",
       label: "AnnotationandNotes",
       items: [
-        "AnnotationandNotes/Notes",
-        "AnnotationandNotes/Comments",
+        "notes/Notes",
+        "notes/Comments",
       ],
     },
   ],
-  Sharingandexporting: [
+ share: [
     {
       type: "category",
       label: "Exporting",
       items: [
-        "Sharingandexporting/Export",
+        "share/Export",
       
       ],
     },
