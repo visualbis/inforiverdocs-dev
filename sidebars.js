@@ -32,9 +32,10 @@ module.exports = {
   AnnotationandNotes: [
     {
       type: "category",
-      label: "AnnotationandlkjbkNotes",
+      label: "AnnotationandNotes",
       items: [
         "AnnotationandNotes/Notes",
+        "AnnotationandNotes/Comments",
       ],
     },
   ],

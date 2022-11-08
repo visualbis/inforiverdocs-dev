@@ -20,7 +20,6 @@ To add a note in the visual,
 ## Related Links
 
 [Insert Row](https://www.notion.so/Insert-Row-8f9d5dcd851c438d89b8cb07ed69c05f)
-
 [Insert Column and Insert measure](https://www.notion.so/Insert-Column-and-Insert-measure-297ebaac1cea49baac25251de32773e1)
 
 [Insert Measures](https://www.notion.so/Insert-Measures-fee617f90ff74c3588d0b5447e9417d5)
@@ -103,3 +102,6 @@ The settings tab opens
     ![Notes Settings Footnotew.jpg](/img/Notes/Fig13.Footnotesetting.jpg)
     
     ![Notes Final.jpeg]/static/img/Notes/Fig14.NotesFinal.jpeg)
+
+	
+
