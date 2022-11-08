@@ -37,6 +37,12 @@ module.exports = {
         },
         {
           type: 'doc',
+          docId: 'charts/Inlinecharts',
+          position: 'left',
+          label: 'Inline Charts',
+        },
+        {
+          type: 'doc',
           docId: 'build/Templates',
           position: 'left',
           label: 'Build',

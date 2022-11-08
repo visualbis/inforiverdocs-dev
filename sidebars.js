@@ -39,6 +39,15 @@ module.exports = {
       ],
     },
   ],
+  charts: [
+    {
+      type: "category",
+      label: "charts",
+      items: [
+        "charts/Inlinecharts",
+      ],
+    },
+  ],
  share: [
     {
       type: "category",
