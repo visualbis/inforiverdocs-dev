@@ -39,6 +39,17 @@ module.exports = {
       ],
     },
   ],
+  Sharingandexporting: [
+    {
+      type: "category",
+      label: "Exporting",
+      items: [
+        "Sharingandexporting/Export",
+      
+      ],
+    },
+  ],
+
   Build: [
     {
       type: "category",
