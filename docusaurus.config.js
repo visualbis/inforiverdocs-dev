@@ -31,6 +31,12 @@ module.exports = {
         },
         {
           type: 'doc',
+          docId: 'share/Export',
+          position: 'left',
+          label: 'Sharing and Exporting',
+        },
+        {
+          type: 'doc',
           docId: 'build/Templates',
           position: 'left',
           label: 'Build',
