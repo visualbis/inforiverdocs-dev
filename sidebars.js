@@ -58,6 +58,17 @@ module.exports = {
       ],
     },
   ],
+  display: [
+    {
+      type: "category",
+      label: "Report Layout & Template",
+      items: [
+        "display/ReportLayout",
+        "display/Template",
+      
+      ],
+    },
+  ],
 
   Build: [
     {
