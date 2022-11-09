@@ -35,7 +35,6 @@ module.exports = {
           position: 'left',
           label: 'Sharing and Exporting',
         },
-       
         {
           type: 'doc',
           docId: 'charts/Inlinecharts',
@@ -50,10 +49,17 @@ module.exports = {
         },
         {
           type: 'doc',
+          docId: 'display/ReportLayout',
+          position: 'left',
+          label: 'Report Layout',
+        },
+        {
+          type: 'doc',
           docId: 'visual/Insert row',
           position: 'left',
           label: 'Visual Calculations'
         },
+       
         {
           type: 'doc',
           docId: 'analyze/Conditional Formatting',
