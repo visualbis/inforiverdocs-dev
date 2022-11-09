@@ -37,6 +37,12 @@ module.exports = {
         },
         {
           type: 'doc',
+          docId: 'display/ReportLayout',
+          position: 'left',
+          label: 'Report Layout',
+        },
+        {
+          type: 'doc',
           docId: 'charts/Inlinecharts',
           position: 'left',
           label: 'Inline Charts',
